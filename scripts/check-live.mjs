@@ -4,6 +4,7 @@ const pages = [
   ['/', '<title>lab-play</title>'],
   ['/auth/', 'id="signInBtn"'],
   ['/plays/draw/', 'id="poolGrid"'],
+  ['/plays/ielts/', 'IELTS Deck'],
   ['/panels/stats/', 'id="board"'],
   ['/panels/career/', 'id="overview"'],
   ['/panels/collection/', 'achievements.json'],

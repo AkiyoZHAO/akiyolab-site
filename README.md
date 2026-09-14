@@ -17,7 +17,8 @@ lab-play/
 ├── index.html          首页(读 plays.json,渲染玩法 / 面板两栏)
 ├── plays.json          清单:{ plays[], panels[] }
 ├── plays/
-│   └── draw/           抽卡
+│   ├── draw/           日常抽卡
+│   └── ielts/          IELTS Deck(Speaking + 外部词网入口)
 ├── panels/
 │   ├── stats/          Dashboard(events 聚合 + 面板摘要)
 │   ├── career/         事业(公开摘要 + Owner 私有正文/编辑)

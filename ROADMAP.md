@@ -25,6 +25,7 @@ README 记「现在是什么」,这里记「要去哪、还差什么、为什么
 ### 下一步
 
 - [ ] **图鉴建设**:当前只有规则引擎 +「弹钢琴 5h → 李斯特」样例;确定首批“行为 / 累计阈值 / 人物或称号 / 视觉纹样”,形成真正可逛的图鉴。只由原始 events 推导,不新增图鉴进度表,不与 coins 绑定。
+- [ ] **IELTS 同义替换趣味玩法**:先使用独立 Paraphrase Network;实际学习一段时间后,从关系分类 / 异类识别 / 多义分流 / 限时配对中选择高频形式原生化,不整体迁移 React 词网项目。
 
 ### 后续
 
@@ -47,8 +48,9 @@ README 记「现在是什么」,这里记「要去哪、还差什么、为什么
 - [x] Dashboard 扩展契约:事件 source→summary/formatter 注册从主页面拆出
 - [x] 生产依赖与安全头:CDN 使用精确版本;Cloudflare 静态响应加入 CSP、防嵌入与 MIME 等安全头
 - [x] 发布与回归工作流:main push 自动检查;部署与线上 smoke 步骤已就绪并在有 Cloudflare secret 时自动启用
+- [x] IELTS Deck v1:Speaking Part 2 原生 1+2 分钟练习 + 独立 Paraphrase Network 双入口;统一 pending/done/skip,不产生 coins
 
-已接:首页(玩法/面板两栏 + self-glance + 默认皮肤)· 抽卡 · Dashboard · 事业面板(概览 + 私有下钻/编辑)· 图鉴基础。
+已接:首页(玩法/面板两栏 + self-glance + 默认皮肤)· 日常抽卡 · IELTS Deck · Dashboard · 事业面板(概览 + 私有下钻/编辑)· 图鉴基础。
 
 ## 决策日志
 
@@ -63,3 +65,4 @@ README 记「现在是什么」,这里记「要去哪、还差什么、为什么
 - **2026-09-11** 图鉴从「抽到即收集」修正为累计行为成就:只统计 `draw_done` 的实际分钟,达到配置阈值后点亮人物/称号。
 - **2026-09-11** 网站审计后把图鉴内容建设重新列为 TODO;近期优先保证事件完整读取、pending 对账与个人数据可迁移,后续再做写入一致性、Dashboard 扩展和发布稳固。
 - **2026-09-11** events 改为 id cursor 分页;加入 Owner 数据导出/事务恢复;Career 多表 + milestone 保存合并为原子 RPC。
+- **2026-09-14** IELTS 第一版只做 Speaking Part 2 与 Paraphrase Network 入口;词网 repo 继续独立持有题库/熟练度/错题/复习计划,lab-play 只记一轮做了/没做;Writing 与自建听写暂不加入。

@@ -119,6 +119,13 @@ create policy "仅 owner 更新私有面板" on panel_private
 --   type = 'career_milestone'
 --   payload 例：{ "scope": "section", "section": "market_map",
 --                 "from": "EMPTY", "to": "MAPPED" }
+--
+-- IELTS Deck（play = 'ielts'）：
+--   type = 'ielts_pending' / 'ielts_done' / 'ielts_skip'
+--   payload 例：{ "card_id": "person-inspiring", "skill": "speaking",
+--                 "mode": "part2", "title": "Describe a person...",
+--                 "duration": 3, "source": "lab-play" }
+--   IELTS 完成时长不计入时间代币；只作为共享时间线中的练习证据。
 -- =============================================================
 
 -- =============================================================

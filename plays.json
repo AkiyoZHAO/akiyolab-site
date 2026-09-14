@@ -7,6 +7,14 @@
       "icon": "◈",
       "path": "plays/draw/",
       "status": "active"
+    },
+    {
+      "id": "ielts",
+      "name": "IELTS Deck",
+      "desc": "Speaking Part 2 与同义替换专项的轻量练习入口。",
+      "icon": "◎",
+      "path": "plays/ielts/",
+      "status": "active"
     }
   ],
   "panels": [

@@ -43,10 +43,34 @@ const sources = {
       };
     },
   },
+  ielts: {
+    contributesToSummary() { return false; },
+    resolve(event) {
+      return event.type === 'ielts_pending'
+        ? { done: 'ielts_done', skip: 'ielts_skip' }
+        : null;
+    },
+    format(event) {
+      const labels = {
+        ielts_pending: '进行中',
+        ielts_done: '完成',
+        ielts_skip: '跳过',
+      };
+      return {
+        label: labels[event.type] || event.type,
+        kind: event.type === 'ielts_done' ? 'done'
+          : event.type === 'ielts_skip' ? 'skip' : 'pending',
+        name: event.payload?.title || 'IELTS practice',
+        meta: [event.payload?.skill, event.payload?.mode]
+          .filter(Boolean).join(' · '),
+      };
+    },
+  },
 };
 
 const fallback = {
   contributesToSummary() { return false; },
+  resolve() { return null; },
   format(event) {
     return {
       label: event.type,
@@ -67,6 +91,10 @@ export function summaryEvents(events) {
 
 export function formatTimelineEvent(event) {
   return sourceFor(event).format(event);
+}
+
+export function resolutionFor(event) {
+  return sourceFor(event).resolve?.(event) || null;
 }
 
 export const PANEL_WIDGETS = [

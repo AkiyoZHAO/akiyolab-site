@@ -12,7 +12,7 @@
 /README.md
 /ROADMAP.md
 /design/DESIGN.md
-/plays/draw/README.md
+/plays/**/README.md
 /panels/**/README.md
 /scripts/**
 /wrangler.jsonc

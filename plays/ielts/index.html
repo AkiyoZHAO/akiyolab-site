@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>IELTS Deck · lab-play</title>
+<link rel="stylesheet" href="../../design/tokens.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0"></script>
+<style>
+  .shell {
+    max-width: var(--content-narrow);
+    margin: 0 auto;
+    padding: var(--sp-6) var(--sp-5) var(--sp-8);
+  }
+  .back { color: var(--c-text-muted); font-size: var(--fs-sm); }
+  .back:hover { color: var(--c-text); }
+  .head { margin: var(--sp-6) 0 var(--sp-7); }
+  h1 {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: var(--fs-xl);
+    letter-spacing: var(--ls-tight);
+  }
+  .sub { margin-top: var(--sp-2); color: var(--c-text-muted); font-size: var(--fs-sm); }
+  .auth-note {
+    margin-bottom: var(--sp-5);
+    padding: var(--sp-3) var(--sp-4);
+    color: var(--c-text-muted);
+    background: var(--c-surface-alt);
+    border: 1px solid var(--c-line);
+    border-radius: var(--radius-md);
+    font-size: var(--fs-sm);
+  }
+  .auth-note a { color: var(--c-accent); }
+  [hidden] { display: none !important; }
+  .stage { display: none; }
+  .stage.active { display: block; animation: fade var(--dur-slow) var(--ease-out); }
+  @keyframes fade { from { opacity: 0; transform: translateY(var(--sp-2)); } to { opacity: 1; transform: none; } }
+  .deck-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--sp-4); }
+  .deck {
+    min-height: calc(var(--sp-9) * 2 + var(--sp-6));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: var(--sp-5);
+    color: var(--c-text);
+    background: var(--c-surface);
+    border: 1px solid var(--c-line);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+    text-align: left;
+    transition: transform var(--dur-base) var(--ease-out),
+                border-color var(--dur-base) var(--ease-out),
+                box-shadow var(--dur-base) var(--ease-out);
+  }
+  .deck:hover { transform: translateY(-3px); border-color: var(--c-line-strong); box-shadow: var(--shadow-md); }
+  .deck:disabled, button:disabled { cursor: default; opacity: 0.55; transform: none; }
+  .deck-glyph { width: var(--sp-8); height: var(--sp-8); color: var(--c-accent); }
+  .deck-glyph svg { width: 100%; height: 100%; }
+  .deck-name { display: block; font-family: var(--font-serif); font-size: var(--fs-lg); }
+  .deck-meta { display: block; margin-top: var(--sp-1); color: var(--c-text-muted); font-size: var(--fs-xs); }
+  .card {
+    padding: var(--sp-6);
+    background: var(--c-surface);
+    border: 1px solid var(--c-line);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+  }
+  .eyebrow { color: var(--c-accent); font-size: var(--fs-xs); letter-spacing: var(--ls-wide); text-transform: uppercase; }
+  .card h2 { margin: var(--sp-4) 0; font-family: var(--font-serif); font-size: var(--fs-xl); line-height: var(--lh-tight); }
+  .prompts { margin: 0; padding-left: var(--sp-5); color: var(--c-text-muted); font-size: var(--fs-sm); }
+  .prompts li { margin: var(--sp-2) 0; }
+  .story-tag { display: inline-block; margin-top: var(--sp-4); padding: var(--sp-1) var(--sp-3); color: var(--c-text-muted); background: var(--c-surface-alt); border-radius: var(--radius-full); font-size: var(--fs-xs); }
+  .timer-box { margin: var(--sp-6) 0; text-align: center; }
+  .phase { color: var(--c-text-muted); font-size: var(--fs-xs); letter-spacing: var(--ls-wide); text-transform: uppercase; }
+  .timer { margin-top: var(--sp-2); font-family: var(--font-serif); font-size: var(--fs-2xl); font-variant-numeric: tabular-nums; }
+  .description { color: var(--c-text-muted); font-size: var(--fs-sm); }
+  .actions { display: flex; flex-wrap: wrap; gap: var(--sp-3); margin-top: var(--sp-5); }
+  .button, .actions button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--sp-3) var(--sp-5);
+    color: var(--c-text);
+    background: var(--c-surface-alt);
+    border: 1px solid var(--c-line);
+    border-radius: var(--radius-md);
+    font: inherit;
+  }
+  .primary { color: var(--c-surface) !important; background: var(--c-accent) !important; border-color: var(--c-accent) !important; }
+  .done { color: var(--c-surface) !important; background: var(--c-positive) !important; border-color: var(--c-positive) !important; }
+  .skip { color: var(--c-negative) !important; }
+  .note { min-height: var(--sp-5); margin-top: var(--sp-4); color: var(--c-text-muted); font-size: var(--fs-sm); }
+  @media (max-width: 520px) {
+    .deck-grid { grid-template-columns: 1fr; }
+    .deck { min-height: 190px; }
+  }
+</style>
+</head>
+<body>
+<main class="shell">
+  <a class="back" data-anchor="back" href="../../index.html">← Back</a>
+  <header class="head">
+    <h1>IELTS Deck</h1>
+    <div class="sub">抽一轮，做完就记下来。</div>
+  </header>
+
+  <div class="auth-note" id="authNote" hidden>
+    IELTS 练习会写入私人时间线，请先 <a href="../../auth/?next=../plays/ielts/">登录</a>。
+  </div>
+
+  <section class="stage active" id="deckStage" data-anchor="action">
+    <div class="deck-grid">
+      <button class="deck" data-deck="speaking" type="button">
+        <span class="deck-glyph">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+            <path d="M24 7a9 9 0 0 0-9 9v8a9 9 0 0 0 18 0v-8a9 9 0 0 0-9-9z"/>
+            <path d="M10 23a14 14 0 0 0 28 0M24 37v6M17 43h14"/>
+          </svg>
+        </span>
+        <span><span class="deck-name">Speaking Part 2</span><span class="deck-meta">1 min prepare · 2 min speak</span></span>
+      </button>
+      <button class="deck" data-deck="paraphrase" type="button">
+        <span class="deck-glyph">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round">
+            <circle cx="14" cy="15" r="5"/><circle cx="34" cy="15" r="5"/><circle cx="24" cy="34" r="5"/>
+            <path d="M18 18.5 21 29M30 18.5 27 29M19 15h10"/>
+          </svg>
+        </span>
+        <span><span class="deck-name">Paraphrase Network</span><span class="deck-meta">独立工具 · 一轮约 15 分钟</span></span>
+      </button>
+    </div>
+  </section>
+
+  <section class="stage" id="cardStage" data-anchor="resolve">
+    <article class="card">
+      <div class="eyebrow" id="cardKind"></div>
+      <h2 id="cardTitle"></h2>
+      <ul class="prompts" id="prompts"></ul>
+      <p class="description" id="description"></p>
+      <span class="story-tag" id="storyTag"></span>
+      <div class="timer-box" id="timerBox" hidden>
+        <div class="phase" id="phase"></div>
+        <div class="timer" id="timer"></div>
+      </div>
+      <div class="actions" id="startActions"></div>
+      <div class="actions" id="resolveActions" hidden>
+        <button class="done" data-result="ielts_done" type="button">✓ 做了</button>
+        <button class="skip" data-result="ielts_skip" type="button">✕ 没做</button>
+      </div>
+      <div class="note" id="note" role="status"></div>
+    </article>
+    <div class="actions">
+      <button id="backDeck" type="button">← Back to deck</button>
+    </div>
+  </section>
+</main>
+
+<script type="module">
+import { getSession, isOwner, onAuthChange } from '../../core/auth.js';
+import { logEvent, updateEvent } from '../../core/events.js';
+
+const STORAGE_KEY = 'ielts_deck_current';
+const STORY_LABELS = {
+  person: 'Reusable story · Person',
+  growth: 'Reusable story · Growth',
+  place: 'Reusable story · Place',
+  experience: 'Reusable story · Experience',
+  challenge: 'Reusable story · Challenge',
+  object: 'Reusable story · Object',
+};
+
+const deckStage = document.getElementById('deckStage');
+const cardStage = document.getElementById('cardStage');
+const authNote = document.getElementById('authNote');
+const cardKind = document.getElementById('cardKind');
+const cardTitle = document.getElementById('cardTitle');
+const promptsEl = document.getElementById('prompts');
+const descriptionEl = document.getElementById('description');
+const storyTag = document.getElementById('storyTag');
+const timerBox = document.getElementById('timerBox');
+const phaseEl = document.getElementById('phase');
+const timerEl = document.getElementById('timer');
+const startActions = document.getElementById('startActions');
+const resolveActions = document.getElementById('resolveActions');
+const note = document.getElementById('note');
+let decks = null;
+let owner = false;
+let current = null;
+let timerId = null;
+
+function esc(value) {
+  return String(value)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function payloadFor(card) {
+  return {
+    card_id: card.id,
+    skill: card.kind === 'speaking' ? 'speaking' : 'reading',
+    mode: card.kind === 'speaking' ? 'part2' : 'paraphrase-network',
+    title: card.title,
+    duration: card.kind === 'speaking' ? 3 : card.duration,
+    source: card.kind === 'speaking' ? 'lab-play' : card.source,
+  };
+}
+
+function saveCurrent() {
+  if (current) localStorage.setItem(STORAGE_KEY, JSON.stringify(current));
+  else localStorage.removeItem(STORAGE_KEY);
+}
+
+function showStage(name) {
+  deckStage.classList.toggle('active', name === 'deck');
+  cardStage.classList.toggle('active', name === 'card');
+}
+
+function setSession(session) {
+  owner = isOwner(session);
+  authNote.hidden = owner;
+  document.querySelectorAll('[data-deck]').forEach(button => { button.disabled = !owner; });
+  document.querySelectorAll('[data-result], #backDeck, #startSpeaking').forEach(button => {
+    button.disabled = !owner;
+  });
+  if (!owner && current) stopTimer();
+}
+
+function pick(items) {
+  return items[Math.floor(Math.random() * items.length)];
+}
+
+async function draw(kind) {
+  if (!owner) return;
+  if (current) await resolveCurrent('ielts_skip', false);
+  const base = pick(decks[kind]);
+  const card = { ...base, kind };
+  note.textContent = '正在写入时间线…';
+  document.querySelectorAll('[data-deck]').forEach(button => { button.disabled = true; });
+  try {
+    const event = await logEvent('ielts', 'ielts_pending', payloadFor(card));
+    current = { card, eventId: event.id, phase: 'ready', deadline: null };
+    saveCurrent();
+    renderCard();
+    showStage('card');
+  } catch (error) {
+    note.textContent = error.message || '写入失败。';
+  } finally {
+    setSession(await getSession());
+  }
+}
+
+function renderCard() {
+  if (!current) return;
+  const card = current.card;
+  cardKind.textContent = card.kind === 'speaking' ? 'Speaking · Part 2' : 'Reading · Paraphrase';
+  cardTitle.textContent = card.title;
+  promptsEl.innerHTML = (card.prompts || []).map(prompt => `<li>${esc(prompt)}</li>`).join('');
+  promptsEl.hidden = !card.prompts?.length;
+  descriptionEl.textContent = card.description || '';
+  descriptionEl.hidden = !card.description;
+  storyTag.textContent = card.story ? STORY_LABELS[card.story] : '';
+  storyTag.hidden = !card.story;
+  note.textContent = '';
+  startActions.innerHTML = card.kind === 'speaking'
+    ? '<button class="primary" id="startSpeaking" type="button">Start 1 + 2 min</button>'
+    : `<a class="button primary" href="${esc(card.local_url)}" target="_blank" rel="noopener">Open local tool</a>
+       <a class="button" href="${esc(card.online_url)}" target="_blank" rel="noopener">Online fallback</a>`;
+  startActions.hidden = card.kind === 'speaking' && current.phase !== 'ready';
+  resolveActions.hidden = card.kind === 'speaking' && current.phase !== 'finished';
+  timerBox.hidden = card.kind !== 'speaking' || current.phase === 'ready';
+  if (card.kind === 'speaking') {
+    document.getElementById('startSpeaking')?.addEventListener('click', startSpeaking);
+    if (['prepare', 'speak'].includes(current.phase)) startTimerLoop();
+  }
+  setSession({ user: owner ? { app_metadata: { role: 'owner' } } : null });
+}
+
+function startSpeaking() {
+  current.phase = 'prepare';
+  current.deadline = Date.now() + 60_000;
+  saveCurrent();
+  timerBox.hidden = false;
+  startActions.hidden = true;
+  startTimerLoop();
+}
+
+function startTimerLoop() {
+  stopTimer(false);
+  tick();
+  timerId = setInterval(tick, 250);
+}
+
+function stopTimer(clearDeadline = true) {
+  if (timerId) clearInterval(timerId);
+  timerId = null;
+  if (clearDeadline && current) current.deadline = null;
+}
+
+function tick() {
+  if (!current?.deadline) return;
+  const left = Math.max(0, Math.ceil((current.deadline - Date.now()) / 1000));
+  phaseEl.textContent = current.phase === 'prepare' ? 'Prepare' : 'Speak';
+  timerEl.textContent = `${Math.floor(left / 60)}:${String(left % 60).padStart(2, '0')}`;
+  if (left > 0) return;
+  if (current.phase === 'prepare') {
+    current.phase = 'speak';
+    current.deadline = Date.now() + 120_000;
+    saveCurrent();
+    tick();
+  } else {
+    stopTimer();
+    current.phase = 'finished';
+    saveCurrent();
+    phaseEl.textContent = 'Complete';
+    timerEl.textContent = '0:00';
+    resolveActions.hidden = false;
+  }
+}
+
+async function resolveCurrent(type, returnToDeck = true) {
+  if (!current || !owner) return;
+  const resolving = current;
+  resolveActions.querySelectorAll('button').forEach(button => { button.disabled = true; });
+  note.textContent = '正在结算…';
+  try {
+    await updateEvent(resolving.eventId, { type, payload: payloadFor(resolving.card) });
+    stopTimer();
+    current = null;
+    saveCurrent();
+    if (returnToDeck) {
+      showStage('deck');
+      note.textContent = '';
+    }
+  } catch (error) {
+    note.textContent = error.message || '结算失败。';
+    resolveActions.querySelectorAll('button').forEach(button => { button.disabled = false; });
+    throw error;
+  }
+}
+
+document.querySelectorAll('[data-deck]').forEach(button => {
+  button.addEventListener('click', () => draw(button.dataset.deck));
+});
+resolveActions.addEventListener('click', event => {
+  const button = event.target.closest('[data-result]');
+  if (button) resolveCurrent(button.dataset.result);
+});
+document.getElementById('backDeck').addEventListener('click', async () => {
+  if (current) await resolveCurrent('ielts_skip');
+  else showStage('deck');
+});
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') tick();
+});
+
+async function init() {
+  decks = await fetch('./cards.json', { cache: 'no-store' }).then(response => response.json());
+  try { current = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null'); } catch { current = null; }
+  const session = await getSession();
+  setSession(session);
+  onAuthChange(next => setSession(next));
+  if (current) {
+    renderCard();
+    showStage('card');
+  }
+}
+
+init().catch(error => {
+  note.textContent = error.message || '加载失败。';
+});
+</script>
+</body>
+</html>

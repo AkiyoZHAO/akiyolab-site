@@ -1,0 +1,103 @@
+{
+  "speaking": [
+    {
+      "id": "person-inspiring",
+      "title": "Describe a person who inspired you",
+      "prompts": [
+        "who this person is",
+        "how you know them",
+        "what they did",
+        "why they inspired you"
+      ],
+      "story": "person"
+    },
+    {
+      "id": "skill-learned",
+      "title": "Describe a useful skill you learned",
+      "prompts": [
+        "what the skill is",
+        "when and how you learned it",
+        "why you decided to learn it",
+        "how it has helped you"
+      ],
+      "story": "growth"
+    },
+    {
+      "id": "place-relax",
+      "title": "Describe a place where you like to relax",
+      "prompts": [
+        "where it is",
+        "what it looks like",
+        "what you do there",
+        "why it helps you relax"
+      ],
+      "story": "place"
+    },
+    {
+      "id": "memorable-journey",
+      "title": "Describe a memorable journey you had",
+      "prompts": [
+        "where you went",
+        "who you went with",
+        "what happened during the journey",
+        "why you still remember it"
+      ],
+      "story": "experience"
+    },
+    {
+      "id": "difficult-decision",
+      "title": "Describe a difficult decision you made",
+      "prompts": [
+        "what the decision was",
+        "why it was difficult",
+        "how you made the decision",
+        "how you felt afterwards"
+      ],
+      "story": "challenge"
+    },
+    {
+      "id": "interesting-conversation",
+      "title": "Describe an interesting conversation you had",
+      "prompts": [
+        "who you spoke with",
+        "where the conversation happened",
+        "what you talked about",
+        "why it was interesting"
+      ],
+      "story": "person"
+    },
+    {
+      "id": "object-useful",
+      "title": "Describe an object that is useful to you",
+      "prompts": [
+        "what the object is",
+        "when you got it",
+        "how you use it",
+        "why it is useful"
+      ],
+      "story": "object"
+    },
+    {
+      "id": "achievement-proud",
+      "title": "Describe an achievement you are proud of",
+      "prompts": [
+        "what you achieved",
+        "what you did to achieve it",
+        "what difficulties you faced",
+        "why you are proud of it"
+      ],
+      "story": "growth"
+    }
+  ],
+  "paraphrase": [
+    {
+      "id": "paraphrase-network-session",
+      "title": "Paraphrase Network · One session",
+      "description": "在独立词网工具中完成一轮训练；题目、熟练度、错题与复习计划由该工具管理。",
+      "duration": 15,
+      "source": "ielts-reading-paraphrase-network",
+      "local_url": "http://localhost:4317",
+      "online_url": "https://user-wan.github.io/ielts-reading-paraphrase-network/"
+    }
+  ]
+}

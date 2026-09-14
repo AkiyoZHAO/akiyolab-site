@@ -9,6 +9,13 @@ const anchors = {
       <path d="M29 20 l3.2 6.2 6.8 1 -5 4.7 1.2 6.8 -6.2-3.2 -6.2 3.2 1.2-6.8 -5-4.7 6.8-1 z"
             stroke-width="1.1"/>
     </svg>`,
+  'play:ielts': `
+    <svg viewBox="0 0 48 48" fill="none" stroke="currentColor"
+         stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11 9h20a6 6 0 0 1 6 6v24H17a6 6 0 0 1-6-6z"/>
+      <path d="M17 15h14M17 21h10M17 27h8" stroke-width="1.1"/>
+      <path d="M11 33a6 6 0 0 1 6-6"/>
+    </svg>`,
   dashboard: `
     <svg viewBox="0 0 48 48" fill="none" stroke="currentColor"
          stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">

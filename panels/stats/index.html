@@ -419,7 +419,7 @@
 import { queryEvents, updateEvent } from '../../core/events.js';
 import { getSession, isOwner, onAuthChange } from '../../core/auth.js';
 import { queryPanelState } from '../../core/panels.js';
-import { DRAW_TYPES, formatTimelineEvent, PANEL_WIDGETS, summaryEvents } from './sources.js';
+import { DRAW_TYPES, formatTimelineEvent, PANEL_WIDGETS, resolutionFor, summaryEvents } from './sources.js';
 
 const TYPE_DONE = DRAW_TYPES.done;
 const TYPE_SKIP = DRAW_TYPES.skip;
@@ -584,20 +584,24 @@ function ageLabel(createdAt) {
 
 function renderPending() {
   const section = document.getElementById('pendingSection');
-  const pending = allEvents.filter(event => event.play === 'draw' && event.type === TYPE_PENDING);
+  const pending = allEvents.filter(event => resolutionFor(event));
   section.classList.toggle('hidden', !owner || pending.length === 0);
   if (!owner || pending.length === 0) return;
-  document.getElementById('pendingList').innerHTML = [...pending].reverse().map(event => `
+  document.getElementById('pendingList').innerHTML = [...pending].reverse().map(event => {
+    const resolution = resolutionFor(event);
+    const formatted = formatTimelineEvent(event);
+    return `
     <div class="pending-row" data-event-id="${event.id}">
       <div>
-        <div class="pending-name">${esc(event.payload?.activity || '未命名活动')}</div>
-        <div class="pending-meta">${esc(event.payload?.tier || '')} · ${Number(event.payload?.duration) || 0} 分钟 · ${ageLabel(event.created_at)}</div>
+        <div class="pending-name">${esc(formatted.name)}</div>
+        <div class="pending-meta">${esc(event.play)} · ${Number(event.payload?.duration) || 0} 分钟 · ${ageLabel(event.created_at)}</div>
       </div>
       <div class="pending-actions">
-        <button type="button" data-resolve="draw_done">Done</button>
-        <button type="button" data-resolve="draw_skip">Skip</button>
+        <button type="button" data-resolve="${resolution.done}">Done</button>
+        <button type="button" data-resolve="${resolution.skip}">Skip</button>
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
 }
 
 async function loadPanelWidgets() {
