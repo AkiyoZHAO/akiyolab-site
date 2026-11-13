@@ -1,0 +1,21 @@
+plays/playground/README.md
+  s_d87f018629fa8a::t_288e134bf6f5b3 141
+scripts/check-live.mjs
+  s_d87f018629fa8a::t_7f89ecded7e270 2-5,7-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "0276afcf339b1748c896508bb55522e215e9ee18",
+  "prompts": {},
+  "sessions": {
+    "s_d87f018629fa8a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1d3b3-2e38-7930-8e39-d7da5eb297b6",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Akiyo <51403731+AkiyoZHAO@users.noreply.github.com>"
+    }
+  }
+}
