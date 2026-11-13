@@ -31,6 +31,8 @@ for (const table of ['panel_states', 'panel_private']) {
     failures.push(`${table} has not been deployed`);
   } else if (!result.response.ok) {
     failures.push(`${table} check failed: HTTP ${result.response.status}`);
+  } else if (table === 'panel_private' && result.body?.length > 0) {
+    failures.push('panel_private unexpectedly exposes rows to anonymous readers');
   }
 }
 

@@ -5,11 +5,28 @@ const pages = [
   ['/auth/', 'id="signInBtn"'],
   ['/plays/draw/', 'id="poolGrid"'],
   ['/plays/ielts/', 'IELTS Deck'],
+  ['/plays/playground/', 'id="feedbackForm"'],
   ['/panels/stats/', 'id="board"'],
   ['/panels/career/', 'id="overview"'],
   ['/panels/collection/', 'achievements.json'],
 ];
 const failures = [];
+
+const manifestResponse = await fetch(`${base}/plays/playground/index.json`, { cache: 'no-store' });
+if (!manifestResponse.ok) failures.push(`Playground index: HTTP ${manifestResponse.status}`);
+else {
+  const { validateManifest, validateEdition } = await import('../plays/playground/model.js');
+  try {
+    const manifest = validateManifest(await manifestResponse.json());
+    const date = [...manifest.dates].sort().at(-1);
+    if (date) {
+      const response = await fetch(`${base}/plays/playground/editions/${date}.json`, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const edition = validateEdition(await response.json());
+      if (edition.date !== date) throw new Error('Edition date mismatch');
+    }
+  } catch (error) { failures.push(`Playground data: ${error.message}`); }
+}
 
 for (const [path, marker] of pages) {
   const response = await fetch(`${base}${path}`, { headers: { 'Cache-Control': 'no-cache' } });

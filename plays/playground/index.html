@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A daily edition of curious things from around the internet.">
+  <title>Playground · lab-play</title>
+  <link rel="stylesheet" href="../../design/tokens.css">
+  <link rel="stylesheet" href="./playground.css">
+</head>
+<body>
+<main class="shell">
+  <nav class="navigation" aria-label="Main">
+    <a href="../../">← lab-play</a>
+    <div class="actions">
+      <a href="#preferences">Preferences</a>
+      <a href="#feedback">Feedback</a>
+      <a id="ownerLink" href="../../auth/?next=../plays/playground/">Owner sign in</a>
+    </div>
+  </nav>
+  <header class="masthead">
+    <p class="eyebrow">A little off the beaten path</p>
+    <h1>Playground<span aria-hidden="true"> ↗</span></h1>
+    <div class="edition-line">
+      <p id="editionDate">Daily edition</p>
+      <label class="archive" hidden id="archiveLabel">Browse editions
+        <select id="archive" aria-label="Browse editions"></select>
+      </label>
+    </div>
+  </header>
+  <p id="editionStatus" role="status" aria-live="polite">Opening the latest edition…</p>
+  <button id="retry" class="secondary" type="button" hidden>Try again</button>
+  <a id="latestLink" class="note-button visit" href="./" hidden>Open latest edition</a>
+  <section id="edition" aria-label="Daily edition" hidden>
+    <div class="introduction">
+      <h2 id="editionTitle"></h2>
+      <p id="editionIntro"></p>
+    </div>
+    <div id="items" class="items"></div>
+    <section class="curtain" aria-labelledby="curtainTitle">
+      <p class="eyebrow">The observer’s corner</p>
+      <h2 id="curtainTitle">Behind the Curtain</h2>
+      <p id="profile"></p>
+      <p id="editorialNote"></p>
+      <div id="attributes"></div>
+    </section>
+  </section>
+  <section class="settings" id="preferences" aria-labelledby="preferencesTitle">
+    <details id="preferencesDetails">
+      <summary id="preferencesTitle">Preference settings</summary>
+      <p class="muted">Shape future editions with a few tendencies. Exploration leaves room for surprises.</p>
+      <p class="muted">Sign in as Owner to save privately for Dot. Changes apply to future curation.</p>
+      <form id="preferencesForm">
+        <fieldset id="preferencesFields" disabled>
+          <div class="preference-grid" id="preferenceInputs"></div>
+          <label for="exploration">Exploration <output id="explorationValue">30%</output></label>
+          <input id="exploration" name="exploration" type="range" min="0" max="100" step="5" value="30">
+          <label for="languages">Languages · comma-separated codes</label>
+          <input id="languages" name="languages" value="en" placeholder="en, zh" required maxlength="100">
+          <button type="submit" id="savePreferences">Save preferences</button>
+        </fieldset>
+        <p id="preferencesStatus" role="status" aria-live="polite">Loading defaults…</p>
+      </form>
+    </details>
+  </section>
+  <section class="feedback" id="feedback" aria-labelledby="feedbackTitle">
+    <h2 id="feedbackTitle">A note for Dot</h2>
+    <p class="muted">Something you loved, something that missed, or an idea for this space.</p>
+    <p class="muted" id="privateNotice">Feedback is private to Owner and authorized Dot access. Sign in to send.</p>
+    <form id="feedbackForm">
+      <fieldset id="feedbackFields" disabled>
+        <label for="feedbackTarget">About</label>
+        <select id="feedbackTarget" name="target"><option value="product">Playground as a whole</option></select>
+        <label for="feedbackText">Your note</label>
+        <textarea id="feedbackText" name="text" rows="4" maxlength="4000" placeholder="More of this? Less of that?" required></textarea>
+        <button id="sendFeedback" type="submit">Send privately</button>
+      </fieldset>
+      <p id="feedbackStatus" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+  <footer>That’s the edition. Come back whenever curiosity calls. ✨</footer>
+  <noscript><p>Enable JavaScript to read the daily edition and use private feedback.</p></noscript>
+</main>
+<script type="module" src="./playground.js"></script>
+</body>
+</html>

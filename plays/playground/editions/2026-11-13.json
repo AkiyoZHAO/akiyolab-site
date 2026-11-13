@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-13",
+  "date": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "title": "Tiny Worlds, Big Feelings",
+  "intro": "A walk through a browser meadow, a reality-TV reckoning, and a museum hiding inside book covers.",
+  "items": [
+    {
+      "id": "alicia-digital-garden",
+      "type": "interactive",
+      "title": "A Garden With a Light Switch",
+      "summary": "Step into a browser meadow. Brush past the flowers, then switch from daylight to night.",
+      "comment": "Try spring at night first. No gardening skills, no dead plants.",
+      "language": "en",
+      "url": "https://digitalgarden.si/play/?lang=en&night=0&season=spring",
+      "keywords": [
+        "flowers",
+        "seasons"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature",
+            "art"
+          ],
+          "topic": [
+            "flowers",
+            "seasons"
+          ],
+          "angle": [
+            "virtual meadow"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual",
+            "audio"
+          ],
+          "interaction": [
+            "explore"
+          ],
+          "narrative": [
+            "open exploration"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Digital Garden by Alicia"
+          ],
+          "platform": [
+            "Independent web"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "WebGPU or WebGL2"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-13T07:05:39.985Z",
+          "note": "Public page opened and creator instructions or content checked; live playback and controls were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://digitalgarden.si/",
+          "label": "Digital Garden by Alicia"
+        }
+      ]
+    },
+    {
+      "id": "ofcom-reality-tv-welfare",
+      "type": "news",
+      "title": "The Reality Show That Changed the Rulebook",
+      "summary": "On Nov 10, UK regulator Ofcom strengthened its welfare guidance for reality TV after reviews of Married at First Sight UK. Channel 4 had already said the show would not return.",
+      "comment": "A TV format can be great at creating tension and terrible at knowing when to stop.",
+      "language": "en",
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/ofcom-strengthens-industry-guidance-to-protect-welfare-of-participants-in-constructed-reality-programmes",
+      "keywords": [
+        "reality TV",
+        "participant welfare"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "entertainment",
+            "media"
+          ],
+          "topic": [
+            "reality TV",
+            "participant welfare"
+          ],
+          "angle": [
+            "regulation"
+          ]
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [
+            "reported development"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Ofcom",
+            "Channel 4"
+          ],
+          "platform": [
+            "Ofcom",
+            "Channel 4"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-13T07:05:39.988Z",
+          "note": "Primary source pages opened and claims cross-checked."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/ofcom-strengthens-industry-guidance-to-protect-welfare-of-participants-in-constructed-reality-programmes",
+          "label": "Ofcom: Strengthened welfare guidance · 2026-11-10"
+        },
+        {
+          "url": "https://www.channel4.com/press/news/channel-4-shares-outcome-external-review-married-first-sight-uk",
+          "label": "Channel 4: External review and decision · 2026-11-05"
+        }
+      ]
+    },
+    {
+      "id": "monterey-jelly-cam",
+      "type": "video",
+      "title": "A Window Full of Jellies",
+      "summary": "Watch sea nettles drift at Monterey Bay Aquarium. Outside live hours, the aquarium plays a recording.",
+      "comment": "A screensaver with an actual ecosystem behind it.",
+      "language": "en",
+      "url": "https://www.montereybayaquarium.org/cams-videos/live-cams/jelly-cam",
+      "keywords": [
+        "sea nettles",
+        "marine life"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature"
+          ],
+          "topic": [
+            "sea nettles",
+            "marine life"
+          ],
+          "angle": [
+            "aquarium window"
+          ]
+        },
+        "format": {
+          "modality": [
+            "video"
+          ],
+          "interaction": [
+            "watch"
+          ],
+          "narrative": [
+            "open exploration"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Monterey Bay Aquarium"
+          ],
+          "platform": [
+            "Monterey Bay Aquarium"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "recorded off-hours"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-13T07:05:39.988Z",
+          "note": "Public page opened and creator instructions or content checked; live playback and controls were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.montereybayaquarium.org/cams-videos/live-cams/jelly-cam",
+          "label": "Monterey Bay Aquarium: Jelly Cam"
+        }
+      ]
+    },
+    {
+      "id": "incredibox-demo",
+      "type": "interactive",
+      "title": "A Beatbox Band in Your Browser",
+      "summary": "Pick a style in the web demo, then drag sound icons onto the singers to build a beat. Sound on.",
+      "comment": "Give the bass player a minute before hiring the whole band.",
+      "language": "en",
+      "url": "https://www.incredibox.com/demo/",
+      "keywords": [
+        "beatboxing",
+        "mixing"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "music"
+          ],
+          "topic": [
+            "beatboxing",
+            "mixing"
+          ],
+          "angle": [
+            "make a beat"
+          ]
+        },
+        "format": {
+          "modality": [
+            "audio",
+            "visual"
+          ],
+          "interaction": [
+            "create"
+          ],
+          "narrative": [
+            "open exploration"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "So Far So Good"
+          ],
+          "platform": [
+            "Incredibox"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free web demo"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-13T07:05:39.988Z",
+          "note": "Public page opened and creator instructions or content checked; live playback and controls were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.incredibox.com/",
+          "label": "Incredibox: How to make a mix"
+        }
+      ]
+    },
+    {
+      "id": "europeana-endpapers",
+      "type": "article",
+      "title": "The Best Page Might Be Before Page One",
+      "summary": "Europeana collects decorated book endpapers: the patterned sheets hiding just inside the covers.",
+      "comment": "A tiny museum for something you normally turn past.",
+      "language": "en",
+      "url": "https://www.europeana.eu/en/galleries/9136-endpapers",
+      "keywords": [
+        "books",
+        "decorative patterns"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art",
+            "design"
+          ],
+          "topic": [
+            "books",
+            "decorative patterns"
+          ],
+          "angle": [
+            "overlooked details"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual",
+            "text"
+          ],
+          "interaction": [
+            "browse"
+          ],
+          "narrative": [
+            "open exploration"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Europeana"
+          ],
+          "platform": [
+            "Europeana"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-13T07:05:39.988Z",
+          "note": "Public page opened and creator instructions or content checked; live playback and controls were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.europeana.eu/en/galleries/9136-endpapers",
+          "label": "Europeana: Endpapers"
+        }
+      ]
+    },
+    {
+      "id": "ambient-chaos",
+      "type": "interactive",
+      "title": "Rain, Coffee, and One Bad Decision",
+      "summary": "Mix your own background noise with sliders for rain, a café, a campfire, and a surprisingly long list of less peaceful options.",
+      "comment": "Rain plus coffee shop is the safe build. A marching band is a choice.",
+      "language": "en",
+      "url": "https://neal.fun/ambient-chaos/",
+      "keywords": [
+        "soundscapes",
+        "mixing"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "sound",
+            "web art"
+          ],
+          "topic": [
+            "soundscapes",
+            "mixing"
+          ],
+          "angle": [
+            "unexpected contrasts"
+          ]
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "create"
+          ],
+          "narrative": [
+            "open exploration"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Neal Agarwal"
+          ],
+          "platform": [
+            "Neal.fun"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-13T07:05:39.988Z",
+          "note": "Public page opened and creator instructions or content checked; live playback and controls were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://neal.fun/ambient-chaos/",
+          "label": "Neal Agarwal: Ambient Chaos"
+        }
+      ]
+    },
+    {
+      "id": "ghibli-arrietty-stills",
+      "type": "article",
+      "title": "See a House at Arrietty Scale",
+      "summary": "Browse Studio Ghibli’s official Arrietty stills. Find one ordinary object that turns into part of the scenery.",
+      "comment": "It’s a good reminder that a change of scale can do more than a special effect.",
+      "language": "ja",
+      "url": "https://www.ghibli.jp/works/karigurashi/",
+      "keywords": [
+        "animation",
+        "miniatures"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "film",
+            "art"
+          ],
+          "topic": [
+            "animation",
+            "miniatures"
+          ],
+          "angle": [
+            "change of scale"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual",
+            "text"
+          ],
+          "interaction": [
+            "browse"
+          ],
+          "narrative": [
+            "open exploration"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Studio Ghibli"
+          ],
+          "platform": [
+            "Studio Ghibli"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-13T07:05:39.988Z",
+          "note": "Public page opened and creator instructions or content checked; live playback and controls were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.ghibli.jp/works/karigurashi/",
+          "label": "Studio Ghibli: Arrietty"
+        },
+        {
+          "url": "https://www.ghibli.jp/info/013344/",
+          "label": "Studio Ghibli: Official stills release · 2020-09-18"
+        }
+      ]
+    }
+  ]
+}

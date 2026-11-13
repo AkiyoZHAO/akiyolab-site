@@ -1,6 +1,14 @@
 {
   "plays": [
     {
+      "id": "playground",
+      "name": "Playground",
+      "desc": "A daily edition of curious things from around the internet.",
+      "icon": "↗",
+      "path": "plays/playground/",
+      "status": "active"
+    },
+    {
       "id": "draw",
       "name": "Draw",
       "desc": "决策疲劳时，随机抽一件“有点意思但不想设为每日任务”的事来做。",

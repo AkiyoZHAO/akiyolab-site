@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "interest": { "prefer": ["technology", "art", "science"], "avoid": [] },
+  "format": { "prefer": ["interactive", "visual"], "avoid": [] },
+  "source": { "prefer": ["independent creators", "original sources"], "avoid": [] },
+  "exploration": 0.3,
+  "languages": ["en"]
+}

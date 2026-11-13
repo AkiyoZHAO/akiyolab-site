@@ -18,6 +18,7 @@ lab-play/
 ├── plays.json          清单:{ plays[], panels[] }
 ├── plays/
 │   ├── draw/           日常抽卡
+│   ├── playground/     每日英文策展、偏好与私有反馈
 │   └── ielts/          IELTS Deck(Speaking + 外部词网入口)
 ├── panels/
 │   ├── stats/          Dashboard(events 聚合 + 面板摘要)

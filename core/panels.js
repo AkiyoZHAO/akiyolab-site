@@ -22,21 +22,23 @@ export async function savePanelState(panel, state) {
   return data;
 }
 
-export async function queryPanelPrivate(panel) {
+export async function queryPanelPrivate(panel, { signal } = {}) {
   await requireOwner();
   const { data, error } = await db.from('panel_private')
     .select('content, updated_at')
     .eq('panel', panel)
+    .abortSignal(signal)
     .maybeSingle();
   if (error) throw error;
   return data;
 }
 
-export async function savePanelPrivate(panel, content) {
+export async function savePanelPrivate(panel, content, { signal } = {}) {
   await requireOwner();
   const { data, error } = await db.from('panel_private')
     .upsert({ panel, content, updated_at: new Date().toISOString() }, { onConflict: 'panel' })
     .select('content, updated_at')
+    .abortSignal(signal)
     .single();
   if (error) throw error;
   return data;

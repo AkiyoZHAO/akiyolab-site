@@ -3,6 +3,7 @@
 import { execFileSync } from 'node:child_process';
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { dirname, extname, join, normalize, relative, resolve } from 'node:path';
+import { checkPlayground } from './check-playground.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const ignoredDirs = new Set(['.git', '.playwright-cli', '.wrangler']);
@@ -18,7 +19,7 @@ function walk(dir) {
 }
 walk(root);
 
-const failures = [];
+const failures = checkPlayground(root);
 const show = path => relative(root, path);
 
 for (const file of files.filter(path => extname(path) === '.json')) {
