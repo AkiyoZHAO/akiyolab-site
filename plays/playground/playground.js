@@ -224,6 +224,7 @@ async function renderSession(session) {
   const revision = ++authRevision;
   owner = authApi.isOwner(session);
   $('feedbackFields').disabled = !owner;
+  $('downloadHandoff').hidden = !owner;
   $('preferencesFields').disabled = true;
   $('ownerLink').textContent = owner ? 'Owner account' : 'Owner sign in';
   $('ownerLink').href = `../../auth/?next=${encodeURIComponent(location.href)}`;
@@ -317,6 +318,25 @@ $('feedbackForm').addEventListener('submit', async event => {
     status('feedbackStatus', `Could not confirm delivery. Your note is still here. Retry to confirm the same submission. ${error.message}`, true);
   } finally {
     $('feedbackFields').disabled = !owner;
+  }
+});
+
+$('downloadHandoff').addEventListener('click', async () => {
+  $('downloadHandoff').disabled = true;
+  status('handoffStatus', 'Reading private Playground records…');
+  try {
+    const handoff = await privateApi.readPrivateHandoff();
+    const url = URL.createObjectURL(new Blob([JSON.stringify(handoff, null, 2)], { type: 'application/json' }));
+    const link = element('a');
+    link.href = url;
+    link.download = `playground-private-${handoff.exported_at.slice(0, 10)}.json`;
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    status('handoffStatus', `Downloaded ${handoff.records.length} private Playground records. Share this file only through your private channel with Dot.`);
+  } catch (error) {
+    status('handoffStatus', `Private download failed. ${error.message}`, true);
+  } finally {
+    $('downloadHandoff').disabled = false;
   }
 });
 

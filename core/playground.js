@@ -1,6 +1,8 @@
 // 复用现有 Owner-only panel_private。每条反馈独立存储，重试沿用 UUID。
 // 私人文字不进入匿名可读的 events / panel_states。
 import { queryPanelPrivate, savePanelPrivate } from './panels.js';
+import { requireOwner } from './auth.js';
+import { db } from './supabase.js';
 
 export const preferencesKey = 'playground:preferences:v1';
 export const feedbackPrefix = 'playground:feedback:v1:';
@@ -28,4 +30,24 @@ export async function submitFeedback(feedback) {
     throw new Error('Invalid feedback context. Please choose a target again.');
   }
   return savePanelPrivate(`${feedbackPrefix}${feedback.id}`, feedback, { signal: AbortSignal.timeout(15000) });
+}
+
+export async function readPrivateHandoff() {
+  await requireOwner();
+  const records = [];
+  let after = '';
+  while (true) {
+    const { data, error } = await db.from('panel_private')
+      .select('panel, content, updated_at')
+      .like('panel', 'playground:%')
+      .gt('panel', after)
+      .order('panel')
+      .limit(1000)
+      .abortSignal(AbortSignal.timeout(15000));
+    if (error) throw error;
+    if (!data?.length) break;
+    records.push(...data);
+    after = data.at(-1).panel;
+  }
+  return { schema_version: 1, exported_at: new Date().toISOString(), records };
 }

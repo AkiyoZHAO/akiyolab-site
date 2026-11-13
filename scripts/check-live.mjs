@@ -34,7 +34,7 @@ for (const [path, marker] of pages) {
   if (!response.ok) failures.push(`${path}: HTTP ${response.status}`);
   else if (!body.includes(marker)) failures.push(`${path}: missing marker ${marker}`);
 }
-for (const path of ['/.gitignore', '/db/schema.sql', '/AGENTS.md', '/scripts/check.mjs']) {
+for (const path of ['/.gitignore', '/db/schema.sql', '/AGENTS.md', '/scripts/check.mjs', '/task-lab-play.md']) {
   const response = await fetch(`${base}${path}`, { headers: { 'Cache-Control': 'no-cache' } });
   if (response.status !== 404) failures.push(`${path}: expected 404, got ${response.status}`);
 }

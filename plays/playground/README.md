@@ -88,6 +88,8 @@ node scripts/read-playground-private.mjs /absolute/private/path/playground-hando
 
 输出文件须位于仓库之外，权限为 0600。脚本以独占创建方式写文件，重跑使用新文件名。Dot 可按 `id` 在自己的私有状态中记录已消费反馈。读取和消费状态均属于运营侧。既有 Owner 数据备份也覆盖这些私有记录。
 
+Owner 登录后的 `Download private handoff` 按钮也能下载同结构的 Playground 专属记录。Dot 可在已授权且维持 Owner 会话的浏览器环境读取此导出，使用现有 Supabase SDK 会话续期。下载文件仅包含 `playground:*`，保存到浏览器下载目录，后续经私有渠道交接。
+
 ## 验收与交接
 
 - 正式目标地址为 `https://akiyolab.com/plays/playground/`，复用根仓库部署工作流与域名。

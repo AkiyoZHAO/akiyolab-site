@@ -15,4 +15,5 @@
 /plays/**/README.md
 /panels/**/README.md
 /scripts/**
+/task-*.md
 /wrangler.jsonc
