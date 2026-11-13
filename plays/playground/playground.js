@@ -39,8 +39,8 @@ async function json(path) {
   return response.json();
 }
 
-function tags(values) {
-  const group = element('div', 'tags');
+function tags(values, tagName = 'div') {
+  const group = element(tagName, 'tags');
   for (const value of [...new Set(values)]) group.append(element('span', 'tag', value));
   return group;
 }
@@ -120,8 +120,9 @@ function renderItem(item) {
 
 function renderAttributes(item) {
   const details = element('details', 'attribute');
-  details.append(element('summary', '', item.title));
-  details.append(tags([...item.metadata.interest.domain, ...item.metadata.format.modality, ...item.metadata.source.access]));
+  const summary = element('summary', '', item.title);
+  summary.append(tags([...item.metadata.interest.domain, ...item.metadata.format.modality, ...item.metadata.source.access], 'span'));
+  details.append(summary);
   const list = element('dl');
   for (const [group, fields] of Object.entries(metadataFields)) {
     for (const field of fields) {
@@ -167,6 +168,7 @@ async function loadEdition() {
     $('items').replaceChildren(...edition.items.map(renderItem));
     $('profile').textContent = editionProfile(edition);
     $('editorialNote').textContent = edition.editorial_note || '';
+    $('editorialNote').hidden = !edition.editorial_note;
     $('attributes').replaceChildren(...edition.items.map(renderAttributes));
     $('archive').replaceChildren(...dates.map(day => new Option(day, day, false, day === date)));
     $('archiveLabel').hidden = dates.length < 2;

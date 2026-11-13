@@ -103,6 +103,15 @@ export function splitTags(value) {
 
 export function editionProfile(edition) {
   const counts = new Map();
-  for (const item of edition.items) counts.set(item.type, (counts.get(item.type) || 0) + 1);
-  return [...counts].map(([type, count]) => `${count} ${type}`).join(' · ');
+  const domains = new Map();
+  for (const item of edition.items) {
+    counts.set(item.type, (counts.get(item.type) || 0) + 1);
+    for (const domain of new Set(item.metadata.interest.domain)) {
+      domains.set(domain, (domains.get(domain) || 0) + 1);
+    }
+  }
+  const types = [...counts].map(([type, count]) => `${count} ${type}`).join(' · ');
+  const interests = [...domains].sort((a, b) => b[1] - a[1]).slice(0, 3)
+    .map(([domain, count]) => `${domain} (${count})`).join(', ');
+  return `${types}. Recurring interests · ${interests || 'Open mix'}.`;
 }
