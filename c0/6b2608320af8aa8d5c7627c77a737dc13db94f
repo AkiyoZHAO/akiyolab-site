@@ -1,0 +1,27 @@
+db/drafts/playground-reader.sql
+  s_d87f018629fa8a::t_2c6d2ba7d86374 1-84
+scripts/tests/playground-reader.test.mjs
+  s_d87f018629fa8a::t_01c46ab8a83a6d 1-143
+scripts/lib/playground-reader.mjs
+  s_d87f018629fa8a::t_2c6d2ba7d86374 1-4,6-8,13,35-36,58-59,74,81
+  s_d87f018629fa8a::t_417591abdde4b1 9-12,14-34,37-56,60-73,75-77
+  s_d87f018629fa8a::t_26dae67a734b7f 5,57,78-80
+db/drafts/README-playground-reader.md
+  s_d87f018629fa8a::t_321fe48da3c676 1-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "c06b2608320af8aa8d5c7627c77a737dc13db94f",
+  "prompts": {},
+  "sessions": {
+    "s_d87f018629fa8a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1d3b3-2e38-7930-8e39-d7da5eb297b6",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Akiyo <51403731+AkiyoZHAO@users.noreply.github.com>"
+    }
+  }
+}
