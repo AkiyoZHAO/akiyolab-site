@@ -99,3 +99,14 @@ Owner 登录后的 `Download private handoff` 按钮也能下载同结构的 Pla
 - Dot 已确认契约，并提供 `2026-11-13` 首期 7 条内容。首期未提供可再发布的预览图，保留真实来源链接与验证说明。工程接入时修正了 Digital Garden URL 的 HTML 实体转义。
 - 默认偏好由工程提供初始值，Owner 可修改。当前默认探索比例为 30%，主要语言为英文。
 - 定时环境尚无已确认可用的稳定私有读取通道。脚本支持已有 Owner access token，令牌续期和保管由运营环境的既有 Auth 会话承担。新增持久凭据或数据库角色须另行确认。
+
+## 2026-11-13 上线记录
+
+- 已发布到正式域名与既有 GitHub Pages 预览。正式首期链接为 `https://akiyolab.com/plays/playground/?date=2026-11-13`。
+- 实现提交为 `1038393`，正式 Worker 版本为 `15322d1a-a242-44a6-a6b1-e173c5f4fc76`。此次正式发布使用 Owner 授权的 Wrangler OAuth，会话保存在本机钥匙串。
+- `check.mjs`、`check-remote.mjs`、`check-live.mjs` 全部通过。浏览器验收覆盖首页入口、真实 7 条 JSON、1440 / 390 / 320 宽度、匿名门禁、错误日期、图片和音频失败、反馈失败保留与同 ID 重试。
+- 正式站 Owner 已通过正常页面提交一条单条内容的工程测试反馈，服务端确认成功，专属私有导出读取到了相同 ID 与上下文。测试 ID 为 `19b6d024-cd79-426e-8baa-7397d3586a8f`，供 Dot 识别并忽略该测试。偏好按默认值保存后已验证刷新重新读取。
+- 真实数据库事务检查验证了 Owner 私有写入/读取及非 Owner 的读取隔离、写入拒绝，测试事务已回滚。
+- 现有 Supabase 项目此前暂停，本次已恢复。Owner 通过官方恢复邮件重新登录，密码设置由 Owner 在网页完成。
+- 首次部署遗漏本地 `task-*.md` 的资产排除，一份工程交接日志被上传。已补齐 `.assetsignore` 并重新发布，线上该路径已返回 404，`check-live.mjs` 增加了回归检查。
+- 仓库 Actions 的 `CLOUDFLARE_API_TOKEN` 尚待配置，目前 main push 自动验证并更新 GitHub Pages 预览。正式域名可在已授权本机执行 `npx --yes wrangler@4.131.0 deploy`，随后执行 `node scripts/check-live.mjs`。Dot 的定时发布和独立定时环境私有读取继续按运营侧接入状态交接。
