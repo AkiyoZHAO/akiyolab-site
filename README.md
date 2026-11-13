@@ -44,4 +44,4 @@ node scripts/check-remote.mjs  # Supabase Auth / RLS / 面板表
 node scripts/check-live.mjs    # 正式站页面、隐藏资产与安全响应头
 ```
 
-`main` push 后由 GitHub Actions 自动验收；仓库配置 `CLOUDFLARE_API_TOKEN` secret 后，同一工作流会继续部署 Cloudflare Worker 并检查正式站。
+`main` push 后由 GitHub Actions 自动验收、部署 Cloudflare Worker 并检查正式站。部署专用凭据保存在仓库 `CLOUDFLARE_API_TOKEN` secret 中。

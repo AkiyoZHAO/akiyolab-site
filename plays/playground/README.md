@@ -109,4 +109,6 @@ Owner 登录后的 `Download private handoff` 按钮也能下载同结构的 Pla
 - 真实数据库事务检查验证了 Owner 私有写入/读取及非 Owner 的读取隔离、写入拒绝，测试事务已回滚。
 - 现有 Supabase 项目此前暂停，本次已恢复。Owner 通过官方恢复邮件重新登录，密码设置由 Owner 在网页完成。
 - 首次部署遗漏本地 `task-*.md` 的资产排除，一份工程交接日志被上传。已补齐 `.assetsignore` 并重新发布，线上该路径已返回 404，`check-live.mjs` 增加了回归检查。
-- 仓库 Actions 的 `CLOUDFLARE_API_TOKEN` 尚待配置，目前 main push 自动验证并更新 GitHub Pages 预览。正式域名可在已授权本机执行 `npx --yes wrangler@4.131.0 deploy`，随后执行 `node scripts/check-live.mjs`。Dot 的定时发布和独立定时环境私有读取继续按运营侧接入状态交接。
+- 仓库 Actions 已配置部署专用 `CLOUDFLARE_API_TOKEN`，main push 将执行本地检查、Supabase 门禁、Cloudflare 部署和正式站 smoke。Dot 发布时提交本期 JSON、素材及日期清单到 main，即可触发正式更新。独立定时环境的私有读取继续按运营侧接入状态交接。
+- 部署 token 名称为 `lab-play-github-actions`。权限限定为指定账号的 Workers Scripts Edit，以及 `akiyolab.com` 的 Workers Routes Edit / Zone Read。采用默认的无到期日设置，凭据经 GitHub 公钥加密后写入 Actions secret。
+- 首次自动发布发现 Wrangler Action 在资产根目录安装 `node_modules`，导致资产超限。已将依赖目录及 npm 生成的清单加入 `.assetsignore`，并补充线上隐藏资产验收。

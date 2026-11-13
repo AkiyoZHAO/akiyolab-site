@@ -4,6 +4,10 @@
 /.claude/**
 /.playwright-cli/**
 /.wrangler/**
+/node_modules/**
+/package.json
+/package-lock.json
+/npm-shrinkwrap.json
 /db/**
 /.DS_Store
 /**/.DS_Store
