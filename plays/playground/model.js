@@ -38,6 +38,13 @@ export function localAsset(value) {
     !value.split('/').includes('..');
 }
 
+// 分类保持开放；图像、视频与空间视觉模态也必须通过预览验收。
+export function requiresPreview(item) {
+  return item.type !== 'news' && (['interactive', 'video'].includes(item.type) ||
+    item.metadata?.format?.modality?.some(tag =>
+      /^(visual|image|images|video|3d|spatial)$/i.test(tag.trim())));
+}
+
 export function validateManifest(value) {
   assert(value?.schema_version === 1, 'Unsupported edition index version.');
   assert(value.timezone === 'Asia/Shanghai', 'Edition timezone must be Asia/Shanghai.');
@@ -74,10 +81,13 @@ export function validateEdition(value) {
     }
     assert(Array.isArray(item.evidence) && item.evidence.length > 0 &&
       item.evidence.every(source => webUrl(source.url) && text(source.label)), `${item.id} needs source evidence.`);
+    assert(!requiresPreview(item) || item.preview, `${item.id} requires a real, licensed preview.`);
     if (item.preview) {
       assert(localAsset(item.preview.url) && item.preview.url.startsWith('previews/'), `${item.id} needs a local preview asset.`);
       assert(['screenshot', 'source-image'].includes(item.preview.kind) && text(item.preview.alt) &&
         webUrl(item.preview.source_url) && Number.isFinite(Date.parse(item.preview.verified_at)), `${item.id} needs real preview provenance.`);
+      const rights = item.preview.rights;
+      assert(text(rights?.basis) && webUrl(rights?.url) && text(rights?.note), `${item.id} needs preview reuse permission and attribution evidence.`);
     }
     if (access.mode === 'native') {
       assert(['audio', 'video'].includes(item.type) && localAsset(access.media_url) &&

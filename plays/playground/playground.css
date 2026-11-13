@@ -28,9 +28,11 @@ p { margin: var(--sp-3) 0; }
 .item[data-type="audio"] { align-self: start; background: var(--c-surface-alt); }
 .item[data-type="article"] h2, .item[data-type="audio"] h2, .item[data-type="video"] h2 { font-size: var(--fs-lg); }
 .preview { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; background: var(--c-surface-alt); border-radius: var(--radius-sm); }
+.preview-link { display: block; }
 .item[data-type="interactive"] .preview { border-radius: 0; }
 figure { margin: 0 0 var(--sp-5); }
-figcaption { font-size: var(--fs-xs); color: var(--c-text-muted); padding: var(--sp-2) var(--sp-3); }
+figcaption { font-size: var(--fs-xs); color: var(--c-text-muted); padding: var(--sp-2) var(--sp-3); overflow-wrap: anywhere; }
+figcaption a { text-decoration: underline; text-underline-offset: var(--sp-1); }
 .media-fallback { color: var(--c-text-muted); padding: var(--sp-5); background: var(--c-surface-alt); font-size: var(--fs-sm); }
 .item-meta { color: var(--c-text-muted); font-size: var(--fs-xs); margin-bottom: var(--sp-3); overflow-wrap: anywhere; }
 .summary { font-size: var(--fs-base); }

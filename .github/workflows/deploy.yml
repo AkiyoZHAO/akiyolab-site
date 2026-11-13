@@ -26,6 +26,19 @@ jobs:
           node-version: 22
       - name: Check static app
         run: node scripts/check.mjs
+      - name: Install preview acceptance browser
+        run: |
+          npm install --prefix "$RUNNER_TEMP/playground-qa" --no-package-lock --no-save playwright@1.65.0
+          "$RUNNER_TEMP/playground-qa/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Check preview decoding and responsive layout
+        env:
+          PLAYWRIGHT_MODULE: ${{ runner.temp }}/playground-qa/node_modules/playwright/index.mjs
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 >"$RUNNER_TEMP/playground-server.log" 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          curl --silent --fail --retry 5 --retry-connrefused --retry-delay 1 http://127.0.0.1:4173/ > /dev/null
+          node scripts/check-playground-browser.mjs
       - name: Check Supabase gates
         run: node scripts/check-remote.mjs
       - name: Deploy Cloudflare Worker assets
@@ -38,7 +51,21 @@ jobs:
           command: deploy
       - name: Smoke production
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
-        run: node scripts/check-live.mjs
+        env:
+          PLAYWRIGHT_MODULE: ${{ runner.temp }}/playground-qa/node_modules/playwright/index.mjs
+          LAB_PLAY_URL: https://akiyolab.com
+          PLAYGROUND_SCREENSHOTS: ${{ runner.temp }}/playground-screenshots
+        run: |
+          node scripts/check-live.mjs
+          node scripts/check-playground-browser.mjs
+      - name: Save production acceptance screenshots
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playground-production-screenshots
+          path: ${{ runner.temp }}/playground-screenshots
+          if-no-files-found: ignore
+          retention-days: 14
       - name: Note missing deploy secret
         if: ${{ env.CLOUDFLARE_API_TOKEN == '' }}
         run: echo 'Validation passed; add repository secret CLOUDFLARE_API_TOKEN to enable automatic deployment.'

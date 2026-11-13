@@ -1,5 +1,5 @@
-import { existsSync, readFileSync, readdirSync } from 'node:fs';
-import { join } from 'node:path';
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
+import { extname, join } from 'node:path';
 import { validateManifest, validateEdition, validatePreferences } from '../plays/playground/model.js';
 
 export function checkPlayground(root) {
@@ -15,6 +15,11 @@ export function checkPlayground(root) {
       for (const item of edition.items) {
         for (const asset of [item.preview?.url, item.access.media_url].filter(Boolean)) {
           if (!existsSync(join(directory, asset))) throw new Error(`${item.id}: missing asset ${asset}`);
+          const stat = statSync(join(directory, asset));
+          if (!stat.isFile() || !stat.size) throw new Error(`${item.id}: empty or invalid asset ${asset}`);
+        }
+        if (item.preview && !['.png', '.jpg', '.jpeg', '.webp'].includes(extname(item.preview.url).toLowerCase())) {
+          throw new Error(`${item.id}: previews must be PNG, JPEG or WebP`);
         }
       }
     }

@@ -4,38 +4,36 @@
   "date": "2026-11-13",
   "timezone": "Asia/Shanghai",
   "title": "Tiny Worlds, Big Feelings",
-  "intro": "A walk through a browser meadow, a reality-TV reckoning, and a museum hiding inside book covers.",
+  "intro": "A swing past Jupiter, a reality-TV reckoning, and a museum hiding inside book covers.",
   "items": [
     {
-      "id": "alicia-digital-garden",
+      "id": "nasa-eyes-solar-system",
       "type": "interactive",
-      "title": "A Garden With a Light Switch",
-      "summary": "Step into a browser meadow. Brush past the flowers, then switch from daylight to night.",
-      "comment": "Try spring at night first. No gardening skills, no dead plants.",
+      "title": "Jupiter Is a Click Away",
+      "summary": "Fly around planets and spacecraft in NASA’s 3D Solar System. Pick a mission and jump through time.",
+      "comment": "Try Jupiter first. It makes Earth look like a typo.",
       "language": "en",
-      "url": "https://digitalgarden.si/play/?lang=en&night=0&season=spring",
+      "url": "https://eyes.nasa.gov/apps/solar-system/#/home",
       "keywords": [
-        "flowers",
-        "seasons"
+        "planets",
+        "spacecraft"
       ],
       "metadata": {
         "interest": {
           "domain": [
-            "nature",
-            "art"
+            "space"
           ],
           "topic": [
-            "flowers",
-            "seasons"
+            "planets",
+            "spacecraft"
           ],
           "angle": [
-            "virtual meadow"
+            "virtual flyby"
           ]
         },
         "format": {
           "modality": [
-            "visual",
-            "audio"
+            "visual"
           ],
           "interaction": [
             "explore"
@@ -49,17 +47,16 @@
         },
         "source": {
           "creator": [
-            "Digital Garden by Alicia"
+            "NASA/JPL-Caltech"
           ],
           "platform": [
-            "Independent web"
+            "NASA/JPL-Caltech"
           ],
           "discovery": [
             "editorial research"
           ],
           "access": [
-            "free",
-            "WebGPU or WebGL2"
+            "free"
           ]
         }
       },
@@ -67,16 +64,38 @@
         "mode": "external",
         "verification": {
           "status": "verified",
-          "checked_at": "2026-11-13T07:05:39.985Z",
-          "note": "Public page opened and creator instructions or content checked; live playback and controls were not tested."
+          "checked_at": "2026-11-13T08:22:18Z",
+          "note": "Official destination and media documentation checked. Interactive controls or video playback were not tested."
         }
       },
       "evidence": [
         {
-          "url": "https://digitalgarden.si/",
-          "label": "Digital Garden by Alicia"
+          "url": "https://science.nasa.gov/eyes/",
+          "label": "NASA Science: Eyes on the Solar System"
+        },
+        {
+          "url": "https://science.nasa.gov/wp-content/uploads/2024/08/nasa-eyes-for-museums-relevant-links.pdf",
+          "label": "NASA Eyes toolkit: website embedding and sharing captures"
+        },
+        {
+          "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "label": "NASA/JPL-Caltech | NASA informational media usage guidelines | Preview resized or re-encoded to WebP; no image content added."
         }
-      ]
+      ],
+      "preview": {
+        "url": "previews/nasa-eyes-solar-system.webp",
+        "alt": "NASA Eyes artwork showing Jupiter, Mars, and the Juno spacecraft",
+        "kind": "source-image",
+        "source_url": "https://science.nasa.gov/wp-content/uploads/2024/03/ssinteractives-169.png?w=615",
+        "verified_at": "2026-11-13T08:22:18Z",
+        "license": "NASA informational media usage guidelines",
+        "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+        "rights": {
+          "basis": "NASA informational media usage guidelines",
+          "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+          "note": "NASA/JPL-Caltech; resized or re-encoded to WebP, no crop or added content."
+        }
+      }
     },
     {
       "id": "ofcom-reality-tv-welfare",
@@ -155,16 +174,16 @@
       ]
     },
     {
-      "id": "monterey-jelly-cam",
+      "id": "noaa-deepwater-jelly",
       "type": "video",
-      "title": "A Window Full of Jellies",
-      "summary": "Watch sea nettles drift at Monterey Bay Aquarium. Outside live hours, the aquarium plays a recording.",
-      "comment": "A screensaver with an actual ecosystem behind it.",
+      "title": "A Jellyfish, 900 Meters Down",
+      "summary": "Watch a deep-sea jellyfish in footage from NOAA’s Windows to the Deep 2021 expedition.",
+      "comment": "All that dark water, and then this tiny pulse of life.",
       "language": "en",
-      "url": "https://www.montereybayaquarium.org/cams-videos/live-cams/jelly-cam",
+      "url": "https://oceanexplorer.noaa.gov/multimedia/okeanos-explorations-ex2107-gallery-media-dive03-jellyfish/",
       "keywords": [
-        "sea nettles",
-        "marine life"
+        "jellyfish",
+        "deep sea"
       ],
       "metadata": {
         "interest": {
@@ -172,11 +191,11 @@
             "nature"
           ],
           "topic": [
-            "sea nettles",
-            "marine life"
+            "jellyfish",
+            "deep sea"
           ],
           "angle": [
-            "aquarium window"
+            "expedition footage"
           ]
         },
         "format": {
@@ -195,17 +214,16 @@
         },
         "source": {
           "creator": [
-            "Monterey Bay Aquarium"
+            "NOAA Ocean Exploration"
           ],
           "platform": [
-            "Monterey Bay Aquarium"
+            "NOAA Ocean Exploration"
           ],
           "discovery": [
             "editorial research"
           ],
           "access": [
-            "free",
-            "recorded off-hours"
+            "free"
           ]
         }
       },
@@ -213,16 +231,34 @@
         "mode": "external",
         "verification": {
           "status": "verified",
-          "checked_at": "2026-11-13T07:05:39.988Z",
-          "note": "Public page opened and creator instructions or content checked; live playback and controls were not tested."
+          "checked_at": "2026-11-13T08:22:18Z",
+          "note": "Official destination and media documentation checked. Interactive controls or video playback were not tested."
         }
       },
       "evidence": [
         {
-          "url": "https://www.montereybayaquarium.org/cams-videos/live-cams/jelly-cam",
-          "label": "Monterey Bay Aquarium: Jelly Cam"
+          "url": "https://oceanexplorer.noaa.gov/multimedia/okeanos-explorations-ex2107-gallery-media-dive03-jellyfish/",
+          "label": "NOAA Ocean Exploration: expedition video and caption"
+        },
+        {
+          "url": "https://oceanexplorer.noaa.gov/expedition-ex2107-media-resources/",
+          "label": "NOAA Ocean Exploration, Windows to the Deep 2021 | Public domain, retain expedition credit | Preview resized or re-encoded to WebP; no image content added."
         }
-      ]
+      ],
+      "preview": {
+        "url": "previews/noaa-deepwater-jelly.webp",
+        "alt": "A deep-sea jellyfish photographed by an expedition vehicle",
+        "kind": "source-image",
+        "source_url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2021/11/dive03-jellyfish-poster.jpg",
+        "verified_at": "2026-11-13T08:22:18Z",
+        "license": "Public domain, retain expedition credit",
+        "license_url": "https://oceanexplorer.noaa.gov/expedition-ex2107-media-resources/",
+        "rights": {
+          "basis": "Public domain, retain expedition credit",
+          "url": "https://oceanexplorer.noaa.gov/expedition-ex2107-media-resources/",
+          "note": "NOAA Ocean Exploration, Windows to the Deep 2021; resized or re-encoded to WebP, no crop or added content."
+        }
+      }
     },
     {
       "id": "incredibox-demo",
@@ -291,8 +327,26 @@
         {
           "url": "https://www.incredibox.com/",
           "label": "Incredibox: How to make a mix"
+        },
+        {
+          "url": "https://www.incredibox.com/info/press",
+          "label": "www.incredibox.com © So Far So Good | Press kit: website reuse with credit | Preview resized or re-encoded to WebP; no image content added."
         }
-      ]
+      ],
+      "preview": {
+        "url": "previews/incredibox-demo.webp",
+        "alt": "Screenshot of the Incredibox web-app showing illustrated beatboxers",
+        "kind": "screenshot",
+        "source_url": "https://www.incredibox.com/img/press/hd/webapp-v2-scene.jpg",
+        "verified_at": "2026-11-13T08:22:18Z",
+        "license": "Press kit: website reuse with credit",
+        "license_url": "https://www.incredibox.com/info/press",
+        "rights": {
+          "basis": "Press kit: website reuse with credit",
+          "url": "https://www.incredibox.com/info/press",
+          "note": "www.incredibox.com © So Far So Good; resized or re-encoded to WebP, no crop or added content."
+        }
+      }
     },
     {
       "id": "europeana-endpapers",
@@ -362,78 +416,30 @@
         {
           "url": "https://www.europeana.eu/en/galleries/9136-endpapers",
           "label": "Europeana: Endpapers"
-        }
-      ]
-    },
-    {
-      "id": "ambient-chaos",
-      "type": "interactive",
-      "title": "Rain, Coffee, and One Bad Decision",
-      "summary": "Mix your own background noise with sliders for rain, a café, a campfire, and a surprisingly long list of less peaceful options.",
-      "comment": "Rain plus coffee shop is the safe build. A marching band is a choice.",
-      "language": "en",
-      "url": "https://neal.fun/ambient-chaos/",
-      "keywords": [
-        "soundscapes",
-        "mixing"
-      ],
-      "metadata": {
-        "interest": {
-          "domain": [
-            "sound",
-            "web art"
-          ],
-          "topic": [
-            "soundscapes",
-            "mixing"
-          ],
-          "angle": [
-            "unexpected contrasts"
-          ]
         },
-        "format": {
-          "modality": [
-            "audio"
-          ],
-          "interaction": [
-            "create"
-          ],
-          "narrative": [
-            "open exploration"
-          ],
-          "consumption": [
-            "quick visit"
-          ]
-        },
-        "source": {
-          "creator": [
-            "Neal Agarwal"
-          ],
-          "platform": [
-            "Neal.fun"
-          ],
-          "discovery": [
-            "editorial research"
-          ],
-          "access": [
-            "free"
-          ]
-        }
-      },
-      "access": {
-        "mode": "external",
-        "verification": {
-          "status": "verified",
-          "checked_at": "2026-11-13T07:05:39.988Z",
-          "note": "Public page opened and creator instructions or content checked; live playback and controls were not tested."
-        }
-      },
-      "evidence": [
         {
-          "url": "https://neal.fun/ambient-chaos/",
-          "label": "Neal Agarwal: Ambient Chaos"
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "label": "Wellcome Collection, L0081994 | CC BY 4.0 | Preview resized or re-encoded to WebP; no image content added."
+        },
+        {
+          "url": "https://www.europeana.eu/en/item/9200579/p3dsq76e",
+          "label": "Specific digitized asset and its CC BY 4.0 rights record"
         }
-      ]
+      ],
+      "preview": {
+        "url": "previews/europeana-endpapers.webp",
+        "alt": "Marbled endpapers from The Naturalist’s Miscellany, 1813",
+        "kind": "source-image",
+        "source_url": "https://proxy.europeana.eu/media/9200579/p3dsq76e/f04f80fdb5d5c17ea1112467c0b0f032?recordApiUrl=https%3A%2F%2Fapi.europeana.eu%2Frecord",
+        "verified_at": "2026-11-13T08:22:18Z",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "rights": {
+          "basis": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "note": "Wellcome Collection, L0081994; resized or re-encoded to WebP, no crop or added content."
+        }
+      }
     },
     {
       "id": "ghibli-arrietty-stills",
@@ -507,8 +513,26 @@
         {
           "url": "https://www.ghibli.jp/info/013344/",
           "label": "Studio Ghibli: Official stills release · 2020-09-18"
+        },
+        {
+          "url": "https://www.ghibli.jp/works/karigurashi/",
+          "label": "© 2010 Mary Norton/Keiko Niwa/Studio Ghibli, NDHDMTW | Studio Ghibli official stills: reasonable use | Preview resized or re-encoded to WebP; no image content added."
         }
-      ]
+      ],
+      "preview": {
+        "url": "previews/ghibli-arrietty-stills.webp",
+        "alt": "Official film still from Arrietty",
+        "kind": "source-image",
+        "source_url": "https://www.ghibli.jp/gallery/karigurashi001.jpg",
+        "verified_at": "2026-11-13T08:22:18Z",
+        "license": "Studio Ghibli official stills: reasonable use",
+        "license_url": "https://www.ghibli.jp/works/karigurashi/",
+        "rights": {
+          "basis": "Studio Ghibli official stills: reasonable use",
+          "url": "https://www.ghibli.jp/works/karigurashi/",
+          "note": "© 2010 Mary Norton/Keiko Niwa/Studio Ghibli, NDHDMTW; resized or re-encoded to WebP, no crop or added content."
+        }
+      }
     }
   ]
 }

@@ -33,7 +33,12 @@
       "alt": "Describe what the real preview shows",
       "kind": "screenshot",
       "source_url": "https://example.com/original",
-      "verified_at": "2026-11-13T08:00:00+08:00"
+      "verified_at": "2026-11-13T08:00:00+08:00",
+      "rights": {
+        "basis": "permission",
+        "url": "https://example.com/reuse-permission",
+        "note": "Creator name · reused with permission"
+      }
     },
     "metadata": {
       "interest": { "domain": ["art"], "topic": ["generative art"], "angle": ["playful"] },
@@ -53,10 +58,23 @@
 - item ID 为稳定作品标识，同一作品跨期可复用。单期内唯一，使用小写字母、数字和连字符，最长 96 字符。
 - metadata 的每个维度均为字符串数组，可多选，也可留空数组。公开卡片展示关键词，Behind the Curtain 展示每条主要属性、完整 metadata 与证据链接，统计直接从本期 items 计算。
 - `verification.status` 接受 `unverified / verified / inaccessible`。后两者必须有 `checked_at` 和实际验证说明。验证为 Dot 在记录时间的观察，后续访问仍可能变化。
-- 预览可省略。已有预览须使用原作品截图或源站图片，`kind` 为 `screenshot / source-image`，保留出处与验证时间。文件放 `previews/`，所有 asset URL 相对 `plays/playground/`，避免远程热链、跟踪请求与 CSP 变更。
+- 互动、视频以及 modality 包含 `visual / image / images / video / 3d / spatial` 的内容必须有真实预览；新闻允许文字优先。纯文字图文、音频可省略。图片须来自原作品，`kind` 为 `screenshot / source-image`，保留 `source_url` 和 `verified_at`。不得用无关图或 AI 生成图代替作品截图。
+- `preview.rights` 必须记录 `basis`（如 license / permission / public-domain）、`url`（具体许可或授权证明页面）、`note`（具体依据及所需署名，英文展示）。可浏览、可截图、能下载或存在 OG 缩略图本身均不构成再发布许可。Dot 在发布前核对许可覆盖所用图片；不明确时获取授权或替换作品。自动化仅检查证据字段完整，不能判断法律许可是否成立。
+- 文件放 `previews/`，使用 PNG / JPEG / WebP，至少 320×180；优先清晰且经过合理压缩的原图。所有 asset URL 相对 `plays/playground/`，不使用远程热链。宽幅区域保留原始内容比例，不裁掉作品画面；来源和署名显示在预览下方，许可证明保留在 Behind the Curtain。
 - 外部视频、音频和网页通过原站访问。获得合法可发布的音视频文件时可设置 `access.mode: "native"` 与 `media_url: "media/file.mp3"` 或 `media/file.mp4`，仅支持经过验证的本地文件。原站链接始终保留。播放器使用原生 controls、`preload="none"`，播放由用户手动触发。
 
-更新流程为写入本期 JSON 与真实素材 → 将日期加入 `index.json` → `node scripts/check.mjs` → 提交并推送 `main` → 现有部署工作流 → `node scripts/check-live.mjs`。文件与索引在同一次提交中发布。历史日期留在清单中。
+更新流程为 Dot 核对作品及图片再发布许可 → 写入本期 JSON 与真实素材 → 将日期加入 `index.json` → `node scripts/check.mjs` → 提交并推送 `main` → 自动浏览器预览验收 → 部署 → 正式站 smoke 与浏览器验收。文件与索引在同一次提交中发布。历史日期留在清单中。
+
+每日验收必须包含：视觉/互动项有真实预览和许可证据；本地文件非空；浏览器 HTTP/MIME 正确、可真实解码且尺寸达标；1440 / 390 / 320 宽度下图片可见且无横向溢出；图片失败后保留提示和原站入口。`scripts/check-playground-browser.mjs` 自动覆盖这些工程检查，部署前后均执行，任一步失败会使 Actions 失败。部署后失败须修复后重新发布。
+
+浏览器工具只在 CI 临时目录安装固定版本 Playwright，不进入网站运行时或部署资源。手动验收可指定已有安装：
+
+```bash
+PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs LAB_PLAY_URL=https://akiyolab.com node scripts/check-playground-browser.mjs
+```
+
+设置 `PLAYGROUND_SCREENSHOTS=/absolute/output/path` 可额外保存最新已发布期的桌面和手机完整截图；脚本使用独立匿名会话，不读取 Owner 凭据。
+生产验收截图随 Actions 保存为 `playground-production-screenshots` artifact，保留 14 天。
 
 ## 偏好契约 v1
 
@@ -93,10 +111,10 @@ Owner 登录后的 `Download private handoff` 按钮也能下载同结构的 Pla
 ## 验收与交接
 
 - 正式目标地址为 `https://akiyolab.com/plays/playground/`，复用根仓库部署工作流与域名。
-- `node scripts/check.mjs` 已接入 Edition、metadata、偏好、日期、索引和素材存在性检查。
+- `node scripts/check.mjs` 已接入 Edition、metadata、偏好、日期、索引、预览必填、许可证据和非空素材检查。
 - `node scripts/check-remote.mjs` 检查原有 Auth/RLS 与私有表，`node scripts/check-live.mjs` 检查新页面与已发布 JSON。
 - 空清单显示首期待发布，加载错误有重试，预览/媒体失败提供明确提示与原站入口，旧期显示实际日期。
-- Dot 已确认契约，并提供 `2026-11-13` 首期 7 条内容。首期未提供可再发布的预览图，保留真实来源链接与验证说明。工程接入时修正了 Digital Garden URL 的 HTML 实体转义。
+- Dot 已确认初始契约，并提供 `2026-11-13` 首期 7 条内容。首期上线时缺少可再发布的预览图，验收发现后收紧预览发布门禁。工程接入时修正了 Digital Garden URL 的 HTML 实体转义。
 - 默认偏好由工程提供初始值，Owner 可修改。当前默认探索比例为 30%，主要语言为英文。
 - 定时环境尚无已确认可用的稳定私有读取通道。脚本支持已有 Owner access token，令牌续期和保管由运营环境的既有 Auth 会话承担。新增持久凭据或数据库角色须另行确认。
 
@@ -113,3 +131,11 @@ Owner 登录后的 `Download private handoff` 按钮也能下载同结构的 Pla
 - 部署 token 名称为 `lab-play-github-actions`。权限限定为指定账号的 Workers Scripts Edit，以及 `akiyolab.com` 的 Workers Routes Edit / Zone Read。采用默认的无到期日设置，凭据经 GitHub 公钥加密后写入 Actions secret。
 - 首次自动发布发现 Wrangler Action 在资产根目录安装 `node_modules`，导致资产超限。已将依赖目录及 npm 生成的清单加入 `.assetsignore`，并补充线上隐藏资产验收。
 - 已通过真实 main push 验证自动发布，提交为 `1ed545a`。[验收流水线](https://github.com/AkiyoZHAO/lab-play/actions/runs/43389354014) 的静态检查、Supabase 门禁、Cloudflare 部署与正式站 smoke 全部成功。
+
+## 预览缺陷修复
+
+- Dot 交付的素材包 SHA-256 为 `444fbe63cd7fd4b1d30ae1397650ebf9f61d2925325fda22640c8f99e31ef07b`，来自交接提交 `d4f3ee2`。工程仅取本期 JSON 与 5 张 WebP，未合并素材打包分支或发布 base64 载体。
+- 修订首期为 6 条：NASA Eyes、Ofcom 新闻、NOAA 深海水母、Incredibox、Europeana 扉页与 Ghibli 剧照。5 张真实预览共约 312 KiB；新闻维持文字优先。Dot 替换了无法确认合适图片许可的作品，并补充原图、验证时间、许可依据及署名。
+- 图片加载失败保留明确提示与原站入口；首条优先加载，其余懒加载；图片不裁切；图片本身也可进入原站。图片下展示署名和许可链接，完整证据保留在数据与 Behind the Curtain。
+- 发布前和正式站均执行图片实际解码及 1440 / 390 / 320 宽度验收。许可真实性仍由 Dot 逐条核实，工程自动化验证其记录完整及图片可用性。
+- 反馈能力仍为已验证的 Owner 私有写入与手动专属导出；独立定时环境长期安全读取尚未实现。

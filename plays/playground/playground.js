@@ -45,20 +45,26 @@ function tags(values, tagName = 'div') {
   return group;
 }
 
-function preview(item) {
+function preview(item, eager = false) {
   const figure = element('figure');
   if (!item.preview) {
     figure.append(element('p', 'media-fallback', 'Preview unavailable. Explore the original below.'));
     return figure;
   }
   const image = element('img', 'preview');
-  image.src = item.preview.url;
   image.alt = item.preview.alt;
-  image.loading = 'lazy';
+  image.loading = eager ? 'eager' : 'lazy';
+  image.decoding = 'async';
   image.addEventListener('error', () => {
     figure.replaceChildren(element('p', 'media-fallback', 'The preview could not load. The original link is below.'));
   }, { once: true });
-  figure.append(image, element('figcaption', '', item.preview.kind === 'screenshot' ? 'Preview captured from the original experience' : 'Image from the original source'));
+  image.src = item.preview.url;
+  const link = externalLink(item.url, '', 'preview-link');
+  link.append(image);
+  const caption = element('figcaption');
+  caption.append(externalLink(item.preview.source_url, item.preview.kind === 'screenshot' ? 'Screenshot from the original experience' : 'Image from the original source'));
+  if (item.preview.rights) caption.append(document.createTextNode(' · '), externalLink(item.preview.rights.url, item.preview.rights.basis), document.createTextNode(` · ${item.preview.rights.note}`));
+  figure.append(link, caption);
   return figure;
 }
 
@@ -70,18 +76,18 @@ function selectFeedback(target) {
   else $('ownerLink').focus({ preventScroll: true });
 }
 
-function renderItem(item) {
+function renderItem(item, index) {
   const article = element('article', 'item');
   article.dataset.type = item.type;
   article.id = item.id;
-  if (item.type === 'interactive') article.append(preview(item));
+  if (item.type === 'interactive') article.append(preview(item, index === 0));
   const copy = element('div', 'item-copy');
   const platform = item.metadata.source.platform.join(' / ');
   copy.append(element('p', 'item-meta', `${item.type.toUpperCase()} · ${platform} · ${item.language}`));
   const heading = element('h2');
   heading.append(externalLink(item.url, item.title));
   copy.append(heading);
-  if (['article', 'video'].includes(item.type) && item.preview) copy.append(preview(item));
+  if (['article', 'video', 'audio'].includes(item.type) && item.preview) copy.append(preview(item, index === 0));
   copy.append(element('p', 'summary', item.summary), tags(item.keywords), element('p', 'comment', item.comment));
 
   const check = item.access.verification;
@@ -139,6 +145,11 @@ function renderAttributes(item) {
     const line = element('p', 'access-note');
     line.append(externalLink(item.preview.source_url, `Preview source · ${item.preview.verified_at.slice(0, 10)}`));
     details.append(line);
+    if (item.preview.rights) {
+      const rights = element('p', 'access-note');
+      rights.append(externalLink(item.preview.rights.url, `Preview rights · ${item.preview.rights.basis}`), document.createTextNode(` · ${item.preview.rights.note}`));
+      details.append(rights);
+    }
   }
   return details;
 }
