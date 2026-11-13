@@ -27,12 +27,9 @@ README 记「现在是什么」,这里记「要去哪、还差什么、为什么
 - [ ] **图鉴建设**:当前只有规则引擎 +「弹钢琴 5h → 李斯特」样例;确定首批“行为 / 累计阈值 / 人物或称号 / 视觉纹样”,形成真正可逛的图鉴。只由原始 events 推导,不新增图鉴进度表,不与 coins 绑定。
 - [ ] **IELTS 同义替换趣味玩法**:先使用独立 Paraphrase Network;实际学习一段时间后,从关系分类 / 异类识别 / 多义分流 / 限时配对中选择高频形式原生化,不整体迁移 React 词网项目。
 
-### 后续
-
-- [ ] **发布自动化启用**:GitHub Actions 已接本地检查、Supabase 门禁、Wrangler deploy 与线上 smoke;还需在仓库 Actions secrets 配置 `CLOUDFLARE_API_TOKEN`,配置前 push 只做验证、不自动发布。
-
 ### 已完成
 
+- [x] **发布自动化启用**:部署专用 token 已配置到仓库 Actions secret，main push 已实测完成本地检查、Supabase 门禁、Cloudflare 部署与正式站 smoke。
 - [x] 账号与权限地基:Supabase Auth(邮箱 + 密码,仅我)+ events RLS「anon 只读 / 仅 Owner 可写」+ 前端登录门禁
 - [x] 分层隐私 + career 细节迁库:公开 `panel_states` + Owner-only `panel_private`;下钻登录才看
 - [x] 挂上 akiyolab.com:复用 Cloudflare Worker Static Assets + custom domain,替换旧落地页
@@ -54,6 +51,7 @@ README 记「现在是什么」,这里记「要去哪、还差什么、为什么
 
 ## 决策日志
 
+- **2026-11-13** Playground v1 正式上线，版本化每日 JSON、轻量偏好与 Owner 私有反馈契约已与 Dot 对齐。正式发布接通 main push 自动部署，CI 安装产物从静态资产中排除。
 - **2026-09-10** 小游戏 → 个人空间;events 升级为共享时间线;内容分玩法/面板;anchor 接口与皮肤分离;首页简约 / Dashboard 高密度;事业面板走文档态(frontmatter 承载状态,方案 B)。
 - **2026-09-11** 首页改为 anchor→默认皮肤映射并提供未知 anchor 兜底;加入 self-glance 周视图;统计升级为 widget Dashboard,聚合 events、月历与 Career readiness。
 - **2026-09-11** Career 数据分层为公开 `panel_states` 摘要与 Owner-only `panel_private` 正文;网页内可编辑,状态升级写 `career_milestone`;公开 md 降为无敏感信息的初始模板。

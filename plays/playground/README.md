@@ -112,3 +112,4 @@ Owner 登录后的 `Download private handoff` 按钮也能下载同结构的 Pla
 - 仓库 Actions 已配置部署专用 `CLOUDFLARE_API_TOKEN`，main push 将执行本地检查、Supabase 门禁、Cloudflare 部署和正式站 smoke。Dot 发布时提交本期 JSON、素材及日期清单到 main，即可触发正式更新。独立定时环境的私有读取继续按运营侧接入状态交接。
 - 部署 token 名称为 `lab-play-github-actions`。权限限定为指定账号的 Workers Scripts Edit，以及 `akiyolab.com` 的 Workers Routes Edit / Zone Read。采用默认的无到期日设置，凭据经 GitHub 公钥加密后写入 Actions secret。
 - 首次自动发布发现 Wrangler Action 在资产根目录安装 `node_modules`，导致资产超限。已将依赖目录及 npm 生成的清单加入 `.assetsignore`，并补充线上隐藏资产验收。
+- 已通过真实 main push 验证自动发布，提交为 `1ed545a`。[验收流水线](https://github.com/AkiyoZHAO/lab-play/actions/runs/43389354014) 的静态检查、Supabase 门禁、Cloudflare 部署与正式站 smoke 全部成功。
