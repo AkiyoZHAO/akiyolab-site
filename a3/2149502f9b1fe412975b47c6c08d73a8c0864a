@@ -1,0 +1,21 @@
+ROADMAP.md
+  s_d87f018629fa8a::t_c86da043209897 32,54
+plays/playground/README.md
+  s_d87f018629fa8a::t_c86da043209897 115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "a32149502f9b1fe412975b47c6c08d73a8c0864a",
+  "prompts": {},
+  "sessions": {
+    "s_d87f018629fa8a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1d3b3-2e38-7930-8e39-d7da5eb297b6",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Akiyo <51403731+AkiyoZHAO@users.noreply.github.com>"
+    }
+  }
+}
