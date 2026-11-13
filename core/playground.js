@@ -23,7 +23,7 @@ export async function submitFeedback(feedback) {
   if ((feedback.scope === 'product' && (feedback.edition_id !== null || feedback.item_id !== null)) ||
       (feedback.scope !== 'product' && !/^playground-\d{4}-\d{2}-\d{2}$/.test(feedback.edition_id)) ||
       (feedback.scope === 'edition' && feedback.item_id !== null) ||
-      (feedback.scope === 'item' && !/^[a-z0-9][a-z0-9-]{0,95}$/.test(feedback.item_id)) ||
+      (feedback.scope === 'item' && (typeof feedback.item_id !== 'string' || !/^[a-z0-9][a-z0-9-]{0,95}$/.test(feedback.item_id))) ||
       !Number.isFinite(Date.parse(feedback.submitted_at))) {
     throw new Error('Invalid feedback context. Please choose a target again.');
   }
