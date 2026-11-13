@@ -1,0 +1,39 @@
+plays/playground/README.md
+  s_d87f018629fa8a::t_8a0b7888c24d2d 36-41,61-63,66-76,114,117
+  s_d87f018629fa8a::t_4a4b90e9f6ef23 77,134-141
+scripts/check-playground-browser.mjs
+  s_d87f018629fa8a::t_3b2a4bb32cb331 1-52,58-85
+  s_d87f018629fa8a::t_f32d305489c5c3 53-57
+.github/workflows/deploy.yml
+  s_d87f018629fa8a::t_3b2a4bb32cb331 29-39,41,54-56,58-60
+  s_d87f018629fa8a::t_4a4b90e9f6ef23 57,61-68
+  s_d87f018629fa8a::t_555755c5239e95 40
+plays/playground/playground.js
+  s_d87f018629fa8a::t_563dc6daf2f954 48,56-57,61-65,67,79,83,90,148-152
+  s_d87f018629fa8a::t_9adbdb8d976898 66
+plays/playground/playground.css
+  s_d87f018629fa8a::t_4a4b90e9f6ef23 35
+  s_d87f018629fa8a::t_563dc6daf2f954 31,34
+scripts/check-playground.mjs
+  s_d87f018629fa8a::t_555755c5239e95 1-2,18-22
+plays/playground/model.js
+  s_d87f018629fa8a::t_563dc6daf2f954 41-47,84,89-90
+plays/playground/editions/2026-11-13.json
+  s_d87f018629fa8a::t_0923745fa94e60 7,10,12-14,16,18-19,24,27-28,31,36,50,53,59,67-68,73-82,84-98,177,179-181,183,185-186,194-195,198,217,220,226,234-235,240-245,247-261,330-333,335-349,420-422,425-426,428-442,516-519,521-535
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "2528da0b233e6caa0a29d7d6c027fb05460e6443",
+  "prompts": {},
+  "sessions": {
+    "s_d87f018629fa8a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1d3b3-2e38-7930-8e39-d7da5eb297b6",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Akiyo <51403731+AkiyoZHAO@users.noreply.github.com>"
+    }
+  }
+}
