@@ -1,0 +1,60 @@
+plays/playground/index.json
+  s_d87f018629fa8a::t_77c95186909ff1 4-6
+  s_d87f018629fa8a::t_30243cffeff18b 1-3,7
+plays/playground/index.html
+  s_d87f018629fa8a::t_35707538979622 1-32,34-86
+  s_d87f018629fa8a::t_a4edcb56c56488 33
+plays/playground/playground.css
+  s_d87f018629fa8a::t_35707538979622 1-80
+scripts/check-live.mjs
+  s_d87f018629fa8a::t_0c14908f0272a0 8,15-29
+core/playground.js
+  s_d87f018629fa8a::t_a4edcb56c56488 9,14,18,30
+  s_d87f018629fa8a::t_1e408a8c19de14 23-29
+  s_d87f018629fa8a::t_30243cffeff18b 1-8,10-13,15-17,19-22,31
+README.md
+  s_d87f018629fa8a::t_806f6dec1ea1c7 21
+plays/playground/playground.js
+  s_d87f018629fa8a::t_1e408a8c19de14 211,283
+  s_d87f018629fa8a::t_a4edcb56c56488 14,147,180,219-221
+  s_d87f018629fa8a::t_f66a26867a9063 1-13,15-146,148-179,181-210,212-218,222-282,284-322
+core/panels.js
+  s_d87f018629fa8a::t_a4edcb56c56488 25,30,36,41
+plays/playground/model.js
+  s_d87f018629fa8a::t_30243cffeff18b 1-21,25-56,58-108
+  s_d87f018629fa8a::t_0c14908f0272a0 22-24,57
+scripts/check-playground.mjs
+  s_d87f018629fa8a::t_0c14908f0272a0 1-30
+plays/playground/editions/2026-11-13.json
+  s_d87f018629fa8a::t_77c95186909ff1 1-514
+plays/playground/README.md
+  s_d87f018629fa8a::t_0c14908f0272a0 1-96
+  s_d87f018629fa8a::t_806f6dec1ea1c7 97-99
+plays/playground/preferences.json
+  s_d87f018629fa8a::t_30243cffeff18b 1-8
+scripts/read-playground-private.mjs
+  s_d87f018629fa8a::t_1e408a8c19de14 4,14,16
+  s_d87f018629fa8a::t_0c14908f0272a0 1-3,5-13,15,17-39
+scripts/check.mjs
+  s_d87f018629fa8a::t_0c14908f0272a0 6,22
+scripts/check-remote.mjs
+  s_d87f018629fa8a::t_806f6dec1ea1c7 34-35
+plays.json
+  s_d87f018629fa8a::t_f66a26867a9063 4-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "2ccd0b7783e01328aec44e104441a053c89bb6e9",
+  "prompts": {},
+  "sessions": {
+    "s_d87f018629fa8a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1d3b3-2e38-7930-8e39-d7da5eb297b6",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Akiyo <51403731+AkiyoZHAO@users.noreply.github.com>"
+    }
+  }
+}
