@@ -1,0 +1,19 @@
+core/playground.js
+  s_d87f018629fa8a::t_f71d4765892420 26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "26d5c5422425829b6357c51961f5359c9053ba21",
+  "prompts": {},
+  "sessions": {
+    "s_d87f018629fa8a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1d3b3-2e38-7930-8e39-d7da5eb297b6",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Akiyo <51403731+AkiyoZHAO@users.noreply.github.com>"
+    }
+  }
+}
