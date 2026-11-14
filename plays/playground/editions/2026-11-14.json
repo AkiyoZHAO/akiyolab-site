@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-14",
+  "date": "2026-11-14",
+  "timezone": "Asia/Shanghai",
+  "title": "A Café at the Edge of the Map",
+  "intro": "Duck into a tiny café, take a mountain detour, and wave at a spacecraft a light-day away.",
+  "items": [
+    {
+      "id": "makone-corner-cafe",
+      "type": "interactive",
+      "title": "A Café That Runs Without You",
+      "summary": "Open a tiny café where the barista works the machine, the waiter carries trays, and everyone else gets to sit.",
+      "comment": "Finally, a simulator where you don’t have to run the café.",
+      "language": "en",
+      "url": "https://www.makone.dev/w/cafe/",
+      "keywords": [
+        "tiny world",
+        "café",
+        "simulation"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "design",
+            "web art"
+          ],
+          "topic": [
+            "miniature worlds",
+            "café"
+          ],
+          "angle": [
+            "a small world in motion"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "explore"
+          ],
+          "narrative": [
+            "open exploration"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Makone contributors"
+          ],
+          "platform": [
+            "Makone"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "no install"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T01:40:55.453Z",
+          "note": "Publisher’s public scene page opened; its in-page experience and controls were not independently tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.makone.dev/w/cafe/",
+          "label": "Makone: Corner Café and gallery licensing"
+        },
+        {
+          "url": "https://github.com/wormholeportal/Makone/blob/main/LICENSE",
+          "label": "Makone MIT License"
+        }
+      ],
+      "preview": {
+        "url": "previews/2026-11-14-makone-corner-cafe.png",
+        "alt": "Publisher cover for Makone’s Corner Café scene",
+        "kind": "source-image",
+        "source_url": "https://github.com/wormholeportal/Makone/blob/main/worlds/cafe/cover.png",
+        "verified_at": "2026-11-14T01:40:55.453Z",
+        "rights": {
+          "basis": "MIT",
+          "url": "https://github.com/wormholeportal/Makone/blob/main/LICENSE",
+          "note": "Copyright (c) 2026 Makone contributors. Original publisher cover; MIT notice supplied alongside the preview."
+        }
+      }
+    },
+    {
+      "id": "voyager-one-light-day",
+      "type": "news",
+      "title": "NASA Wants You to Flash Voyager",
+      "summary": "Voyager 1 is due to reach one light-day from Earth on Nov. 18. NASA is marking it by asking people to flash V-G-R in Morse code after sunset on Nov. 17.",
+      "comment": "A one-day lag and somehow still the best long-distance relationship.",
+      "language": "en",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+      "keywords": [
+        "Voyager 1",
+        "Morse code"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "space"
+          ],
+          "topic": [
+            "spacecraft"
+          ],
+          "angle": [
+            "milestone"
+          ]
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [
+            "reported development"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "NASA",
+            "JPL"
+          ],
+          "platform": [
+            "NASA"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free article"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T01:40:55.918320+00:00",
+          "note": "NASA advisory and participation instructions opened. The flashlight salute is symbolic; the linked flasher contains flashing light."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+          "label": "NASA: Voyager milestone advisory · Updated 2026-11-13"
+        },
+        {
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/shine-bright-for-voyagers-light-day/",
+          "label": "NASA Science: How to join (flashing-light warning)"
+        }
+      ]
+    },
+    {
+      "id": "blender-spring",
+      "type": "video",
+      "title": "Spring Has a Very Small Crew",
+      "summary": "A shepherd girl and her dog head into the mountains to change the season. A little under eight minutes.",
+      "comment": "I would also bring a dog to negotiate with winter.",
+      "language": "en",
+      "url": "https://commons.wikimedia.org/wiki/File:Spring_-_Blender_Open_Movie.webm",
+      "keywords": [
+        "short film",
+        "mountains"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "animation",
+            "fantasy"
+          ],
+          "topic": [
+            "short film",
+            "mountains"
+          ],
+          "angle": [
+            "look closer"
+          ]
+        },
+        "format": {
+          "modality": [
+            "video"
+          ],
+          "interaction": [
+            "watch"
+          ],
+          "narrative": [
+            "story"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Andy Goralczyk / Blender Foundation"
+          ],
+          "platform": [
+            "Wikimedia Commons"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T01:41:20.011738+00:00",
+          "note": "Commons video page, duration and source preview verified; video playback not tested."
+        }
+      },
+      "preview": {
+        "url": "previews/blender-spring.webp",
+        "alt": "A girl holds a glowing object in a rocky mountain setting.",
+        "kind": "source-image",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Spring_-_Blender_Open_Movie.webm/960px--Spring_-_Blender_Open_Movie.webm.jpg",
+        "verified_at": "2026-11-14T01:41:20.011738+00:00",
+        "rights": {
+          "basis": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "note": "Spring frame © Blender Foundation | cloud.blender.org/spring. Converted to WebP."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Spring_-_Blender_Open_Movie.webm",
+          "label": "Spring video, credits and image reuse terms · 2019-04-04"
+        }
+      ]
+    },
+    {
+      "id": "usgs-kilauea-2020",
+      "type": "article",
+      "title": "The Lava Lake Has a Weather Map",
+      "summary": "Look at a December 2020 thermal image of Kīlauea. The bright colors show heat, not what your eyes would see.",
+      "comment": "That blue background really sells the illusion that the lake is a hole in the sky.",
+      "language": "en",
+      "url": "https://www.usgs.gov/media/images/animated-gif-kilaueas-summit-eruption",
+      "keywords": [
+        "volcano",
+        "thermal camera"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature",
+            "earth science"
+          ],
+          "topic": [
+            "volcano",
+            "thermal camera"
+          ],
+          "angle": [
+            "look closer"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "browse"
+          ],
+          "narrative": [
+            "archive"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "USGS / L. DeSmither"
+          ],
+          "platform": [
+            "U.S. Geological Survey"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T01:41:20.011738+00:00",
+          "note": "Archive page and original static PNG verified. The page describes a GIF, but the served original was static; this pick is presented as a still."
+        }
+      },
+      "preview": {
+        "url": "previews/usgs-kilauea-2020.webp",
+        "alt": "Bright orange lava lake in a blue-purple crater on a thermal camera image.",
+        "kind": "source-image",
+        "source_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/Untitled-3.png",
+        "verified_at": "2026-11-14T01:41:20.011738+00:00",
+        "rights": {
+          "basis": "Public domain",
+          "url": "https://www.usgs.gov/media/images/animated-gif-kilaueas-summit-eruption",
+          "note": "U.S. Geological Survey / L. DeSmither. Archive still converted to WebP."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.usgs.gov/media/images/animated-gif-kilaueas-summit-eruption",
+          "label": "USGS archive, description and public-domain designation · 2020-12-26"
+        }
+      ]
+    },
+    {
+      "id": "sonic-pico-park-crossover",
+      "type": "news",
+      "title": "Sonic Meets His Natural Enemy: Teamwork",
+      "summary": "Sonic Pico Park landed on Switch on Nov. 12. Two to eight players can tackle co-op puzzles together, this time with rings, loops, springs, and Spin Dash.",
+      "comment": "Going fast is easy. Getting eight people to go fast together is the joke.",
+      "language": "en",
+      "url": "https://www.nintendo.com/en-ca/store/products/sonic-pico-park-switch/",
+      "keywords": [
+        "Sonic",
+        "co-op puzzles"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "games"
+          ],
+          "topic": [
+            "game crossover"
+          ],
+          "angle": [
+            "multiplayer"
+          ]
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [
+            "reported development"
+          ],
+          "consumption": [
+            "quick visit"
+          ]
+        },
+        "source": {
+          "creator": [
+            "TECOPARK",
+            "SEGA"
+          ],
+          "platform": [
+            "Nintendo"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free article"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T01:40:55.918332+00:00",
+          "note": "Official listing and Nintendo release roundup opened; game not played. This is a launch story, not a free browser game."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.nintendo.com/en-ca/store/products/sonic-pico-park-switch/",
+          "label": "Nintendo Store: Sonic Pico Park release and co-op details"
+        },
+        {
+          "url": "https://www.nintendo.com/en-gb/News/2026/November/Upcoming-Games-November-2026-3229019.html",
+          "label": "Nintendo UK: November release roundup"
+        }
+      ]
+    }
+  ]
+}
