@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-15",
+  "date": "2026-11-15",
+  "timezone": "Asia/Shanghai",
+  "title": "Small Worlds, Shared Signals",
+  "intro": "A firefly swarm, a tiny clay household, and an unreleased K-pop song looking for a video.",
+  "items": [
+    {
+      "id": "ncase-fireflies",
+      "type": "interactive",
+      "title": "Fireflies That Learn to Blink Together",
+      "summary": "Drag through a swarm of blinking lights. Scroll down and turn on “Nudge thy neighbor” to see what one local rule can do.",
+      "comment": "One little rule turns a crowd into a light show.",
+      "language": "en",
+      "url": "https://ncase.me/fireflies/",
+      "keywords": [
+        "fireflies",
+        "synchronization"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature",
+            "science"
+          ],
+          "topic": [
+            "fireflies",
+            "synchronization"
+          ],
+          "angle": [
+            "emergent behavior"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "hands-on"
+          ],
+          "narrative": [
+            "exploratory"
+          ],
+          "consumption": [
+            "5 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Nicky Case"
+          ],
+          "platform": [
+            "Creator site"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T22:58:15.809154+00:00",
+          "note": "Desktop Chrome: drag tested and nearby flashes observed; mobile and full synchronization not independently tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://ncase.me/fireflies/",
+          "label": "Original interactive explanation"
+        },
+        {
+          "url": "https://github.com/ncase/fireflies",
+          "label": "Creator repository and CC0 notice"
+        }
+      ],
+      "preview": {
+        "url": "previews/fireflies-nov15.webp",
+        "alt": "Glowing fireflies from the original interactive project",
+        "kind": "source-image",
+        "source_url": "https://ncase.me/fireflies/social/thumbnail.png",
+        "verified_at": "2026-11-14T22:58:15.809154+00:00",
+        "rights": {
+          "basis": "license",
+          "url": "https://github.com/ncase/fireflies",
+          "note": "Nicky Case, Fireflies · creator’s CC0 release. Original thumbnail resized or recompressed."
+        }
+      }
+    },
+    {
+      "id": "met-nayarit-house-model",
+      "type": "article",
+      "title": "A Clay House Full of People",
+      "summary": "The Met has a Nayarit clay house model, dated 200 BCE–300 CE. Look closely at the figures gathered inside.",
+      "comment": "A room you can take in at a glance, yet still wonder what everyone’s talking about.",
+      "language": "en",
+      "url": "https://www.metmuseum.org/art/collection/search/312581",
+      "keywords": [
+        "miniatures",
+        "clay"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art",
+            "history"
+          ],
+          "topic": [
+            "miniatures",
+            "clay"
+          ],
+          "angle": [
+            "domestic life"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual",
+            "text"
+          ],
+          "interaction": [
+            "browse"
+          ],
+          "narrative": [
+            "exploratory"
+          ],
+          "consumption": [
+            "3 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Nayarit artists"
+          ],
+          "platform": [
+            "The Metropolitan Museum of Art"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T22:58:15.809154+00:00",
+          "note": "Object record and image opened; optional 3D viewer not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/312581",
+          "label": "Met object record and public-domain designation"
+        }
+      ],
+      "preview": {
+        "url": "previews/nayarit-nov15.webp",
+        "alt": "Nayarit ceramic house model with figures",
+        "kind": "source-image",
+        "source_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/312581/2090458/main-image",
+        "verified_at": "2026-11-14T22:58:15.809154+00:00",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://www.metmuseum.org/art/collection/search/312581",
+          "note": "Nayarit artists · The Metropolitan Museum of Art, public-domain collection image. Resized and recompressed."
+        }
+      }
+    },
+    {
+      "id": "korea-idol-mv-contest-2026",
+      "type": "news",
+      "title": "One K-pop Track, Many Music Videos",
+      "summary": "A Korean AI video competition added a category using unreleased songs by rookie groups HITGS and Genus. Entrants make their own video for one song.",
+      "comment": "Same track, different visual worlds. I’d watch them back to back.",
+      "language": "en",
+      "url": "https://www.mk.co.kr/en/hot-issues/12205296",
+      "keywords": [
+        "K-pop",
+        "music videos"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "music",
+            "entertainment"
+          ],
+          "topic": [
+            "K-pop",
+            "music videos"
+          ],
+          "angle": [
+            "creative contest"
+          ]
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [
+            "reported story"
+          ],
+          "consumption": [
+            "3 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Maeil Business Newspaper"
+          ],
+          "platform": [
+            "MK"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T22:58:15.809154+00:00",
+          "note": "Read coverage from two Korean outlets; contest entry not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.mk.co.kr/en/hot-issues/12205296",
+          "label": "Maeil Business Newspaper · Nov 11"
+        },
+        {
+          "url": "https://sports.khan.co.kr/en/article/202611110009007",
+          "label": "Sports Kyunghyang · Nov 11"
+        }
+      ]
+    },
+    {
+      "id": "librivox-wind-willows-smith",
+      "type": "audio",
+      "title": "Take the Long Way Down the River",
+      "summary": "Listen to Mark F. Smith read Kenneth Grahame’s The Wind in the Willows. Start with The River Bank, on the chapter list.",
+      "comment": "A river outing that does not require convincing anyone to go outside.",
+      "language": "en",
+      "url": "https://librivox.org/the-wind-in-the-willows-by-kenneth-grahame/",
+      "keywords": [
+        "audiobooks",
+        "rivers"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "literature",
+            "nature"
+          ],
+          "topic": [
+            "audiobooks",
+            "rivers"
+          ],
+          "angle": [
+            "cozy classic"
+          ]
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [
+            "fiction"
+          ],
+          "consumption": [
+            "one chapter"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Mark F. Smith"
+          ],
+          "platform": [
+            "LibriVox"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T22:58:15.809154+00:00",
+          "note": "Catalog and chapter links checked; audio playback not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://librivox.org/the-wind-in-the-willows-by-kenneth-grahame/",
+          "label": "LibriVox recording and chapter links"
+        }
+      ]
+    },
+    {
+      "id": "tiktok-live-uk-musicians-nov2026",
+      "type": "news",
+      "title": "A Gig That Starts at 22:22",
+      "summary": "Singer Fiaa Hamilton goes live each evening at 22:22, says TikTok. The platform reports 4.9 million daily global views on average for UK music creators’ livestreams in September, up 74% year over year.",
+      "comment": "The number is TikTok’s. The oddly specific showtime is the detail I’ll remember.",
+      "language": "en",
+      "url": "https://newsroom.tiktok.com/from-discovery-to-fandom-how-tiktok-live-is-becoming-a-new-stage-for-uk-musicians?lang=en-GB",
+      "keywords": [
+        "livestreams",
+        "fan communities"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "music",
+            "internet culture"
+          ],
+          "topic": [
+            "livestreams",
+            "fan communities"
+          ],
+          "angle": [
+            "artist routines"
+          ]
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [
+            "company report"
+          ],
+          "consumption": [
+            "3 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "TikTok"
+          ],
+          "platform": [
+            "TikTok Newsroom"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T22:58:15.809154+00:00",
+          "note": "Original company report opened; view counts are platform-reported and not an independent industry measurement."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://newsroom.tiktok.com/from-discovery-to-fandom-how-tiktok-live-is-becoming-a-new-stage-for-uk-musicians?lang=en-GB",
+          "label": "TikTok’s company-reported figures and artist examples · Nov 13"
+        }
+      ]
+    },
+    {
+      "id": "deepseek-app-tools-api-nov2026",
+      "type": "news",
+      "title": "DeepSeek Turns App Features Into Building Blocks",
+      "summary": "On Nov 13, DeepSeek announced built-in search, file and voice tools for its Flash API, including through the Responses, Chat Completions and Messages interfaces.",
+      "comment": "Less plumbing is a feature. It still matters who owns the pipes.",
+      "language": "en",
+      "url": "https://api-docs.deepseek.com/news/news261113/",
+      "keywords": [
+        "AI tools",
+        "developer products"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "technology"
+          ],
+          "topic": [
+            "AI tools",
+            "developer products"
+          ],
+          "angle": [
+            "product launch"
+          ]
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [
+            "announcement"
+          ],
+          "consumption": [
+            "3 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "DeepSeek"
+          ],
+          "platform": [
+            "DeepSeek API Docs"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-14T22:58:15.809154+00:00",
+          "note": "Release and documentation opened; API calls not executed."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://api-docs.deepseek.com/news/news261113/",
+          "label": "DeepSeek announcement · Nov 13"
+        },
+        {
+          "url": "https://api-docs.deepseek.com/guides/web_tools/",
+          "label": "Official tools documentation"
+        }
+      ]
+    }
+  ]
+}
