@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-16",
+  "date": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "title": "The Art of Looking Closer",
+  "intro": "Slow a gallop down to twelve frames, listen for two birds in the rain, and let a mountain view be enough.",
+  "items": [
+    {
+      "id": "terrascope-jordan-pond",
+      "type": "interactive",
+      "title": "Take a Seat by Jordan Pond",
+      "summary": "Open a mountain panorama in Maine. Drag to look around when WebGL is available; otherwise, the site shows a wide still photo.",
+      "comment": "No itinerary. Just see where your eye goes first.",
+      "language": "en",
+      "url": "https://terrascope-world-encyclopedia.vercel.app/escape",
+      "keywords": [
+        "panoramas",
+        "Maine"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature",
+            "travel"
+          ],
+          "topic": [
+            "panoramas",
+            "Maine"
+          ],
+          "angle": [
+            "quiet escapes"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "explore"
+          ],
+          "narrative": [
+            "exploratory"
+          ],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "TerraScope and Matthew Petroff"
+          ],
+          "platform": [
+            "TerraScope"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-15T23:01:47.576741+00:00",
+          "note": "Desktop Chrome displayed the still fallback; 360° controls and mobile were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://terrascope-world-encyclopedia.vercel.app/escape",
+          "label": "Original landscape viewer"
+        },
+        {
+          "url": "https://terrascope-world-encyclopedia.vercel.app/escape/ATTRIBUTION.md",
+          "label": "Photograph attribution and reuse terms"
+        }
+      ],
+      "preview": {
+        "url": "previews/jordan-nov16.webp",
+        "alt": "Mountain peaks above Jordan Pond in Maine",
+        "kind": "source-image",
+        "source_url": "https://terrascope-world-encyclopedia.vercel.app/escape/jordan-pond-preview.jpg",
+        "verified_at": "2026-11-15T23:01:47.576741+00:00",
+        "rights": {
+          "basis": "license",
+          "url": "https://terrascope-world-encyclopedia.vercel.app/escape/ATTRIBUTION.md",
+          "note": "Matthew Petroff · Jordan Pond panorama, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). This resized and recompressed preview is also CC BY-SA 3.0."
+        }
+      }
+    },
+    {
+      "id": "muybridge-horse-in-motion-1878",
+      "type": "article",
+      "title": "The Horse That Made Time Visible",
+      "summary": "In 1878, Eadweard Muybridge photographed a galloping mare in twelve successive positions. Look for the frame in which all four hooves are off the ground.",
+      "comment": "An entire argument answered in a fraction of a second.",
+      "language": "en",
+      "url": "https://www.nga.gov/artworks/206147-horse-motion",
+      "keywords": [
+        "horses",
+        "motion photography"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art",
+            "history"
+          ],
+          "topic": [
+            "horses",
+            "motion photography"
+          ],
+          "angle": [
+            "slow down the ordinary"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual",
+            "text"
+          ],
+          "interaction": [
+            "browse"
+          ],
+          "narrative": [
+            "demonstration"
+          ],
+          "consumption": [
+            "3 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Eadweard Muybridge"
+          ],
+          "platform": [
+            "National Gallery of Art"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-15T23:01:47.576741+00:00",
+          "note": "Museum object and public-domain source image opened; animation not playback-tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.nga.gov/artworks/206147-horse-motion",
+          "label": "National Gallery of Art print, object notes, and reuse status"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Original_Eadweard_Muybridge_Animation_of_The_Horse_in_Motion.gif",
+          "label": "Wikimedia animation of the sequence"
+        }
+      ],
+      "preview": {
+        "url": "previews/horse-nov16.webp",
+        "alt": "Twelve consecutive photographs of a galloping horse",
+        "kind": "source-image",
+        "source_url": "https://api.nga.gov/iiif/605434e7-36a8-4ad4-8a12-512c22fa219f/full/900,/0/default.jpg",
+        "verified_at": "2026-11-15T23:01:47.576741+00:00",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://www.nga.gov/artworks/206147-horse-motion",
+          "note": "Eadweard Muybridge · National Gallery of Art, Gift of the Estate of Robert B. Menschel. Public-domain museum image; resized and recompressed."
+        }
+      }
+    },
+    {
+      "id": "nps-raindrops-in-the-alders",
+      "type": "audio",
+      "title": "Two Minutes Under the Alders",
+      "summary": "Try this 2:05 field recording from Glacier Bay. Listen past the rain for a Pacific wren and the longer whistle of a varied thrush.",
+      "comment": "Like stepping outside without letting the cold in.",
+      "language": "en",
+      "url": "https://www.nps.gov/media/video/view.htm?id=F4FF7677-1DD8-B71C-075EA27A7EA23C73",
+      "keywords": [
+        "rain",
+        "birdsong"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature",
+            "sound"
+          ],
+          "topic": [
+            "rain",
+            "birdsong"
+          ],
+          "angle": [
+            "close listening"
+          ]
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [
+            "observational"
+          ],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "H. Lentfer"
+          ],
+          "platform": [
+            "US National Park Service"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-15T23:01:47.576741+00:00",
+          "note": "Source and transcript opened; playback not tested. The item links to the original audio page."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.nps.gov/media/video/view.htm?id=F4FF7677-1DD8-B71C-075EA27A7EA23C73",
+          "label": "NPS recording, transcript and credits"
+        }
+      ]
+    },
+    {
+      "id": "isometric-sf-show-hn-nov2026",
+      "type": "news",
+      "title": "San Francisco Gets Repainted",
+      "summary": "On Nov 13, Justin Chavez shared Isometric SF on Hacker News: an explorable Bay Area map built by restyling photorealistic 3D map tiles as pixel art.",
+      "comment": "A useful test for any stylized map: can you still recognize a place you know?",
+      "language": "en",
+      "url": "https://news.ycombinator.com/item?id=50487228",
+      "keywords": [
+        "maps",
+        "pixel art"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "design",
+            "technology"
+          ],
+          "topic": [
+            "maps",
+            "pixel art"
+          ],
+          "angle": [
+            "creator build"
+          ]
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [
+            "creator announcement"
+          ],
+          "consumption": [
+            "4 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Justin Chavez"
+          ],
+          "platform": [
+            "Hacker News"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-15T23:01:47.576741+00:00",
+          "note": "Creator post opened; external map interaction not verified."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50487228",
+          "label": "Creator post and public discussion · Nov 13"
+        },
+        {
+          "url": "https://www.justinchavez.com/blog/isometric-sf-how/",
+          "label": "Creator’s technical write-up"
+        }
+      ]
+    },
+    {
+      "id": "anna-atkins-dictyota-291516",
+      "type": "article",
+      "title": "Seaweed, Printed in Blue",
+      "summary": "This cyanotype by Anna Atkins turns the outline of an alga into a pale silhouette on blue. Open the Met’s enlargement and follow the finest branches.",
+      "comment": "It looks like a fancy print until you remember the seaweed did the drawing.",
+      "language": "en",
+      "url": "https://www.metmuseum.org/art/collection/search/291516",
+      "keywords": [
+        "cyanotype",
+        "algae"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art",
+            "nature"
+          ],
+          "topic": [
+            "cyanotype",
+            "algae"
+          ],
+          "angle": [
+            "looking closer"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual",
+            "text"
+          ],
+          "interaction": [
+            "browse"
+          ],
+          "narrative": [
+            "observational"
+          ],
+          "consumption": [
+            "3 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Anna Atkins"
+          ],
+          "platform": [
+            "The Metropolitan Museum of Art"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-15T23:01:47.576741+00:00",
+          "note": "Museum object record, rights and collection image opened; enlargement control not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/291516",
+          "label": "Met object record and public-domain designation"
+        },
+        {
+          "url": "https://ocean.si.edu/human-connections/history-cultures/no-longer-anonymous-anna-atkins-and-her-algae",
+          "label": "Smithsonian context on Atkins and cyanotype"
+        }
+      ],
+      "preview": {
+        "url": "previews/algae-nov16.webp",
+        "alt": "Anna Atkins cyanotype of branching algae on a blue field",
+        "kind": "source-image",
+        "source_url": "https://images.metmuseum.org/CRDImages/ph/web-large/DP-17302-022.jpg",
+        "verified_at": "2026-11-15T23:01:47.576741+00:00",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://www.metmuseum.org/art/collection/search/291516",
+          "note": "Anna Atkins · The Metropolitan Museum of Art, public-domain collection image. Resized and recompressed."
+        }
+      }
+    }
+  ]
+}
