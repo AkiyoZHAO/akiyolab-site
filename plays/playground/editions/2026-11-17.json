@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-17",
+  "date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "title": "Postcards from Elsewhere",
+  "intro": "A Seoul postcard, a moving sidewalk in 1900 Paris, and a moon that fits inside a church.",
+  "items": [
+    {
+      "id": "seoul-donuimun-photo-postcard",
+      "type": "article",
+      "title": "A Postcard from Seoul’s Lost West Gate",
+      "summary": "This old postcard shows Donuimun, Seoul’s West Gate. Look along the bottom for the captions in English and Japanese.",
+      "comment": "A whole city, squeezed into something you could mail.",
+      "language": "en",
+      "url": "https://museum.seoul.go.kr/scwm/relic/RelicView.do?cdLanguage=KOR&mcseqno1=052325&mcseqno2=00000&mcsjgbnc=PS01003026001",
+      "keywords": [
+        "postcards",
+        "Seoul"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "history",
+            "cities"
+          ],
+          "topic": [
+            "postcards",
+            "Seoul"
+          ],
+          "angle": [
+            "street-level history"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual",
+            "text"
+          ],
+          "interaction": [
+            "browse"
+          ],
+          "narrative": [
+            "observational"
+          ],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Seoul Museum of History"
+          ],
+          "platform": [
+            "Seoul Museum of History"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-16T23:03:17.245453+00:00",
+          "note": "Official photo opened; the online viewer showed the front only."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://museum.seoul.go.kr/scwm/relic/RelicView.do?cdLanguage=KOR&mcseqno1=052325&mcseqno2=00000&mcsjgbnc=PS01003026001",
+          "label": "Official catalog, object 052325 and KOGL Type 1 label"
+        },
+        {
+          "url": "https://www.kogl.or.kr/info/licenseType1.do",
+          "label": "KOGL Type 1: attribution required"
+        }
+      ],
+      "preview": {
+        "url": "previews/seoul-nov17.webp",
+        "alt": "Black-and-white postcard showing Donuimun, Seoul’s West Gate",
+        "kind": "source-image",
+        "source_url": "https://museum.seoul.go.kr/_repo/image/2021/09/b88c0828-377f-42de-b1a3-016fee7d7722.jpg",
+        "verified_at": "2026-11-16T23:03:17.245453+00:00",
+        "rights": {
+          "basis": "license",
+          "url": "https://museum.seoul.go.kr/scwm/relic/RelicView.do?cdLanguage=KOR&mcseqno1=052325&mcseqno2=00000&mcsjgbnc=PS01003026001",
+          "note": "Collection of Seoul Museum of History (서울역사박물관 소장) · KOGL Type 1. Original front resized and recompressed."
+        }
+      }
+    },
+    {
+      "id": "paris-moving-boardwalk-1900",
+      "type": "video",
+      "title": "Ride a Moving Sidewalk in 1900",
+      "summary": "In this 109-second film from the Paris World’s Fair, the camera rides the moving boardwalk. Watch the people and railings slide past.",
+      "comment": "An airport travelator, but make it the main attraction.",
+      "language": "en",
+      "url": "https://commons.wikimedia.org/wiki/File:Panorama_from_the_Moving_Boardwalk.ogv",
+      "keywords": [
+        "Paris",
+        "world fairs",
+        "moving sidewalks"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "film",
+            "history",
+            "cities"
+          ],
+          "topic": [
+            "Paris",
+            "world fairs",
+            "moving sidewalks"
+          ],
+          "angle": [
+            "early transport"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual",
+            "video"
+          ],
+          "interaction": [
+            "watch"
+          ],
+          "narrative": [
+            "observational"
+          ],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Thomas A. Edison, Inc.; producer James White"
+          ],
+          "platform": [
+            "Wikimedia Commons"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-16T23:03:17.245453+00:00",
+          "note": "Original video file was downloaded and a frame decoded at 0:20; in-page playback was not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Panorama_from_the_Moving_Boardwalk.ogv",
+          "label": "Digitized film, Library of Congress source ID and public-domain notice"
+        }
+      ],
+      "preview": {
+        "url": "previews/paris-nov17.webp",
+        "alt": "A passerby and railings seen from the moving boardwalk at the Paris World’s Fair",
+        "kind": "source-image",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Panorama_from_the_Moving_Boardwalk.ogv",
+        "verified_at": "2026-11-16T23:03:17.245453+00:00",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Panorama_from_the_Moving_Boardwalk.ogv",
+          "note": "Thomas A. Edison, Inc.; producer James White · 1900, public domain. Frame extracted at 0:20 and recompressed."
+        }
+      }
+    },
+    {
+      "id": "a-ma-de-jia-xiluo-2026",
+      "type": "news",
+      "title": "An Old Street Becomes an Art Fair",
+      "summary": "From Dec 11 to 20, Taiwan’s first A Ma De Jia fair will turn nine historic buildings and local spaces in Xiluo into exhibition venues.",
+      "comment": "The walk between the works might be part of the show.",
+      "language": "en",
+      "url": "https://www.artemingallery.com/artfairs/a-ma-de-jia-art-fair/",
+      "keywords": [
+        "Xiluo",
+        "historic buildings",
+        "art fairs"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art",
+            "cities"
+          ],
+          "topic": [
+            "Xiluo",
+            "historic buildings",
+            "art fairs"
+          ],
+          "angle": [
+            "reuse of space"
+          ]
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [
+            "reported story"
+          ],
+          "consumption": [
+            "3 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Artemin Gallery and ArtAsiaPacific"
+          ],
+          "platform": [
+            "Artemin Gallery"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-16T23:03:17.245453+00:00",
+          "note": "Participating gallery and independent coverage read; the fair is upcoming."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.artemingallery.com/artfairs/a-ma-de-jia-art-fair/",
+          "label": "Participating gallery: dates and Xiluo venue"
+        },
+        {
+          "url": "https://www.artasiapacific.com/news/weekly-news-roundup-november-16-2026/",
+          "label": "ArtAsiaPacific, Nov 16: nine sites and the first edition"
+        }
+      ]
+    },
+    {
+      "id": "arthur-fields-san-fran-fair-1915",
+      "type": "audio",
+      "title": "A World’s Fair on a 78",
+      "summary": "Arthur Fields recorded this song in January 1915 for the year of San Francisco’s Panama-Pacific fair. The archive shows the original Columbia label beside the recording.",
+      "comment": "Before the event trailer, there was a record you could put on at home.",
+      "language": "en",
+      "url": "https://i78s.org/preview/7b89ae35e954dfd5ff2509a62a926959",
+      "keywords": [
+        "San Francisco",
+        "world fairs",
+        "78 rpm records"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "music",
+            "history",
+            "cities"
+          ],
+          "topic": [
+            "San Francisco",
+            "world fairs",
+            "78 rpm records"
+          ],
+          "angle": [
+            "period sound"
+          ]
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [
+            "archival recording"
+          ],
+          "consumption": [
+            "one song"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Arthur Fields"
+          ],
+          "platform": [
+            "i78s"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-16T23:03:17.245453+00:00",
+          "note": "Archive page and embedded player markup opened; audio playback not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://i78s.org/preview/7b89ae35e954dfd5ff2509a62a926959",
+          "label": "i78s archive, Columbia A1699 and recording date"
+        },
+        {
+          "url": "https://phonographia.com/Fairs/1915%20PPIE%20Playlist.htm",
+          "label": "Context and period recordings from the 1915 exposition"
+        }
+      ]
+    },
+    {
+      "id": "museum-of-the-moon-jersey-nov2026",
+      "type": "news",
+      "title": "A Six-Metre Moon Moves Indoors",
+      "summary": "Luke Jerram’s illuminated Moon opened in a Jersey Methodist centre on Nov 15. It uses NASA imagery, and the venue has scheduled lunchtime pipe-organ recitals beneath it.",
+      "comment": "Finally, a moon you can listen to an organ under without getting rained on.",
+      "language": "en",
+      "url": "https://www.arthousejersey.je/our-work/moon",
+      "keywords": [
+        "installation",
+        "Moon",
+        "Jersey"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art",
+            "design"
+          ],
+          "topic": [
+            "installation",
+            "Moon",
+            "Jersey"
+          ],
+          "angle": [
+            "unexpected venue"
+          ]
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [
+            "organizer announcement"
+          ],
+          "consumption": [
+            "3 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Luke Jerram and ArtHouse Jersey"
+          ],
+          "platform": [
+            "ArtHouse Jersey"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-16T23:03:17.245453+00:00",
+          "note": "Organizer’s page and dates verified; exhibition is in person, not a virtual tour."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.arthousejersey.je/our-work/moon",
+          "label": "Organizer page: opening dates, sculpture and organ recital schedule"
+        }
+      ]
+    }
+  ]
+}
