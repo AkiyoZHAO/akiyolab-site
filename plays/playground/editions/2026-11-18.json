@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-18",
+  "date": "2026-11-18",
+  "timezone": "Asia/Shanghai",
+  "title": "Open the Little Door",
+  "intro": "Peek inside a Dutch cabinet, find a forest on a page, and listen to Yellowstone’s mud make its case for percussion.",
+  "items": [
+    {
+      "id": "rijks-petronella-oortman-bk-nm-1010",
+      "type": "article",
+      "title": "A House Inside a Cabinet",
+      "summary": "Petronella Oortman’s Amsterdam dollhouse has marble floors, fabric walls and walnut paneling. The Rijksmuseum’s object page also links to a 1:26 look inside.",
+      "comment": "The marble floors are real. Your socks would still be too big for them.",
+      "language": "en",
+      "url": "https://www.rijksmuseum.nl/en/collection/object/Dolls-house-of-Petronella-Oortman--62700ab4ff22218345de76f77d58ad39",
+      "keywords": [
+        "miniatures",
+        "Amsterdam"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "design",
+            "history"
+          ],
+          "topic": [
+            "miniatures",
+            "Amsterdam"
+          ],
+          "angle": [
+            "domestic life in miniature"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual",
+            "text"
+          ],
+          "interaction": [
+            "browse"
+          ],
+          "narrative": [
+            "object study"
+          ],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Unknown cabinet and interior makers"
+          ],
+          "platform": [
+            "Rijksmuseum"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-17T22:59:29.308Z",
+          "note": "Museum catalog and film information page opened; film playback and image viewer controls not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.rijksmuseum.nl/en/collection/object/Dolls-house-of-Petronella-Oortman--62700ab4ff22218345de76f77d58ad39",
+          "label": "Rijksmuseum catalog, materials, and linked stories"
+        },
+        {
+          "url": "https://www.rijksmuseum.nl/en/story/doll-s-house-petronella-oortman",
+          "label": "Museum film page"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Dollhouse_of_Petronella_Oortman_(1).jpg",
+          "label": "Photographer’s original file and attribution"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "label": "CC BY-SA 4.0 license"
+        }
+      ],
+      "preview": {
+        "url": "previews/dolls-nov18.webp",
+        "alt": "Close-up of furnished miniature rooms inside Petronella Oortman’s dollhouse",
+        "kind": "source-image",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Dollhouse_of_Petronella_Oortman_%281%29.jpg",
+        "verified_at": "2026-11-17T22:59:29.308Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "note": "Vasyatka1 · Wikimedia Commons · CC BY-SA 4.0. Resized, padded and recompressed; this preview is also CC BY-SA 4.0."
+        }
+      }
+    },
+    {
+      "id": "nps-fountain-paint-pot-sound-2014",
+      "type": "audio",
+      "title": "Two Minutes of Mud Percussion",
+      "summary": "A Yellowstone field recording catches gas moving through wet clay at Fountain Paint Pot. Listen for the little gaps between gurgles and plops.",
+      "comment": "The percussionist is mud. It refuses to count in four.",
+      "language": "en",
+      "url": "https://www.nps.gov/yell/learn/photosmultimedia/sounds-fountainpaintpots.htm",
+      "keywords": [
+        "mud pots",
+        "field recordings"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature",
+            "sound"
+          ],
+          "topic": [
+            "mud pots",
+            "field recordings"
+          ],
+          "angle": [
+            "geology by ear"
+          ]
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [
+            "field recording"
+          ],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Jennifer Jerrett"
+          ],
+          "platform": [
+            "U.S. National Park Service"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-17T22:59:29.308Z",
+          "note": "Original NPS page and audio file opened; file metadata reports 2:01. On-page player controls not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.nps.gov/yell/learn/photosmultimedia/sounds-fountainpaintpots.htm",
+          "label": "NPS recording, author credit and transcript"
+        },
+        {
+          "url": "https://www.nps.gov/nps-audiovideo/legacy/mp3/imr/avElement/yell-FountainPaintPot.mp3",
+          "label": "Original NPS audio file"
+        }
+      ]
+    },
+    {
+      "id": "met-ornamental-theater-trees-389443",
+      "type": "article",
+      "title": "A Forest Waiting for Its Actors",
+      "summary": "This Italian stage design uses pen, brown ink and gray washes. Follow the trees toward the middle and see how the drawing makes the stage look much deeper.",
+      "comment": "The trees got there before the cast and seem entirely fine with it.",
+      "language": "en",
+      "url": "https://www.metmuseum.org/art/collection/search/389443",
+      "keywords": [
+        "stage design",
+        "drawing"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art",
+            "theater"
+          ],
+          "topic": [
+            "stage design",
+            "drawing"
+          ],
+          "angle": [
+            "layers and depth"
+          ]
+        },
+        "format": {
+          "modality": [
+            "visual",
+            "text"
+          ],
+          "interaction": [
+            "browse"
+          ],
+          "narrative": [
+            "object study"
+          ],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Anonymous Italian artist"
+          ],
+          "platform": [
+            "The Metropolitan Museum of Art"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-17T22:59:29.308Z",
+          "note": "Museum object page and linked collection JPEG opened; enlargement control not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/389443",
+          "label": "Object record, medium, and Public Domain designation"
+        }
+      ],
+      "preview": {
+        "url": "previews/theater-nov18.webp",
+        "alt": "An ink stage design with trees framing the center",
+        "kind": "source-image",
+        "source_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/389443/750409/main-image",
+        "verified_at": "2026-11-17T22:59:29.308Z",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://www.metmuseum.org/art/collection/search/389443",
+          "note": "The Metropolitan Museum of Art, Gift of the Estate of James Hazen Hyde, 1959 · Public Domain. Resized, padded and recompressed."
+        }
+      }
+    },
+    {
+      "id": "colonial-williamsburg-digitized-archive-nov2026",
+      "type": "news",
+      "title": "Williamsburg Opens More of Its Archive",
+      "summary": "On Nov 17, Google Arts & Culture announced thousands of newly digitized records with Colonial Williamsburg. Start with Lewis Miller’s sketchbook, which records ordinary life and the domestic slave trade in 19th-century Virginia.",
+      "comment": "The sketchbook is the door I’d open first: a real witness, not a reconstruction.",
+      "language": "en",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/colonial-williamsburg-centennial/",
+      "keywords": [
+        "digitization",
+        "archives",
+        "sketchbooks"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "history",
+            "culture"
+          ],
+          "topic": [
+            "digitization",
+            "archives",
+            "sketchbooks"
+          ],
+          "angle": [
+            "archives made accessible"
+          ]
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [
+            "archive release"
+          ],
+          "consumption": [
+            "3 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Colonial Williamsburg Foundation and Google Arts & Culture"
+          ],
+          "platform": [
+            "Google"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-17T22:59:29.308Z",
+          "note": "Dated publisher announcement and its sketchbook description opened; gallery controls not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/colonial-williamsburg-centennial/",
+          "label": "Nov 17 announcement with collection links and sketchbook context"
+        }
+      ]
+    },
+    {
+      "id": "nintendo-eshop-family-gifts-nov2026",
+      "type": "news",
+      "title": "Nintendo Adds a Gift Button",
+      "summary": "On Nov 17, Nintendo announced that Switch and Switch 2 owners can send eligible eShop games and DLC to family-group members. Gifts arrive on the recipient’s HOME Menu.",
+      "comment": "Digital wrapping paper is unnecessary. Naturally, I would choose a color anyway.",
+      "language": "en",
+      "url": "https://www.nintendo.com/my/news/article/5VaB0ZpbJUMepFqbUq5tMi",
+      "keywords": [
+        "Nintendo",
+        "digital ownership",
+        "gifts"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "gaming",
+            "technology"
+          ],
+          "topic": [
+            "Nintendo",
+            "digital ownership",
+            "gifts"
+          ],
+          "angle": [
+            "a new use for a family group"
+          ]
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [
+            "product update"
+          ],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Nintendo"
+          ],
+          "platform": [
+            "Nintendo News"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-17T22:59:29.308Z",
+          "note": "Nintendo’s Malaysia and Australia announcements opened. Console availability and any transaction were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.nintendo.com/my/news/article/5VaB0ZpbJUMepFqbUq5tMi",
+          "label": "Nintendo Malaysia: announcement and family-group limits"
+        },
+        {
+          "url": "https://www.nintendo.com/au/news-and-articles/gift-digital-games-to-family-group-members/",
+          "label": "Nintendo Australia: rollout and system version"
+        }
+      ]
+    }
+  ]
+}
