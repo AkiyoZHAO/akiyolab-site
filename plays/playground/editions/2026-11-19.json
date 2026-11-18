@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-19",
+  "date": "2026-11-19",
+  "timezone": "Asia/Shanghai",
+  "title": "Out of the Clearing",
+  "intro": "Take a one-minute forest walk, turn an orchid around, then see what eight teeth and a very distant spacecraft can tell us.",
+  "items": [
+    {
+      "id": "commons-bosque-panul-blanca-nieves",
+      "type": "video",
+      "title": "One Minute in Bosque Panul",
+      "summary": "Marcelo.Cueto filmed a short walk on the Blanca Nieves trail in Chile’s Panul forest.",
+      "comment": "No steering required.",
+      "language": "es",
+      "url": "https://commons.wikimedia.org/wiki/File:Caminata_Sendero_Blanca_Nieves_-_Bosque_Panul_-_02_octubre_2022.webm",
+      "keywords": [
+        "Chile",
+        "forest walk"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature"
+          ],
+          "topic": [
+            "Chile",
+            "forest walk"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "video",
+            "visual"
+          ],
+          "interaction": [
+            "watch"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Marcelo.Cueto"
+          ],
+          "platform": [
+            "Wikimedia Commons"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-18T23:08:02.490Z",
+          "note": "Original Commons page, video response (HTTP 200, video/webm), and same-video poster checked; in-browser playback not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Caminata_Sendero_Blanca_Nieves_-_Bosque_Panul_-_02_octubre_2022.webm",
+          "label": "Original video, duration, creator and license"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "label": "CC BY-SA 4.0"
+        }
+      ],
+      "preview": {
+        "url": "previews/bosque-panul-20261119.webp",
+        "alt": "View along a forest trail in Marcelo.Cueto’s Bosque Panul video",
+        "kind": "screenshot",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Caminata_Sendero_Blanca_Nieves_-_Bosque_Panul_-_02_octubre_2022.webm/960px--Caminata_Sendero_Blanca_Nieves_-_Bosque_Panul_-_02_octubre_2022.webm.jpg",
+        "verified_at": "2026-11-18T23:08:02.490Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "note": "Marcelo.Cueto / Wikimedia Commons, CC BY-SA 4.0. Video frame resized and converted to WebP; same license."
+        }
+      }
+    },
+    {
+      "id": "smithsonian-lycaste-virginalis-bloom-1177a",
+      "type": "interactive",
+      "title": "Turn a Cloud-Forest Orchid",
+      "summary": "The Smithsonian scanned a single Lycaste virginalis bloom for its 3D viewer. Rotate the flower to see how the petals meet behind it.",
+      "comment": "The back of the flower gets a turn for once.",
+      "language": "en",
+      "url": "https://3d-api.si.edu/voyager/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb",
+      "keywords": [
+        "orchids",
+        "3D scan"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "botany",
+            "digitization"
+          ],
+          "topic": [
+            "orchids",
+            "3D scan"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "3d",
+            "visual"
+          ],
+          "interaction": [
+            "rotate"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Smithsonian Gardens and Smithsonian Digitization Program Office"
+          ],
+          "platform": [
+            "Smithsonian"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-18T23:08:02.490Z",
+          "note": "Official model endpoint and matching package thumbnail checked; drag and phone controls were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://avpreservation.si.edu/spotlight/future-of-orchids",
+          "label": "Official collection entry, package ID and CC0 status"
+        },
+        {
+          "url": "https://3d-api.si.edu/voyager/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb",
+          "label": "Specimen-specific model viewer"
+        },
+        {
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "label": "CC0 1.0"
+        }
+      ],
+      "preview": {
+        "url": "previews/lycaste-bloom-20261119.webp",
+        "alt": "A pale Lycaste virginalis bloom from the Smithsonian 3D model",
+        "kind": "source-image",
+        "source_url": "https://3d-api.si.edu/content/document/3d_package:5ff6e90a-4ddb-4eea-a69c-40970f85fbcb/Lycaste_virginalis-image-thumb.jpg",
+        "verified_at": "2026-11-18T23:08:02.490Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Smithsonian Gardens and Smithsonian Digitization Program Office, CC0. Official model thumbnail converted to WebP."
+        }
+      }
+    },
+    {
+      "id": "homo-erectus-guangxi-rainforest-20261118",
+      "type": "news",
+      "title": "Eight Teeth Put Homo Erectus in the Rainforest",
+      "summary": "A study published November 18 found evidence that Homo erectus used dense rainforest in what is now Guangxi. Eight teeth from two caves helped make the case.",
+      "comment": "A whole habitat, argued from eight teeth.",
+      "language": "en",
+      "url": "https://www.gea.mpg.de/253111/last-chapter-of-homo-erectus-in-china",
+      "keywords": [
+        "Homo erectus",
+        "Guangxi",
+        "fossils"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "human origins"
+          ],
+          "topic": [
+            "Homo erectus",
+            "Guangxi",
+            "fossils"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "3 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Max Planck Institute of Geoanthropology and study collaborators"
+          ],
+          "platform": [
+            "Max Planck Institute of Geoanthropology"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-18T23:08:02.490Z",
+          "note": "Research institution’s dated release opened; Nature paper indexed and matched by DOI."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.gea.mpg.de/253111/last-chapter-of-homo-erectus-in-china",
+          "label": "Research team’s dated announcement"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-026-11155-6",
+          "label": "Nature paper"
+        }
+      ]
+    },
+    {
+      "id": "earthfm-andreas-bick-dispersion-in-ice-sheets",
+      "type": "audio",
+      "title": "The Lake That Sounds Like a Synth",
+      "summary": "Andreas Bick recorded these descending tones underwater, beneath thin lake ice near Berlin.",
+      "comment": "Listen for the downward slide. The synthesizer is a lake.",
+      "language": "en",
+      "url": "https://earth.fm/recordings/dispersion-in-ice-sheets/",
+      "keywords": [
+        "field recording",
+        "lake ice"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "sound",
+            "nature"
+          ],
+          "topic": [
+            "field recording",
+            "lake ice"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Andreas Bick"
+          ],
+          "platform": [
+            "earth.fm"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-18T23:08:02.490Z",
+          "note": "Original recording page and artist’s notes opened; playback not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://earth.fm/recordings/dispersion-in-ice-sheets/",
+          "label": "Original recording and description"
+        },
+        {
+          "url": "https://earth.fm/playlists/ice-sounds/",
+          "label": "Playlist entry and duration"
+        },
+        {
+          "url": "https://www.andreas-bick.de/fire-pattern-frost-pattern/",
+          "label": "Artist’s notes on the ice recordings"
+        }
+      ]
+    },
+    {
+      "id": "voyager-one-light-day-20261118",
+      "type": "news",
+      "title": "Voyager 1 Reaches One Light-Day",
+      "summary": "NASA says Voyager 1 reached a distance of one light-day from Earth on November 18. A radio signal takes about a day each way.",
+      "comment": "The ultimate slow reply, and it’s not personal.",
+      "language": "en",
+      "url": "https://science.nasa.gov/resource/voyager-one-light-day-downloads/",
+      "keywords": [
+        "Voyager 1",
+        "light-day",
+        "NASA"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "space"
+          ],
+          "topic": [
+            "Voyager 1",
+            "light-day",
+            "NASA"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "NASA"
+          ],
+          "platform": [
+            "NASA Science"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-18T23:08:02.490Z",
+          "note": "NASA’s milestone and explanatory pages checked."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://science.nasa.gov/resource/voyager-one-light-day-downloads/",
+          "label": "NASA’s dated milestone and free-to-access materials"
+        },
+        {
+          "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+          "label": "NASA’s explanation of a light-day"
+        }
+      ]
+    }
+  ]
+}
