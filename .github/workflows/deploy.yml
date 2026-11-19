@@ -19,6 +19,8 @@ env:
 jobs:
   validate-and-deploy:
     runs-on: ubuntu-24.04
+    env:
+      PLAYWRIGHT_CHANNEL: chrome
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,10 +28,8 @@ jobs:
           node-version: 22
       - name: Check static app
         run: node scripts/check.mjs
-      - name: Install preview acceptance browser
-        run: |
-          npm install --prefix "$RUNNER_TEMP/playground-qa" --no-package-lock --no-save playwright@1.65.0
-          "$RUNNER_TEMP/playground-qa/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Install Playwright for the runner's Chrome
+        run: npm install --prefix "$RUNNER_TEMP/playground-qa" --no-package-lock --no-save playwright@1.65.0
       - name: Check preview decoding and responsive layout
         env:
           PLAYWRIGHT_MODULE: ${{ runner.temp }}/playground-qa/node_modules/playwright/index.mjs
