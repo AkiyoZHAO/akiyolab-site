@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-20",
+  "date": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "title": "A Change of Weather",
+  "intro": "Watch a mountain disappear into cloud, follow Hiroshige’s footprints, and hear what a very short owl concert sounds like.",
+  "items": [
+    {
+      "id": "commons-machu-picchu-cloudy-morning",
+      "type": "video",
+      "title": "Six Seconds Above Machu Picchu",
+      "summary": "Watch clouds slide across Machu Picchu in Subhashish Panigrahi’s six-second time-lapse.",
+      "comment": "A whole change of weather in one breath.",
+      "language": "en",
+      "url": "https://commons.wikimedia.org/wiki/File:Machu_Picchu_Timelapse%E2%80%94Cloudy_Morning_01.webm",
+      "keywords": [
+        "Peru",
+        "clouds",
+        "time-lapse"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature"
+          ],
+          "topic": [
+            "Peru",
+            "clouds",
+            "time-lapse"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "video",
+            "visual"
+          ],
+          "interaction": [
+            "watch"
+          ],
+          "narrative": [],
+          "consumption": [
+            "6 seconds"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Subhashish Panigrahi"
+          ],
+          "platform": [
+            "Wikimedia Commons"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-19T23:03:31.116Z",
+          "note": "Original page and individual license read; video downloaded and probed as 6.1-second WebM; browser playback not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Machu_Picchu_Timelapse%E2%80%94Cloudy_Morning_01.webm",
+          "label": "Original source"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "label": "CC BY-SA 4.0"
+        }
+      ],
+      "preview": {
+        "url": "previews/machu-picchu-clouds-20261120.webp",
+        "alt": "Clouds drifting over Machu Picchu in the original time-lapse",
+        "kind": "screenshot",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Machu_Picchu_Timelapse%E2%80%94Cloudy_Morning_01.webm/960px--Machu_Picchu_Timelapse%E2%80%94Cloudy_Morning_01.webm.jpg",
+        "verified_at": "2026-11-19T23:03:31.116Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "note": "Subhashish Panigrahi / Wikimedia Commons, CC BY-SA 4.0. Video frame resized and converted to WebP; same license."
+        }
+      }
+    },
+    {
+      "id": "cma-evening-snow-uchikawa-1940987",
+      "type": "article",
+      "title": "Follow the Footprints into Uchikawa",
+      "summary": "Open Hiroshige’s 1835–36 print and trace the footprints in the snow toward the thatched houses.",
+      "comment": "An entire walk home, held in one frame.",
+      "language": "en",
+      "url": "https://www.clevelandart.org/art/1940.987",
+      "keywords": [
+        "Hiroshige",
+        "snow",
+        "woodblock print"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art"
+          ],
+          "topic": [
+            "Hiroshige",
+            "snow",
+            "woodblock print"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look closely"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Utagawa Hiroshige"
+          ],
+          "platform": [
+            "Cleveland Museum of Art"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-19T23:03:31.116Z",
+          "note": "Museum artwork page and reproduction terms checked; exact accession’s museum image downloaded and decoded; site’s enlarge control not operated."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.clevelandart.org/art/1940.987",
+          "label": "Original source"
+        },
+        {
+          "url": "https://www.clevelandart.org/open-access",
+          "label": "Museum Open Access terms"
+        },
+        {
+          "url": "https://openaccess-api.clevelandart.org/api/artworks/1940.987",
+          "label": "Object record and original digital image"
+        }
+      ],
+      "preview": {
+        "url": "previews/hiroshige-uchikawa-snow-20261120.webp",
+        "alt": "People crossing a snowy riverbank near thatched houses in Hiroshige’s print",
+        "kind": "source-image",
+        "source_url": "https://openaccess-cdn.clevelandart.org/1940.987/1940.987_web.jpg",
+        "verified_at": "2026-11-19T23:03:31.116Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Utagawa Hiroshige / Cleveland Museum of Art, Bequest of James Parmelee (1940.987), CC0 1.0. Museum scan resized and converted to WebP."
+        }
+      }
+    },
+    {
+      "id": "nps-spotted-owl-yosemite",
+      "type": "audio",
+      "title": "An Owl Calls From Yosemite",
+      "summary": "Play a five-second recording of a spotted owl. The park service puts a graph of those hoots beside it.",
+      "comment": "One very small concert, no encore required.",
+      "language": "en",
+      "url": "https://www.nps.gov/subjects/sound/sounds-spotted-owl.htm",
+      "keywords": [
+        "owl",
+        "Yosemite",
+        "field recording"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature"
+          ],
+          "topic": [
+            "owl",
+            "Yosemite",
+            "field recording"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [],
+          "consumption": [
+            "5 seconds"
+          ]
+        },
+        "source": {
+          "creator": [
+            "National Park Service"
+          ],
+          "platform": [
+            "National Park Service"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-19T23:03:31.116Z",
+          "note": "NPS original page and public audio control inspected; MP3 downloaded and probed at 5.31 seconds; browser playback not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.nps.gov/subjects/sound/sounds-spotted-owl.htm",
+          "label": "Original source"
+        },
+        {
+          "url": "https://www.nps.gov/nps-audiovideo/legacy/mp3/nri/avElement/nri-SpottedOwlYOSE.mp3",
+          "label": "Source recording"
+        }
+      ]
+    },
+    {
+      "id": "commons-nesnad-paper-crane-wind",
+      "type": "video",
+      "title": "Thirteen Seconds With a Paper Crane",
+      "summary": "Nesnad filmed a folded paper crane spinning in the wind, all by itself.",
+      "comment": "A desk toy for the weather.",
+      "language": "en",
+      "url": "https://commons.wikimedia.org/wiki/File:Papercranespinninginthewind-2019-12-12.webm",
+      "keywords": [
+        "origami",
+        "wind",
+        "slow looking"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art",
+            "nature"
+          ],
+          "topic": [
+            "origami",
+            "wind"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "video",
+            "visual"
+          ],
+          "interaction": [
+            "watch"
+          ],
+          "narrative": [],
+          "consumption": [
+            "13 seconds"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Nesnad"
+          ],
+          "platform": [
+            "Wikimedia Commons"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-19T23:04:05.714Z",
+          "note": "Read original Commons page and individual license, checked video endpoint and decoded the same-video poster locally; browser playback not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Papercranespinninginthewind-2019-12-12.webm",
+          "label": "Original video, duration, creator and license"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "label": "CC BY 4.0"
+        }
+      ],
+      "preview": {
+        "url": "previews/paper-crane-wind-20261120.webp",
+        "alt": "Folded paper crane turned by the wind in Nesnad’s video",
+        "kind": "screenshot",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Papercranespinninginthewind-2019-12-12.webm/960px--Papercranespinninginthewind-2019-12-12.webm.jpg",
+        "verified_at": "2026-11-19T23:04:05.714Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "note": "Nesnad / Wikimedia Commons, CC BY 4.0. Video frame resized and converted to WebP."
+        }
+      }
+    },
+    {
+      "id": "psi-tiny-jurassic-dragon-20261119",
+      "type": "news",
+      "title": "A Jurassic Reptile Gets a Metal Name",
+      "summary": "Neutron and X-ray scans helped identify a 156-million-year-old reptile from Wyoming. Its name nods to Swedish metal band Amon Amarth.",
+      "comment": "Finally, a fossil with a soundtrack.",
+      "language": "en",
+      "url": "https://www.psi.ch/en/news/media-releases/neutrons-death-metal-and-a-tiny-prehistoric-dragon",
+      "keywords": [
+        "Jurassic",
+        "neutron imaging",
+        "Amon Amarth"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "science"
+          ],
+          "topic": [
+            "Jurassic",
+            "neutron imaging",
+            "Amon Amarth"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Paul Scherrer Institute"
+          ],
+          "platform": [
+            "Paul Scherrer Institute"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-19T23:03:31.116Z",
+          "note": "Read the November 19 PSI release and checked its original study citation."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.psi.ch/en/news/media-releases/neutrons-death-metal-and-a-tiny-prehistoric-dragon",
+          "label": "Original source"
+        },
+        {
+          "url": "https://www.admin.ch/en/newnsb/S99Qq6qu8GRi",
+          "label": "Swiss federal publication of the institute release"
+        },
+        {
+          "url": "https://doi.org/10.1098/rsos.261553",
+          "label": "Original study, published November 18"
+        }
+      ]
+    },
+    {
+      "id": "gta-vi-launch-20261119",
+      "type": "news",
+      "title": "GTA VI Ships With In-Game Podcasts",
+      "summary": "Rockstar released GTA VI on November 19. You can play on-demand podcasts while walking or driving around its fictional state of Leonida.",
+      "comment": "Even virtual errands need something to listen to.",
+      "language": "en",
+      "url": "https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19/",
+      "keywords": [
+        "GTA VI",
+        "Rockstar",
+        "podcasts"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "games"
+          ],
+          "topic": [
+            "GTA VI",
+            "Rockstar",
+            "podcasts"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Rockstar Games"
+          ],
+          "platform": [
+            "PlayStation Blog"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-19T23:03:31.116Z",
+          "note": "Opened the platform’s November 18 article and verified its in-game audio description; corroborated release with Take-Two’s November 19 announcement. No gameplay tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19/",
+          "label": "Original source"
+        },
+        {
+          "url": "https://taketwointeractivesoftwareinc.gcs-web.com/news-releases/news-release-details/rockstar-games-announces-grand-theft-auto-vi-now-available",
+          "label": "Take-Two release, November 19"
+        },
+        {
+          "url": "https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available",
+          "label": "Rockstar’s launch-day announcement"
+        }
+      ]
+    }
+  ]
+}
