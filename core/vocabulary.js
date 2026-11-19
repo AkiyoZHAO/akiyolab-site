@@ -19,10 +19,10 @@ export async function queryVocabulary() {
   }
 }
 
-export async function appendVocabulary(word, tag, requestId) {
+export async function appendVocabulary(word, requestId) {
   await requireOwner();
   const { data, error } = await db.from('vocabulary_appends')
-    .insert({ request_id: requestId, word, tag })
+    .insert({ request_id: requestId, word })
     .select(columns).single();
 
   if (!error) return data;

@@ -37,9 +37,6 @@
   .primary { background: var(--c-accent); border-color: var(--c-accent); color: var(--c-surface); }
   .primary:hover:not(:disabled) { background: var(--c-accent-hover); }
   button:disabled, select:disabled { opacity: 0.55; cursor: default; }
-  details { margin-top: var(--sp-3); color: var(--c-text-muted); font-size: var(--fs-sm); }
-  details summary { cursor: pointer; }
-  details input { margin-top: var(--sp-2); }
   .status { margin-top: var(--sp-2); min-height: var(--sp-5); }
   [data-error] { color: var(--c-negative); }
   #retry { margin-top: var(--sp-3); }
@@ -47,7 +44,7 @@
   .toolbar, .filters { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-2) var(--sp-3); }
   .toolbar { justify-content: space-between; }
   .filters { margin: var(--sp-3) 0; }
-  .filters label { display: grid; min-width: 0; gap: var(--sp-1); }
+  .filters label:not([hidden]) { display: grid; min-width: 0; gap: var(--sp-1); }
   select { max-width: 100%; font-size: var(--fs-sm); }
   .list, .cards { list-style: none; margin: 0; padding: 0; }
   .list { border-top: 1px solid var(--c-line); }
@@ -81,11 +78,6 @@
         <input id="word" name="word" type="text" dir="auto" autocomplete="off" maxlength="120" required>
         <button class="primary" id="append" type="submit" disabled>追加</button>
       </div>
-      <details id="tagOptions">
-        <summary>添加标签（可选）</summary>
-        <label for="tag" hidden>标签</label>
-        <input id="tag" name="tag" type="text" dir="auto" autocomplete="off" maxlength="30" placeholder="例如：写作">
-      </details>
       <p id="status" class="status muted" role="status"></p>
       <button type="button" id="retry" hidden>重新加载</button>
     </form>
@@ -107,7 +99,7 @@
             <option value="frequency">出现最多</option>
           </select>
         </label>
-        <label>标签
+        <label id="tagFilter" hidden>标签
           <select id="filter"><option value="">全部标签</option></select>
         </label>
       </div>

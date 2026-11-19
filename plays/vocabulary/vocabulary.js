@@ -3,7 +3,6 @@ import { appendVocabulary, queryVocabulary } from '../../core/vocabulary.js';
 
 const $ = id => document.getElementById(id);
 const wordInput = $('word');
-const tagInput = $('tag');
 const sort = $('sort');
 const filter = $('filter');
 const words = new Map();
@@ -37,7 +36,7 @@ function renderWords() {
   const tags = [...new Set(entries.flatMap(entry => [...entry.tags]))].sort((a, b) => a.localeCompare(b));
   filter.replaceChildren(new Option('全部标签', ''), ...tags.map(tag => new Option(tag, tag)));
   filter.value = tags.includes(selectedTag) ? selectedTag : '';
-  filter.disabled = tags.length === 0;
+  $('tagFilter').hidden = tags.length === 0;
 
   const visible = entries.filter(entry => !filter.value || entry.tags.has(filter.value));
   visible.sort((a, b) =>
@@ -101,8 +100,7 @@ function renderSession(session) {
   words.clear();
   pending = undefined;
   $('appendForm').reset();
-  wordInput.readOnly = tagInput.readOnly = false;
-  $('tagOptions').open = false;
+  wordInput.readOnly = false;
   sort.value = 'recent';
   filter.value = '';
   $('randomSection').hidden = true;
@@ -125,25 +123,22 @@ $('appendForm').addEventListener('submit', async event => {
   event.preventDefault();
   if (!ownerId || $('append').disabled) return;
   const word = wordInput.value.trim().normalize('NFC');
-  const tag = tagInput.value.trim().normalize('NFC') || null;
   if (!word) {
     setStatus('先输入一个词或短语。', true);
     return;
   }
   const version = sessionVersion;
-  pending = pending?.word === word && pending.tag === tag
-    ? pending : { word, tag, requestId: crypto.randomUUID() };
+  if (pending?.word !== word) pending = { word, requestId: crypto.randomUUID() };
 
   $('append').disabled = true;
-  wordInput.readOnly = tagInput.readOnly = true;
+  wordInput.readOnly = true;
   setStatus('正在追加…');
   try {
-    const record = await appendVocabulary(word, tag, pending.requestId);
+    const record = await appendVocabulary(word, pending.requestId);
     if (version !== sessionVersion) return;
     const entry = addOccurrence(record);
     pending = undefined;
     $('appendForm').reset();
-    $('tagOptions').open = false;
     renderWords();
     setStatus(entry.count === 1 ? `已收下「${word}」。` : `「${word}」已出现 ${entry.count} 次。`);
   } catch {
@@ -151,7 +146,7 @@ $('appendForm').addEventListener('submit', async event => {
   } finally {
     if (version === sessionVersion) {
       $('append').disabled = false;
-      wordInput.readOnly = tagInput.readOnly = false;
+      wordInput.readOnly = false;
       wordInput.focus();
     }
   }
