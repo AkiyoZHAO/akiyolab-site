@@ -1,8 +1,8 @@
-# lab-play
+# akiyolab-site
 
 一个自己拥有的**个人空间**,承载我的人生系统。纯静态、自建、UI 可换,不寄居别人平台。
 
-**→ [akiyolab.com](https://akiyolab.com/)**（正式） · [GitHub Pages](https://akiyozhao.github.io/lab-play/)（预览）
+**→ [akiyolab.com](https://akiyolab.com/)**（正式） · [GitHub Pages](https://akiyozhao.github.io/akiyolab-site/)（预览）
 
 - **玩法 Play** — 一次性行动,写 events(如抽卡)
 - **面板 Panel** — 展示 / 维护状态(如统计、事业)
@@ -13,7 +13,7 @@
 ## 文件系统
 
 ```
-lab-play/
+akiyolab-site/
 ├── index.html          首页(读 plays.json,渲染玩法 / 面板两栏)
 ├── plays.json          清单:{ plays[], panels[] }
 ├── plays/
