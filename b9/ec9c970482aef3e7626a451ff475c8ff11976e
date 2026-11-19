@@ -1,0 +1,25 @@
+core/vocabulary.js
+  s_7ce10d98739a84::t_7686424094b9c9 22,25
+plays/vocabulary/README.md
+  s_7ce10d98739a84::t_7686424094b9c9 3,6,9
+plays/vocabulary/index.html
+  s_7ce10d98739a84::t_7686424094b9c9 47,102
+plays/vocabulary/vocabulary.js
+  s_7ce10d98739a84::t_7686424094b9c9 39,103,131,134,137,149
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "b9ec9c970482aef3e7626a451ff475c8ff11976e",
+  "prompts": {},
+  "sessions": {
+    "s_7ce10d98739a84": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f287-40c3-7632-981d-3e0216f099cd",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Akiyo <51403731+AkiyoZHAO@users.noreply.github.com>"
+    }
+  }
+}
