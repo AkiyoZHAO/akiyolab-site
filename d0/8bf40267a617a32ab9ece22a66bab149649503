@@ -1,0 +1,25 @@
+AGENTS.md
+  s_7ce10d98739a84::t_5d771fca82cf97 9
+README.md
+  s_7ce10d98739a84::t_5d771fca82cf97 1,5,16
+design/DESIGN.md
+  s_7ce10d98739a84::t_5d771fca82cf97 1,3,69
+ROADMAP.md
+  s_7ce10d98739a84::t_5d771fca82cf97 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "d08bf40267a617a32ab9ece22a66bab149649503",
+  "prompts": {},
+  "sessions": {
+    "s_7ce10d98739a84": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f287-40c3-7632-981d-3e0216f099cd",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Akiyo <51403731+AkiyoZHAO@users.noreply.github.com>"
+    }
+  }
+}
