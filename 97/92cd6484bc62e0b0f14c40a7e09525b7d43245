@@ -1,0 +1,19 @@
+.github/workflows/deploy.yml
+  s_7ce10d98739a84::t_dcbf4b78adef5e 22-23,31-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "9792cd6484bc62e0b0f14c40a7e09525b7d43245",
+  "prompts": {},
+  "sessions": {
+    "s_7ce10d98739a84": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f287-40c3-7632-981d-3e0216f099cd",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Akiyo <51403731+AkiyoZHAO@users.noreply.github.com>"
+    }
+  }
+}
