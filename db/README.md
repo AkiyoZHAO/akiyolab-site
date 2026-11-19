@@ -18,7 +18,8 @@
 4. 执行 [`2026-09-11-career-panel.sql`](2026-09-11-career-panel.sql) 创建公开摘要表和 Owner 私有正文表。
 5. 执行 [`2026-09-11-engineering.sql`](2026-09-11-engineering.sql) 创建 Career 原子保存与备份恢复 RPC。
 6. 执行 [词汇盒子迁移](2026-11-19-vocabulary.sql) 创建 Owner 专用的追加记录表。
-7. 重新登录，使新的 `app_metadata` 进入 JWT。
+7. 执行 [词汇设备类型迁移](2026-11-19-vocabulary-device.sql) 增加设备类型。
+8. 重新登录，使新的 `app_metadata` 进入 JWT。
 
 完成后在仓库根目录运行：
 
