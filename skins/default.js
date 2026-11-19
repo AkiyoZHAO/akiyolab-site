@@ -1,6 +1,12 @@
 // 默认首页皮肤：只负责把稳定 anchor 映射为视觉纹样。
 // 新增 anchor 未显式配置时必须走 fallback，首页代码无需跟着修改。
 const anchors = {
+  'play:vocabulary': `
+    <svg viewBox="0 0 48 48" fill="none" stroke="currentColor"
+         stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9 21h30v17H9zM9 21l4-6h22l4 6M20 27h8"/>
+      <path d="M20 15V9h8v6" stroke-width="1.1"/>
+    </svg>`,
   'play:draw': `
     <svg viewBox="0 0 48 48" fill="none" stroke="currentColor"
          stroke-width="1.4" stroke-linejoin="round">

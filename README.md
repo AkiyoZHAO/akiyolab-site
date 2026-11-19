@@ -17,6 +17,7 @@ akiyolab-site/
 ├── index.html          首页(读 plays.json,渲染玩法 / 面板两栏)
 ├── plays.json          清单:{ plays[], panels[] }
 ├── plays/
+│   ├── vocabulary/     私有词汇盒子
 │   ├── draw/           日常抽卡
 │   ├── playground/     每日英文策展、偏好与私有反馈
 │   └── ielts/          IELTS Deck(Speaking + 外部词网入口)

@@ -1,6 +1,14 @@
 {
   "plays": [
     {
+      "id": "vocabulary",
+      "name": "Vocabulary",
+      "desc": "随手收下想到的词，按出现次数回顾，或随机翻出几个。",
+      "icon": "◇",
+      "path": "plays/vocabulary/",
+      "status": "active"
+    },
+    {
       "id": "playground",
       "name": "Playground",
       "desc": "A daily edition of curious things from around the internet.",
