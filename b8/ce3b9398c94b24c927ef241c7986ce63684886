@@ -1,0 +1,40 @@
+plays/vocabulary/index.html
+  s_7ce10d98739a84::t_74aa00f0402b95 1-57,59-97,103-121
+  s_7ce10d98739a84::t_d1ffd94e4cd31a 102
+  s_7ce10d98739a84::t_12288478fd0e47 58,98-101
+db/README.md
+  s_7ce10d98739a84::t_28c51686e0a76d 20-21
+db/2026-11-19-vocabulary.sql
+  s_7ce10d98739a84::t_28c51686e0a76d 1-28
+plays/vocabulary/README.md
+  s_7ce10d98739a84::t_28c51686e0a76d 1-9
+db/schema.sql
+  s_7ce10d98739a84::t_28c51686e0a76d 216-244
+plays/vocabulary/vocabulary.js
+  s_7ce10d98739a84::t_74aa00f0402b95 1-48,51-65,69-87,89-148,150-175
+  s_7ce10d98739a84::t_12288478fd0e47 49-50,66-68,88,149
+skins/default.js
+  s_7ce10d98739a84::t_28c51686e0a76d 4-9
+core/vocabulary.js
+  s_7ce10d98739a84::t_28c51686e0a76d 1-36
+README.md
+  s_7ce10d98739a84::t_28c51686e0a76d 20
+plays.json
+  s_7ce10d98739a84::t_28c51686e0a76d 4-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "b8ce3b9398c94b24c927ef241c7986ce63684886",
+  "prompts": {},
+  "sessions": {
+    "s_7ce10d98739a84": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1f287-40c3-7632-981d-3e0216f099cd",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Akiyo <51403731+AkiyoZHAO@users.noreply.github.com>"
+    }
+  }
+}
