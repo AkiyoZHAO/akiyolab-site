@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-21",
+  "date": "2026-11-21",
+  "timezone": "Asia/Shanghai",
+  "title": "The Hidden Workings",
+  "intro": "Look closer at a plum tree, try a game about trust, and meet a star that swallowed its neighbor.",
+  "items": [
+    {
+      "id": "met-old-plum-kano-sansetsu-44858",
+      "type": "article",
+      "title": "A Plum Tree Takes Up the Whole Wall",
+      "summary": "Follow one black plum branch across four gold sliding doors painted for a Kyoto temple in 1646.",
+      "comment": "That tree was never going to fit in a vase.",
+      "language": "en",
+      "url": "https://www.metmuseum.org/art/collection/search/44858",
+      "keywords": [
+        "Kyoto",
+        "sliding doors",
+        "Edo painting"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art"
+          ],
+          "topic": [
+            "Kyoto",
+            "sliding doors",
+            "Edo painting"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look closely"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Kano Sansetsu"
+          ],
+          "platform": [
+            "The Met"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-20T23:00:51.327Z",
+          "note": "Read the museum object page and exact Open Access image record; decoded the museum reproduction locally. The museum’s 3D and zoom controls were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/44858",
+          "label": "Original source"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:%E8%80%81%E6%A2%85%E5%9B%B3%E8%A5%96-Old_Plum_MET_DT229.jpg",
+          "label": "Exact image and reuse record"
+        }
+      ],
+      "preview": {
+        "url": "previews/old-plum-20261121.webp",
+        "alt": "A twisting black plum tree crossing four gold sliding doors",
+        "kind": "source-image",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/%E8%80%81%E6%A2%85%E5%9B%B3%E8%A5%96-Old_Plum_MET_DT229.jpg/960px-%E8%80%81%E6%A2%85%E5%9B%B3%E8%A5%96-Old_Plum_MET_DT229.jpg",
+        "verified_at": "2026-11-20T23:00:51.327Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Kano Sansetsu / The Metropolitan Museum of Art, The Harry G. C. Packard Collection, 1975.268.48a–d. Met Open Access CC0 image, converted to WebP."
+        }
+      }
+    },
+    {
+      "id": "ncase-evolution-of-trust",
+      "type": "interactive",
+      "title": "The Evolution of Trust",
+      "summary": "Play a series of trust games. Start by choosing whether to cooperate or cheat, then see what changes when you meet again.",
+      "comment": "So much depends on whether there’s a next round.",
+      "language": "en",
+      "url": "https://ncase.me/trust/",
+      "keywords": [
+        "game theory",
+        "cooperation",
+        "choices"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "games"
+          ],
+          "topic": [
+            "game theory",
+            "cooperation",
+            "choices"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "play"
+          ],
+          "narrative": [],
+          "consumption": [
+            "30 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Nicky Case"
+          ],
+          "platform": [
+            "ncase.me"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-20T23:00:51.327Z",
+          "note": "Loaded the original in a desktop browser and clicked Play; the introduction and chapter selector appeared. Later rounds and mobile controls were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://ncase.me/trust/",
+          "label": "Original source"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:The_Evolution_of_Trust_cooperating_decision.webp",
+          "label": "Exact screenshot and license"
+        },
+        {
+          "url": "https://github.com/ncase/trust",
+          "label": "Creator credits and reuse terms"
+        }
+      ],
+      "preview": {
+        "url": "previews/evolution-of-trust-20261121.webp",
+        "alt": "The Cooperate and Cheat choices in Nicky Case’s trust game",
+        "kind": "screenshot",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Evolution_of_Trust_cooperating_decision.webp",
+        "verified_at": "2026-11-20T23:00:51.327Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Nicky Case, original work and screenshot, CC0 1.0. Screenshot reproduced unchanged from Wikimedia Commons."
+        }
+      }
+    },
+    {
+      "id": "newcastle-roman-gold-redesdale-20261118",
+      "type": "news",
+      "title": "Roman Gold, Day One",
+      "summary": "On the first day of her first dig, Newcastle student Elise Zallu found a 7 cm piece of Roman gold chain in Northumberland. Its tiny links were shaped and woven together.",
+      "comment": "Beginner’s luck. Expert goldsmithing.",
+      "language": "en",
+      "url": "https://www.ncl.ac.uk/press/articles/latest/2026/11/archaeologystudentsredesdale2026/",
+      "keywords": [
+        "Roman gold",
+        "archaeology",
+        "Northumberland"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "history"
+          ],
+          "topic": [
+            "Roman gold",
+            "archaeology",
+            "Northumberland"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Newcastle University"
+          ],
+          "platform": [
+            "Newcastle University"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-20T23:00:51.327Z",
+          "note": "Read the university’s November 18 announcement; the excavation itself took place in summer 2026."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.ncl.ac.uk/press/articles/latest/2026/11/archaeologystudentsredesdale2026/",
+          "label": "Original source"
+        }
+      ]
+    },
+    {
+      "id": "mcsweeneys-avery-edison-author-obviation",
+      "type": "article",
+      "title": "A Publisher Fires Its Author, in 2014",
+      "summary": "In Avery Edison’s 2014 satire, a fictional publisher can use Markov chains to turn out a novel in the author’s style in six minutes. That turns out to be more novels than anyone asked for.",
+      "comment": "The bot can write faster. The joke is that nobody needed it to.",
+      "language": "en",
+      "url": "https://www.mcsweeneys.net/articles/a-notice-of-author-obviation",
+      "keywords": [
+        "satire",
+        "publishing",
+        "Markov chains"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "humor"
+          ],
+          "topic": [
+            "satire",
+            "publishing",
+            "Markov chains"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Avery Edison"
+          ],
+          "platform": [
+            "McSweeney’s"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-20T23:00:51.327Z",
+          "note": "Read the full original satire without a sign-in wall; checked author, date and premise."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.mcsweeneys.net/articles/a-notice-of-author-obviation",
+          "label": "Original source"
+        }
+      ]
+    },
+    {
+      "id": "nasa-webb-bao-merger-20261118",
+      "type": "news",
+      "title": "Big Bao Ate a Star",
+      "summary": "Astronomers reconstructed a stellar merger in Andromeda. A smaller star spiraled into a giant; Webb took a look just 47 days after the flare peaked.",
+      "comment": "Two stars went in. One came out.",
+      "language": "en",
+      "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+      "keywords": [
+        "Andromeda",
+        "stellar merger",
+        "Webb"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "science"
+          ],
+          "topic": [
+            "Andromeda",
+            "stellar merger",
+            "Webb"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "NASA Webb Mission Team"
+          ],
+          "platform": [
+            "NASA Science"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-20T23:00:51.327Z",
+          "note": "Checked NASA’s November 18 story and the original Nature paper. The flare and Webb observations were in 2025."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+          "label": "Original source"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-026-11221-z",
+          "label": "Original research"
+        }
+      ]
+    },
+    {
+      "id": "mon-feel-the-sound-tokyo-20261120",
+      "type": "news",
+      "title": "What Does Phone Signal Sound Like?",
+      "summary": "Feel the Sound opened in Tokyo on November 20. One installation by Ryuichi Sakamoto and Daito Manabe turns local electromagnetic signals into sound and light.",
+      "comment": "Your phone can make a scene even on silent.",
+      "language": "en",
+      "url": "https://montakanawa.jp/programs/feelthesound2026/",
+      "keywords": [
+        "Tokyo",
+        "sound art",
+        "electromagnetic signals"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "culture"
+          ],
+          "topic": [
+            "Tokyo",
+            "sound art",
+            "electromagnetic signals"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "MoN Takanawa"
+          ],
+          "platform": [
+            "MoN Takanawa"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-20T23:00:51.327Z",
+          "note": "Read the organizer’s opening date and installation description in its press materials. This is news about an in-person exhibition, not an online demo."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://montakanawa.jp/programs/feelthesound2026/",
+          "label": "Original source"
+        },
+        {
+          "url": "https://montakanawa.jp/wp-content/uploads/2026/10/FTS_second-press-release_en.pdf",
+          "label": "Organizer’s English press release"
+        }
+      ]
+    }
+  ]
+}
