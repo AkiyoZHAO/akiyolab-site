@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-22",
+  "date": "2026-11-22",
+  "timezone": "Asia/Shanghai",
+  "title": "Small Things, Long Lives",
+  "intro": "Pause at a Seoul barbershop, meet a whale called Grand Slam, and read a joke preserved on a wax cylinder.",
+  "items": [
+    {
+      "id": "seoul-archive-munhwa-barbershop-2015",
+      "type": "article",
+      "title": "Two Striped Poles in Hyehwa",
+      "summary": "A 2015 Seoul archive photograph catches a neighborhood barbershop under a leafy tree, with two striped poles and a green glass door.",
+      "comment": "You can almost hear the door slide.",
+      "language": "ko",
+      "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1046&currentPage=1&fileId=a616f27c-591e-4757-95d7-66b6b851a0f2&fileSn=709&searchVal=&subCtgryId=&type=F&upperNodeId=CTGRY1047",
+      "keywords": [
+        "Seoul",
+        "barbershops",
+        "street photography"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "urban history"
+          ],
+          "topic": [
+            "Seoul",
+            "barbershops",
+            "street photography"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look closely"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Seoul Museum of History"
+          ],
+          "platform": [
+            "Seoul History Archive"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-21T23:05:22.914Z",
+          "note": "Opened the museum record and its item-specific Type 1 terms; downloaded, decoded and visually inspected the museum thumbnail. Current opening status was not checked."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://museum.seoul.go.kr/archive/archiveNew/NR_archiveView.do?ctgryId=CTGRY1046&currentPage=1&fileId=a616f27c-591e-4757-95d7-66b6b851a0f2&fileSn=709&searchVal=&subCtgryId=&type=F&upperNodeId=CTGRY1047",
+          "label": "Original source"
+        },
+        {
+          "url": "https://www.kogl.or.kr/info/licenseType1.do",
+          "label": "KOGL Type 1 attribution terms"
+        }
+      ],
+      "preview": {
+        "url": "previews/hyehwa-barbershop-20261122.webp",
+        "alt": "Two striped poles frame a green glass barbershop entrance below a leafy street tree",
+        "kind": "source-image",
+        "source_url": "https://museum.seoul.go.kr:8088/component/archv/data/ND_thumbnail.tmb?fileSn=709&fileId=a616f27c-591e-4757-95d7-66b6b851a0f2&w=1200&h=1200",
+        "verified_at": "2026-11-21T23:05:22.914Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://www.kogl.or.kr/info/licenseType1.do",
+          "note": "Seoul Museum of History, Munhwa Barbershop exterior (문화이용원 전경), 2015, srd-254519. KOGL Type 1. Resized and converted to WebP; uncropped."
+        }
+      }
+    },
+    {
+      "id": "whitney-artport-25-anniversary-20261121",
+      "type": "news",
+      "title": "The Whitney Opens 25 Years of Internet Art",
+      "summary": "The Whitney’s November 21 show brings together more than 100 web commissions, online and in a gallery designed to feel like floating browser windows.",
+      "comment": "Twenty-five years of tabs open.",
+      "language": "en",
+      "url": "https://whitney.org/exhibitions/artport-25",
+      "keywords": [
+        "net art",
+        "Whitney",
+        "web history"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "culture"
+          ],
+          "topic": [
+            "net art",
+            "Whitney",
+            "web history"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Whitney Museum of American Art"
+          ],
+          "platform": [
+            "Whitney Museum"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-21T23:05:22.914Z",
+          "note": "Read the museum’s exhibition page and checked the opening date and commission count. Individual works were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://whitney.org/exhibitions/artport-25",
+          "label": "Original source"
+        },
+        {
+          "url": "https://whitney.org/artport",
+          "label": "Whitney’s online artport archive"
+        }
+      ]
+    },
+    {
+      "id": "loc-fewkes-tariff-joke-wax-cylinder",
+      "type": "article",
+      "title": "A Tariff Joke on a Wax Cylinder",
+      "summary": "Read a joke about the McKinley tariff, recorded on a reused wax cylinder probably in 1890 or 1891. The Library of Congress also posts the recording.",
+      "comment": "Even a wax cylinder had room for a bad pun.",
+      "language": "en",
+      "url": "https://blogs.loc.gov/loc/2017/08/national-tell-a-joke-day-listen-to-the-earliest-recording-of-one/",
+      "keywords": [
+        "wax cylinder",
+        "wordplay",
+        "sound archives"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "humor"
+          ],
+          "topic": [
+            "wax cylinder",
+            "wordplay",
+            "sound archives"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Library of Congress"
+          ],
+          "platform": [
+            "Timeless"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-21T23:05:22.914Z",
+          "note": "Read the transcript and checked the embedded audio reference; playback was not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://blogs.loc.gov/loc/2017/08/national-tell-a-joke-day-listen-to-the-earliest-recording-of-one/",
+          "label": "Original source"
+        }
+      ]
+    },
+    {
+      "id": "neaq-named-right-whales-2026",
+      "type": "news",
+      "title": "The Whale Yearbook Is Out",
+      "summary": "Researchers named 20 North Atlantic right whales. Fenway’s daughters are Grand Slam and Slide, and Dolly’s head markings recalled Dolly Parton’s hair.",
+      "comment": "Try remembering a catalog number after meeting Grand Slam.",
+      "language": "en",
+      "url": "https://www.neaq.org/about-us/press-room/press-releases/scientists-announce-new-group-of-20-named-north-atlantic-right-whales/",
+      "keywords": [
+        "right whales",
+        "field identification",
+        "names"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "wildlife"
+          ],
+          "topic": [
+            "right whales",
+            "field identification",
+            "names"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "New England Aquarium"
+          ],
+          "platform": [
+            "New England Aquarium"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-21T23:05:22.914Z",
+          "note": "Read the aquarium’s November 19 release and cross-checked the names and markings against its official profiles."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.neaq.org/about-us/press-room/press-releases/scientists-announce-new-group-of-20-named-north-atlantic-right-whales/",
+          "label": "Original source"
+        },
+        {
+          "url": "https://www.neaq.org/meet-the-newly-named-right-whales-of-2026/",
+          "label": "Official 2026 whale profiles"
+        }
+      ]
+    },
+    {
+      "id": "met-rudolf-kalvach-clown-647671",
+      "type": "article",
+      "title": "A Clown Made of Diamonds",
+      "summary": "Rudolf Kalvach’s 1907 Wiener Werkstätte postcard gives a smiling clown a costume made of big green and yellow shapes.",
+      "comment": "Four diamonds and a very good hat.",
+      "language": "en",
+      "url": "https://www.metmuseum.org/art/collection/search/647671",
+      "keywords": [
+        "Vienna",
+        "postcards",
+        "lithography"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "design"
+          ],
+          "topic": [
+            "Vienna",
+            "postcards",
+            "lithography"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look closely"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Rudolf Kalvach"
+          ],
+          "platform": [
+            "The Met"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-21T23:05:22.914Z",
+          "note": "Read the Met object record and its matching Met-donated Commons file. Downloaded, decoded and visually inspected the licensed reproduction."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/647671",
+          "label": "Original source"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Clown_MET_DP843898.jpg",
+          "label": "Exact Met reproduction and CC0 record"
+        },
+        {
+          "url": "https://publicdomainreview.org/collection/kalvach-postcards/",
+          "label": "More Kalvach postcards"
+        }
+      ],
+      "preview": {
+        "url": "previews/kalvach-clown-20261122.webp",
+        "alt": "A smiling clown in green and yellow diamond shapes on a dark postcard",
+        "kind": "source-image",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Clown_MET_DP843898.jpg/500px-Clown_MET_DP843898.jpg",
+        "verified_at": "2026-11-21T23:05:22.914Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "note": "Rudolf Kalvach, Clown (1907), Wiener Werkstätte. The Metropolitan Museum of Art, WW.94, Museum Accession, transferred from the Library. Met-donated CC0 reproduction; converted to WebP."
+        }
+      }
+    },
+    {
+      "id": "senckenberg-senghor-tardigrades-20261120",
+      "type": "news",
+      "title": "Two Water Bears on an Undersea Mountain",
+      "summary": "Senckenberg announced two newly described marine tardigrades from sediment collected in 2009 at Senghor Seamount, off Cape Verde.",
+      "comment": "Tiny armor. Enormous address.",
+      "language": "en",
+      "url": "https://www.senckenberg.de/en/press-releases/the-call-of-the-seamount-two-new-tardigrades-discovered-in-the-atlantic/",
+      "keywords": [
+        "water bears",
+        "seamounts",
+        "Cape Verde"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "marine science"
+          ],
+          "topic": [
+            "water bears",
+            "seamounts",
+            "Cape Verde"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Senckenberg Nature Research"
+          ],
+          "platform": [
+            "Senckenberg"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-21T23:05:22.914Z",
+          "note": "Read the November 20 institute release and verified the sampling site and year. The underlying ZooKeys paper was published October 27."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.senckenberg.de/en/press-releases/the-call-of-the-seamount-two-new-tardigrades-discovered-in-the-atlantic/",
+          "label": "Original source"
+        },
+        {
+          "url": "https://doi.org/10.3897/zookeys.1295.205902",
+          "label": "Original ZooKeys species descriptions"
+        }
+      ]
+    }
+  ]
+}
