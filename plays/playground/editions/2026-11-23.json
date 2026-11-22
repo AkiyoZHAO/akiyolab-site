@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-23",
+  "date": "2026-11-23",
+  "timezone": "Asia/Shanghai",
+  "title": "Little Things, Big Reactions",
+  "intro": "Count the people under Hokusai’s waterfall, see a wave light up, and guess what’s making that crunch.",
+  "items": [
+    {
+      "id": "met-hokusai-roben-waterfall-jp2",
+      "type": "article",
+      "title": "A Waterfall With a Tiny Audience",
+      "summary": "In Hokusai’s woodblock print of Rōben Waterfall, tiny figures gather under a sheer stripe of falling water.",
+      "comment": "Hokusai gives the water the whole room.",
+      "language": "en",
+      "url": "https://www.metmuseum.org/art/collection/search/36484",
+      "keywords": [
+        "Hokusai",
+        "woodblock prints",
+        "waterfalls"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art"
+          ],
+          "topic": [
+            "Hokusai",
+            "woodblock prints",
+            "waterfalls"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look closely"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Katsushika Hokusai"
+          ],
+          "platform": [
+            "The Met"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-22T23:05:31.878Z",
+          "note": "Opened the museum record, confirmed its public-domain label, and downloaded, decoded and visually checked the official image."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/36484",
+          "label": "Original source"
+        },
+        {
+          "url": "https://www.metmuseum.org/hubs/open-access",
+          "label": "Met Open Access and CC0"
+        }
+      ],
+      "preview": {
+        "url": "previews/waterfall-20261123.webp",
+        "alt": "Tall blue waterfall beside greenery and buildings, with small figures at its foot",
+        "kind": "source-image",
+        "source_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/36484/140382/main-image",
+        "verified_at": "2026-11-22T23:05:31.878Z",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://www.metmuseum.org/hubs/open-access",
+          "note": "Katsushika Hokusai, Rōben Waterfall at Ōyama, ca. 1827. The Metropolitan Museum of Art, Rogers Fund, 1914, JP2. Open Access CC0. Resized and converted to WebP; uncropped."
+        }
+      }
+    },
+    {
+      "id": "wcs-bush-dog-camera-traps-20261120",
+      "type": "news",
+      "title": "611,159 Camera Nights. Twelve Bush Dog Sightings.",
+      "summary": "On Nov 20, WCS reported just 12 detections across 97 South American sites. The same surveys picked up jaguars about 100 times as often.",
+      "comment": "The jaguar was the easy one.",
+      "language": "en",
+      "url": "https://programs.wcs.org/newsroom/News-Releases/articleType/ArticleView/articleId/26872/25-Years-of-Camera-Traps-Reveal-Just-How-Rare-Is-South-Americas-Elusive-Bush-Dog.aspx",
+      "keywords": [
+        "bush dogs",
+        "camera traps",
+        "South America"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "wildlife"
+          ],
+          "topic": [
+            "bush dogs",
+            "camera traps",
+            "South America"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Wildlife Conservation Society"
+          ],
+          "platform": [
+            "WCS Newsroom"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-22T23:05:31.878Z",
+          "note": "Opened the dated newsroom report and journal record. Much of the sampling was in the western Amazon; it was not a population census."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://programs.wcs.org/newsroom/News-Releases/articleType/ArticleView/articleId/26872/25-Years-of-Camera-Traps-Reveal-Just-How-Rare-Is-South-Americas-Elusive-Bush-Dog.aspx",
+          "label": "Original source"
+        },
+        {
+          "url": "https://canids.org/cbc-journal/29-5/",
+          "label": "Original study"
+        }
+      ]
+    },
+    {
+      "id": "commons-makelessnoise-biolumin-essence",
+      "type": "article",
+      "title": "The Wave With Its Own Lighting",
+      "summary": "A nighttime photograph from Seal Beach catches a breaking wave glowing electric blue. The photographer says it took nearly 300 tries.",
+      "comment": "The water got the neon sign. The town had to settle for streetlights.",
+      "language": "en",
+      "url": "https://www.flickr.com/photos/makelessnoise/6282308360/",
+      "keywords": [
+        "bioluminescence",
+        "Seal Beach",
+        "night photography"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature"
+          ],
+          "topic": [
+            "bioluminescence",
+            "Seal Beach",
+            "night photography"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look closely"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "makelessnoise"
+          ],
+          "platform": [
+            "Flickr / Wikimedia Commons"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-22T23:05:31.878Z",
+          "note": "Opened the creator’s Flickr page and the license-reviewed Commons record. Downloaded, decoded and visually checked the actual photograph."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.flickr.com/photos/makelessnoise/6282308360/",
+          "label": "Original source"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Dinoflagellate_luminescence.jpg",
+          "label": "File, credit and Flickr license review"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by/2.0/",
+          "label": "CC BY 2.0 terms"
+        }
+      ],
+      "preview": {
+        "url": "previews/glow-20261123.webp",
+        "alt": "A narrow electric-blue wave at night with warm shore lights in the distance",
+        "kind": "source-image",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Dinoflagellate_luminescence.jpg",
+        "verified_at": "2026-11-22T23:05:31.878Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://creativecommons.org/licenses/by/2.0/",
+          "note": "Biolumin’ Essence by makelessnoise, Flickr / Wikimedia Commons, CC BY 2.0. Resized and converted to WebP; uncropped."
+        }
+      }
+    },
+    {
+      "id": "kintsugi-cottage-steam-release-20261120",
+      "type": "news",
+      "title": "The Museum Is in Pieces",
+      "summary": "Kintsugi Cottage launched Nov 20. Match shards by glaze, curve and pattern to rebuild 68 artifacts, without a timer. Steam lists a downloadable demo.",
+      "comment": "A jigsaw puzzle with a conservation department.",
+      "language": "en",
+      "url": "https://store.steampowered.com/app/5085380/",
+      "keywords": [
+        "cozy games",
+        "jigsaw puzzles",
+        "Steam"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "games"
+          ],
+          "topic": [
+            "cozy games",
+            "jigsaw puzzles",
+            "Steam"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "fdots games"
+          ],
+          "platform": [
+            "Steam"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-22T23:05:31.878Z",
+          "note": "Opened the developer’s store listing and checked release date, demo listing and listed mechanics. Desktop download; not played."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://store.steampowered.com/app/5085380/",
+          "label": "Original source"
+        }
+      ]
+    },
+    {
+      "id": "nps-glacier-bay-name-that-tune",
+      "type": "audio",
+      "title": "Who’s Crunching in Glacier Bay?",
+      "summary": "The park’s listening quiz pairs nine field recordings with clues. Start with sound #5: something is making short work of a barnacle.",
+      "comment": "Nature’s snack aisle has an answer key.",
+      "language": "en",
+      "url": "https://www.nps.gov/glba/learn/nature/name-that-tune.htm",
+      "keywords": [
+        "Glacier Bay",
+        "field recordings",
+        "animal sounds"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature"
+          ],
+          "topic": [
+            "Glacier Bay",
+            "field recordings",
+            "animal sounds"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen and guess"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "National Park Service"
+          ],
+          "platform": [
+            "Glacier Bay National Park & Preserve"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-22T23:05:31.878Z",
+          "note": "Opened the official quiz and its answer key, and fully decoded the linked audio for clip #5. No media is rehosted."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.nps.gov/glba/learn/nature/name-that-tune.htm",
+          "label": "Original source"
+        },
+        {
+          "url": "https://www.nps.gov/nps-audiovideo/legacy/mp3/akr/avElement/glba-brownbeareatingbarnacles.mp3",
+          "label": "Official audio for clip #5"
+        }
+      ]
+    },
+    {
+      "id": "met-netsuke-cat-1021140",
+      "type": "article",
+      "title": "A Cat Just Over an Inch Wide",
+      "summary": "This 19th-century Japanese carving is only 3.2 cm wide. The Met shows it in five photographs from several angles.",
+      "comment": "A very small loaf with a very sure opinion of you.",
+      "language": "en",
+      "url": "https://www.metmuseum.org/art/collection/search/59775",
+      "keywords": [
+        "netsuke",
+        "cats",
+        "miniatures"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "design"
+          ],
+          "topic": [
+            "netsuke",
+            "cats",
+            "miniatures"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look closely"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Japanese maker not recorded"
+          ],
+          "platform": [
+            "The Met"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-22T23:05:31.878Z",
+          "note": "Opened the museum record, confirmed its public-domain label, and downloaded, decoded and visually checked the official image."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/59775",
+          "label": "Original source"
+        },
+        {
+          "url": "https://www.metmuseum.org/hubs/open-access",
+          "label": "Met Open Access and CC0"
+        }
+      ],
+      "preview": {
+        "url": "previews/cat-20261123.webp",
+        "alt": "Small golden-brown carved cat with legs tucked under its body",
+        "kind": "source-image",
+        "source_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/59775/1493411/main-image",
+        "verified_at": "2026-11-22T23:05:31.878Z",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://www.metmuseum.org/hubs/open-access",
+          "note": "Netsuke of Cat, Japan, 19th century. The Metropolitan Museum of Art, Gift of Mrs. Russell Sage, 1910, 10.211.40. Open Access CC0. Resized and converted to WebP; uncropped."
+        }
+      }
+    }
+  ]
+}
