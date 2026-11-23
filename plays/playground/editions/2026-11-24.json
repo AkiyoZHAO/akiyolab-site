@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-24",
+  "date": "2026-11-24",
+  "timezone": "Asia/Shanghai",
+  "title": "From a Cottage to Mercury",
+  "intro": "Peer into a one-twelfth-scale kitchen, send a packet by pigeon, and catch up with a spacecraft that made it to Mercury.",
+  "items": [
+    {
+      "id": "aic-thorne-cottage-kitchen-43697",
+      "type": "article",
+      "title": "The Kitchen Is Only 19½ Inches Wide",
+      "summary": "Narcissa Niblack Thorne’s miniature English kitchen has a hearth, a wall clock and a table by the window. It’s built at one-twelfth scale.",
+      "comment": "I’d take the chair by the window.",
+      "language": "en",
+      "url": "https://commons.wikimedia.org/wiki/File:E-5_English_Cottage_Kitchen_of_the_Queen_Anne_Period,_1702-14.jpg",
+      "keywords": [
+        "miniature rooms",
+        "cottage kitchen",
+        "Narcissa Thorne"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "design"
+          ],
+          "topic": [
+            "miniature rooms",
+            "cottage kitchen",
+            "Narcissa Thorne"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look closely"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Narcissa Niblack Thorne"
+          ],
+          "platform": [
+            "Art Institute of Chicago / Wikimedia Commons"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-23T23:02:38.469Z",
+          "note": "Opened the full-resolution archive image and its item-specific CC0 record. The catalog link returned 403 in the web verifier; the open image archive is the destination. Resized without cropping and decoded the result."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:E-5_English_Cottage_Kitchen_of_the_Queen_Anne_Period,_1702-14.jpg",
+          "label": "Source"
+        },
+        {
+          "url": "https://www.artic.edu/artworks/43697/e-5-english-cottage-kitchen-of-the-queen-anne-period-1702-14",
+          "label": "Art Institute collection record"
+        },
+        {
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "label": "CC0 1.0 terms"
+        }
+      ],
+      "preview": {
+        "url": "previews/kitchen-20261124.webp",
+        "alt": "Miniature cottage room with dark beams, a plate rack and a table beside a leaded window",
+        "kind": "source-image",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/E-5_English_Cottage_Kitchen_of_the_Queen_Anne_Period%2C_1702-14.jpg",
+        "verified_at": "2026-11-23T23:02:38.469Z",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://commons.wikimedia.org/wiki/File:E-5_English_Cottage_Kitchen_of_the_Queen_Anne_Period,_1702-14.jpg",
+          "note": "Narcissa Niblack Thorne, English Cottage Kitchen (object 1941.119), Art Institute of Chicago, Gift of Mrs. James Ward Thorne. Museum image via Wikimedia Commons, CC0 1.0. Resized, uncropped WebP."
+        }
+      }
+    },
+    {
+      "id": "bandai-tamagotchi-digimon-crossover-20261123",
+      "type": "news",
+      "title": "Tamagotchi and Digimon Swap Shells",
+      "summary": "On Tamagotchi’s 30th birthday, Bandai opened Japan preorders for a pair of virtual pets that borrow each other’s creatures. Shipping is planned for June 2027.",
+      "comment": "The eggs have switched parents.",
+      "language": "ja",
+      "url": "https://www.atpress.ne.jp/news/651250",
+      "keywords": [
+        "Tamagotchi",
+        "Digimon",
+        "virtual pets"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "pop culture"
+          ],
+          "topic": [
+            "Tamagotchi",
+            "Digimon",
+            "virtual pets"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Bandai Spirits"
+          ],
+          "platform": [
+            "@Press"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-23T23:02:38.469Z",
+          "note": "Read Bandai Spirits’ Nov 23 announcement. The news is the opening of Japanese preorders, not a product already shipping. Store checkout was not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.atpress.ne.jp/news/651250",
+          "label": "Source"
+        },
+        {
+          "url": "https://p-bandai.jp/item/item-1000261537/",
+          "label": "Official Japanese product listing"
+        }
+      ]
+    },
+    {
+      "id": "somafm-drone-zone-live",
+      "type": "audio",
+      "title": "A Radio Station With No Hurry",
+      "summary": "SomaFM’s Drone Zone plays atmospheric ambient music with very little beat. Leave it on for a minute and see where your attention goes.",
+      "comment": "Radio that doesn’t mind if you stop paying attention.",
+      "language": "en",
+      "url": "https://somafm.com/dronezone/",
+      "keywords": [
+        "ambient",
+        "internet radio",
+        "Drone Zone"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "music"
+          ],
+          "topic": [
+            "ambient",
+            "internet radio",
+            "Drone Zone"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute or longer"
+          ]
+        },
+        "source": {
+          "creator": [
+            "SomaFM"
+          ],
+          "platform": [
+            "SomaFM"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-23T23:02:38.469Z",
+          "note": "Opened the official station and its listening route. Live audio playback was not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://somafm.com/dronezone/",
+          "label": "Source"
+        },
+        {
+          "url": "https://somafm.com/player24/station/dronezone",
+          "label": "Official web player"
+        }
+      ]
+    },
+    {
+      "id": "blug-rfc1149-carrier-pigeons-2001",
+      "type": "article",
+      "title": "The Internet, by Pigeon",
+      "summary": "A Norwegian Linux group actually tried sending internet packets by bird in 2001. Four ping replies came back, and a pigeon stopped on the roof.",
+      "comment": "Finally, a network that can land on your roof.",
+      "language": "en",
+      "url": "https://nxdomain.no/~peter/rfc1149/writeup.html",
+      "keywords": [
+        "carrier pigeons",
+        "RFC 1149",
+        "internet history"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "technology history"
+          ],
+          "topic": [
+            "carrier pigeons",
+            "RFC 1149",
+            "internet history"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "3 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Bergen Linux User Group"
+          ],
+          "platform": [
+            "Project archive"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-23T23:02:38.469Z",
+          "note": "Opened the implementers’ account, ping output and original RFC. This was a 2001 experiment, not recent news."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://nxdomain.no/~peter/rfc1149/writeup.html",
+          "label": "Source"
+        },
+        {
+          "url": "https://blug.linux.no/project/rfc1149/",
+          "label": "Bergen Linux User Group project archive"
+        },
+        {
+          "url": "https://www.rfc-editor.org/rfc/rfc1149.html",
+          "label": "Original RFC, April 1, 1990"
+        }
+      ]
+    },
+    {
+      "id": "met-rosa-bonheur-weaning-calves-435703",
+      "type": "article",
+      "title": "Give the Calves a Minute",
+      "summary": "Rosa Bonheur’s 1879 painting puts a cluster of calves and a rough fence in front of a great sweep of mountain pasture.",
+      "comment": "The calves are in no hurry. Neither are the mountains.",
+      "language": "en",
+      "url": "https://www.metmuseum.org/art/collection/search/435703",
+      "keywords": [
+        "Rosa Bonheur",
+        "mountain pasture",
+        "painting"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art"
+          ],
+          "topic": [
+            "Rosa Bonheur",
+            "mountain pasture",
+            "painting"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look closely"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Rosa Bonheur"
+          ],
+          "platform": [
+            "The Met"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-23T23:02:38.469Z",
+          "note": "Opened the Met collection entry and the original image. Checked the exact CC0 institutional file on Commons, decoded and visually checked the uncropped resized image. Zoom was not operated."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/435703",
+          "label": "Source"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Weaning_the_Calves_MET_DT2579.jpg",
+          "label": "Exact Met image, accession and CC0 record"
+        },
+        {
+          "url": "https://www.metmuseum.org/hubs/open-access",
+          "label": "Met Open Access terms"
+        }
+      ],
+      "preview": {
+        "url": "previews/calves-20261124.webp",
+        "alt": "Calves beside a rough wooden fence with green slopes and hazy mountains behind them",
+        "kind": "source-image",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Weaning_the_Calves_MET_DT2579.jpg",
+        "verified_at": "2026-11-23T23:02:38.469Z",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Weaning_the_Calves_MET_DT2579.jpg",
+          "note": "Rosa Bonheur, Weaning the Calves (1879), The Metropolitan Museum of Art, 87.15.109. Met Open Access, CC0 1.0. Resized, uncropped WebP."
+        }
+      }
+    },
+    {
+      "id": "esa-jaxa-bepicolombo-mercury-orbit-20261123",
+      "type": "news",
+      "title": "Mercury Orbit, Despite a Software Glitch",
+      "summary": "BepiColombo reached Mercury orbit on Nov 21. ESA said on Nov 23 that a software glitch cut the braking burn short, delivering only about 77% of the planned speed change. The resulting orbit is stable.",
+      "comment": "Eight years in transit. One tense bug report.",
+      "language": "en",
+      "url": "https://www.esa.int/et/articles/about-us/directorates/operations/bepicolombo-safely-in-mercury-orbit-despite-unexpected-challenge",
+      "keywords": [
+        "Mercury",
+        "BepiColombo",
+        "software glitch"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "space"
+          ],
+          "topic": [
+            "Mercury",
+            "BepiColombo",
+            "software glitch"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "European Space Agency"
+          ],
+          "platform": [
+            "ESA"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-23T23:02:38.469Z",
+          "note": "Read ESA's Nov 23 mission update and checked the reported velocity-change fraction. Orbiter separation is still planned, not yet completed."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.esa.int/et/articles/about-us/directorates/operations/bepicolombo-safely-in-mercury-orbit-despite-unexpected-challenge",
+          "label": "Source"
+        },
+        {
+          "url": "https://www.media.inaf.it/2026/11/23/bepicolombo-inserimento-in-orbita-con-imprevisto/",
+          "label": "Italian National Institute for Astrophysics cross-check"
+        }
+      ]
+    }
+  ]
+}
