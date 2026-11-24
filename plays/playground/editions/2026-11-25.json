@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-25",
+  "date": "2026-11-25",
+  "timezone": "Asia/Shanghai",
+  "title": "Snow, Rain, and a Very Loud Sofa",
+  "intro": "A rabbit in the snow, five seconds of rain, and a Kyoto sofa with a sound effect.",
+  "items": [
+    {
+      "id": "hokushu-rabbit-snow-moon-met-jp2167",
+      "type": "article",
+      "title": "A Rabbit, a Moon, and Almost Nothing Else",
+      "summary": "Katsushika Hokushū made this woodblock print for the Year of the Rabbit in 1819. A few plum buds sit beside the rabbit.",
+      "comment": "The rabbit is almost the color of the snow. Give it a second.",
+      "language": "ja",
+      "url": "https://www.metmuseum.org/art/collection/search/55076",
+      "keywords": [
+        "woodblock print",
+        "snow",
+        "Japan"
+      ],
+      "preview": {
+        "url": "previews/2026-11-25-rabbit.webp",
+        "kind": "source-image",
+        "alt": "A white rabbit crouches in snow beneath a pale moon; a few plum buds lie nearby.",
+        "source_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP138377.jpg",
+        "verified_at": "2026-11-24T23:03:53.303Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://www.metmuseum.org/hubs/open-access",
+          "note": "Katsushika Hokushū, The Metropolitan Museum of Art, JP2167. Open Access image, CC0."
+        }
+      },
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art"
+          ],
+          "topic": [
+            "woodblock print",
+            "snow",
+            "Japan"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Katsushika Hokushū"
+          ],
+          "platform": [
+            "The Metropolitan Museum of Art"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-24T23:03:53.303Z",
+          "note": "Opened the collection record and checked the matching Open Access image via the museum API. Resized the complete image without cropping."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/55076",
+          "label": "Original source"
+        },
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/55076",
+          "label": "Object and image metadata"
+        },
+        {
+          "url": "https://www.metmuseum.org/hubs/open-access",
+          "label": "Met Open Access (CC0)"
+        }
+      ]
+    },
+    {
+      "id": "kyoto-manga-museum-doon-sofa-20261125",
+      "type": "news",
+      "title": "Kyoto Gives a Sound Effect Its Own Sofa",
+      "summary": "For its 20th anniversary on Nov 25, Kyoto’s manga museum plans to unveil a sofa shaped around the manga sound effect “DOON!!” and hold a mochi toss.",
+      "comment": "Finally, somewhere to sit down inside a sound effect.",
+      "language": "en",
+      "url": "https://kyotomm.jp/en/news-en/20th-anniversary-events/",
+      "keywords": [
+        "Kyoto",
+        "DOON!!",
+        "mochi"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "manga"
+          ],
+          "topic": [
+            "Kyoto",
+            "DOON!!",
+            "mochi"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Kyoto International Manga Museum"
+          ],
+          "platform": [
+            "Kyoto International Manga Museum"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-24T23:03:53.303Z",
+          "note": "Read the museum announcement. Nov 25 is the announced debut date, not an on-site confirmation. The reference mock-up is AI-generated and is not reused here."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://kyotomm.jp/en/news-en/20th-anniversary-events/",
+          "label": "Original source"
+        }
+      ]
+    },
+    {
+      "id": "nps-devils-postpile-light-rain",
+      "type": "audio",
+      "title": "Five Seconds of Rain in the Sierra",
+      "summary": "A short recording of light rain at Devils Postpile National Monument in California.",
+      "comment": "A tiny weather break.",
+      "language": "und",
+      "url": "https://www.nps.gov/subjects/sound/sounds-rain.htm",
+      "keywords": [
+        "rain",
+        "field recording",
+        "California"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature"
+          ],
+          "topic": [
+            "rain",
+            "field recording",
+            "California"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [],
+          "consumption": [
+            "5 seconds"
+          ]
+        },
+        "source": {
+          "creator": [
+            "U.S. National Park Service"
+          ],
+          "platform": [
+            "NPS Sound Gallery"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-24T23:03:53.303Z",
+          "note": "Opened the NPS record, downloaded the linked original MP3 and decoded it end to end (4.97 seconds). External player behavior on a real phone was not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.nps.gov/subjects/sound/sounds-rain.htm",
+          "label": "Original source"
+        },
+        {
+          "url": "https://www.nps.gov/nps-audiovideo/legacy/mp3/nri/avElement/nri-RainDEPO.mp3",
+          "label": "Direct NPS audio"
+        }
+      ]
+    },
+    {
+      "id": "durrie-red-school-house-met-2011-506",
+      "type": "article",
+      "title": "Recess in a Snowy Painting",
+      "summary": "In George Henry Durrie’s 1858 painting, children play outside a one-room New England schoolhouse.",
+      "comment": "The little red schoolhouse steals the scene. The children steal it back.",
+      "language": "en",
+      "url": "https://www.metmuseum.org/art/collection/search/10805",
+      "keywords": [
+        "winter",
+        "oil painting",
+        "New England"
+      ],
+      "preview": {
+        "url": "previews/2026-11-25-school.webp",
+        "kind": "source-image",
+        "alt": "Children gather outside a red one-room schoolhouse in a snowy landscape.",
+        "source_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP277399.jpg",
+        "verified_at": "2026-11-24T23:03:53.303Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://www.metmuseum.org/hubs/open-access",
+          "note": "George Henry Durrie, The Metropolitan Museum of Art, 2011.506. Open Access image, CC0."
+        }
+      },
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art"
+          ],
+          "topic": [
+            "winter",
+            "oil painting",
+            "New England"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "George Henry Durrie"
+          ],
+          "platform": [
+            "The Metropolitan Museum of Art"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-24T23:03:53.303Z",
+          "note": "Opened the collection record and checked the matching Open Access image via the museum API. Resized the complete image without cropping."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/10805",
+          "label": "Original source"
+        },
+        {
+          "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10805",
+          "label": "Object and image metadata"
+        },
+        {
+          "url": "https://www.metmuseum.org/hubs/open-access",
+          "label": "Met Open Access (CC0)"
+        }
+      ]
+    },
+    {
+      "id": "alberg-1899-frost-flowers-essay",
+      "type": "article",
+      "title": "The Man Who Saw Celery in the Frost",
+      "summary": "In 1899 Albert Alberg saw plant shapes on Chicago windows and decided frost could make portraits. Kevin Dann revisits his very confident little book.",
+      "comment": "He saw celery and followed the evidence directly to more celery.",
+      "language": "en",
+      "url": "https://publicdomainreview.org/collection/frost-flowers/",
+      "keywords": [
+        "window frost",
+        "Chicago",
+        "strange books"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "history"
+          ],
+          "topic": [
+            "window frost",
+            "Chicago",
+            "strange books"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Kevin Dann"
+          ],
+          "platform": [
+            "The Public Domain Review"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-24T23:03:53.303Z",
+          "note": "Read the original editorial essay and distinguished Alberg’s historical claim from a demonstrated effect."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://publicdomainreview.org/collection/frost-flowers/",
+          "label": "Original source"
+        }
+      ]
+    },
+    {
+      "id": "webb-cassiopeia-a-shell-merger-20261123",
+      "type": "news",
+      "title": "Webb Reads a Star’s Last Hours in Its Dust",
+      "summary": "A Nov 23 study of Cassiopeia A found dust chemistry consistent with two layers mixing inside the star shortly before it exploded. The star itself wasn’t observed doing this.",
+      "comment": "The evidence is in the wreckage, not the replay.",
+      "language": "en",
+      "url": "https://esawebb.org/news/weic2624/",
+      "keywords": [
+        "Webb",
+        "Cassiopeia A",
+        "supernova"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "astronomy"
+          ],
+          "topic": [
+            "Webb",
+            "Cassiopeia A",
+            "supernova"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "ESA/Webb"
+          ],
+          "platform": [
+            "ESA/Webb"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-24T23:03:53.303Z",
+          "note": "Read the ESA/Webb release; checked publication date and that shell mixing is an interpretation, not a direct observation."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://esawebb.org/news/weic2624/",
+          "label": "Original source"
+        },
+        {
+          "url": "https://www.stsci.edu/contents/news-releases/2026/news-2026-135",
+          "label": "STScI release"
+        }
+      ]
+    }
+  ]
+}
