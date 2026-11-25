@@ -1,0 +1,462 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-26",
+  "date": "2026-11-26",
+  "timezone": "Asia/Shanghai",
+  "title": "Sand Lines and Small Sounds",
+  "intro": "Look down on a desert, listen to another planet, and catch the start of rain in a Ghanaian forest.",
+  "items": [
+    {
+      "id": "nasa-iss069-e-3278-star-dunes",
+      "type": "article",
+      "title": "Where Straight Dunes Grow Stars",
+      "summary": "An astronaut photographed star dunes rising out of long, nearly parallel ridges in Saudi Arabia’s Empty Quarter.",
+      "comment": "Start at the straight lines, then let your eye get lost in the shadows.",
+      "language": "en",
+      "url": "https://science.nasa.gov/earth/earth-observatory/linear-and-star-dunes-151503/",
+      "keywords": [
+        "sand dunes",
+        "astronaut photo",
+        "pattern"
+      ],
+      "preview": {
+        "url": "previews/2026-11-26-star.webp",
+        "kind": "source-image",
+        "alt": "Orange dunes line up diagonally, with darker shadows beside the higher star dunes.",
+        "source_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/151000/151503/iss069e003278_lrg.jpg?fit=clip&h=720&w=960",
+        "verified_at": "2026-11-25T23:04:07.928Z",
+        "rights": {
+          "basis": "permission",
+          "url": "https://eol.jsc.nasa.gov/faq/",
+          "note": "Image courtesy of the Earth Science and Remote Sensing Unit, NASA Johnson Space Center; ISS Expedition 69 crew, ISS069-E-3278. Complete image resized and converted to WebP."
+        }
+      },
+      "metadata": {
+        "interest": {
+          "domain": [
+            "earth"
+          ],
+          "topic": [
+            "sand dunes",
+            "astronaut photo",
+            "pattern"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "ISS Expedition 69 crew"
+          ],
+          "platform": [
+            "NASA Earth Observatory"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-25T23:04:07.928Z",
+          "note": "Checked the NASA image record and decoded the credited photograph."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/linear-and-star-dunes-151503/",
+          "label": "Original publisher’s page"
+        }
+      ]
+    },
+    {
+      "id": "mars-supercam-first-sol-wind",
+      "type": "audio",
+      "title": "Put Your Ear to Mars",
+      "summary": "Perseverance’s SuperCam microphone picked up faint wind while its mast was still stowed after landing.",
+      "comment": "It’s a tiny sound for such a long trip. Use the MP3 under Downloads.",
+      "language": "en",
+      "url": "https://science.nasa.gov/resource/first-audio-recording-of-sounds-on-mars/",
+      "keywords": [
+        "Mars",
+        "wind",
+        "field recording"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "space"
+          ],
+          "topic": [
+            "Mars",
+            "wind",
+            "field recording"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "NASA and the Perseverance SuperCam team"
+          ],
+          "platform": [
+            "NASA Science"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-25T23:04:07.928Z",
+          "note": "Checked the NASA resource and retrieved an MP3 with a valid MPEG audio stream. Browser playback not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://science.nasa.gov/resource/first-audio-recording-of-sounds-on-mars/",
+          "label": "Original publisher’s page"
+        },
+        {
+          "url": "https://assets.science.nasa.gov/content/dam/science/psd/mars/downloadable_items/4/5/45825_SCAM_MIC_SOL001_RUN001.mp3",
+          "label": "Original NASA MP3"
+        }
+      ]
+    },
+    {
+      "id": "nasa-lake-eyre-red-green-20251215",
+      "type": "article",
+      "title": "One Lake, Two Colors",
+      "summary": "In this Landsat view of Australia’s Kati Thanda–Lake Eyre, one shallow bay is rusty red while its neighbor looks green.",
+      "comment": "The two colors sit there like spilled paint that hasn’t mixed.",
+      "language": "en",
+      "url": "https://science.nasa.gov/earth/earth-observatory/lake-eyre-blushes/",
+      "keywords": [
+        "Australia",
+        "salt lake",
+        "satellite image"
+      ],
+      "preview": {
+        "url": "previews/2026-11-26-lake.webp",
+        "kind": "source-image",
+        "alt": "Green water and rust-colored water occupy neighboring bays outlined in white salt.",
+        "source_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2025/lake-eyre-blushes/redgreenlakeeyre_oli_20251215_lrg.jpg?fit=clip&h=720&w=960",
+        "verified_at": "2026-11-25T23:04:07.928Z",
+        "rights": {
+          "basis": "permission",
+          "url": "https://science.nasa.gov/earth/faq/",
+          "note": "NASA Earth Observatory image by Lauren Dauphin, using Landsat data from the U.S. Geological Survey. Complete image resized and converted to WebP."
+        }
+      },
+      "metadata": {
+        "interest": {
+          "domain": [
+            "earth"
+          ],
+          "topic": [
+            "Australia",
+            "salt lake",
+            "satellite image"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Lauren Dauphin"
+          ],
+          "platform": [
+            "NASA Earth Observatory"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-25T23:04:07.928Z",
+          "note": "Checked the December 15, 2025 NASA Landsat record and decoded the image."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/lake-eyre-blushes/",
+          "label": "Original publisher’s page"
+        }
+      ]
+    },
+    {
+      "id": "dragonfly-seven-science-cameras-nov-2026",
+      "type": "news",
+      "title": "Titan’s Flying Lab Gets Seven Science Cameras",
+      "summary": "NASA said on Nov. 24 that all seven DragonCam science cameras had been installed and tested on the Dragonfly rotorcraft by mid-November.",
+      "comment": "One camera can inspect a tiny patch of ground. Others get the whole view.",
+      "language": "en",
+      "url": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes/",
+      "keywords": [
+        "Dragonfly",
+        "Titan",
+        "instrument milestone"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "space"
+          ],
+          "topic": [
+            "Dragonfly",
+            "Titan",
+            "instrument milestone"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": [
+            "4 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "NASA Science Editorial Team"
+          ],
+          "platform": [
+            "NASA Science"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-25T23:04:07.928Z",
+          "note": "Opened the dated NASA announcement and checked that the count refers to science cameras, separate from two navigation cameras."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes/",
+          "label": "Original publisher’s page"
+        }
+      ]
+    },
+    {
+      "id": "ankasa-rain-hawthorne-timber-festival",
+      "type": "audio",
+      "title": "Rain Begins in Ankasa",
+      "summary": "Will Hawthorne recorded the gentle start of a rainstorm in Ghana’s Ankasa rainforest. Look for “Ankasa Forest rain starting, Ghana.”",
+      "comment": "Pick the rain recording and give it a quiet minute.",
+      "language": "en",
+      "url": "https://timberfestival.org.uk/soundsoftheforest/top-sounds/",
+      "keywords": [
+        "Ghana",
+        "rainforest",
+        "field recording"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature"
+          ],
+          "topic": [
+            "Ghana",
+            "rainforest",
+            "field recording"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [],
+          "consumption": [
+            "1 minute"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Will Hawthorne"
+          ],
+          "platform": [
+            "Timber Festival"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "unverified",
+          "checked_at": "2026-11-25T23:04:07.928Z",
+          "note": "The original publisher credits the recordist and lists the matching SoundCloud embed. Playback on a phone was not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://timberfestival.org.uk/soundsoftheforest/top-sounds/",
+          "label": "Original publisher’s page"
+        },
+        {
+          "url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F853280266",
+          "label": "Track embedded by Timber Festival"
+        }
+      ]
+    },
+    {
+      "id": "nasa-namib-sand-sea-fog-2018",
+      "type": "article",
+      "title": "A Desert That Drinks Fog",
+      "summary": "Ocean fog is a major water source in Namibia’s coastal sand sea. Isolated rocky hills catch more of it than the surrounding dunes.",
+      "comment": "Come for the quiet sweep of sand; stay for the hills that catch clouds.",
+      "language": "en",
+      "url": "https://science.nasa.gov/earth/earth-observatory/between-the-ripples-of-the-namib-sand-sea-92695/",
+      "keywords": [
+        "Namibia",
+        "coastal fog",
+        "sand sea"
+      ],
+      "preview": {
+        "url": "previews/2026-11-26-namib.webp",
+        "kind": "source-image",
+        "alt": "A satellite view of the Namib coast, with dark water along the pale edge of a patterned sand sea.",
+        "source_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/92000/92695/namibia_oli_2018186_lrg.jpg?fit=clip&h=720&w=960",
+        "verified_at": "2026-11-25T23:04:07.928Z",
+        "rights": {
+          "basis": "permission",
+          "url": "https://science.nasa.gov/earth/faq/",
+          "note": "NASA Earth Observatory image by Joshua Stevens, using Landsat data from the U.S. Geological Survey. Complete image resized and converted to WebP."
+        }
+      },
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature"
+          ],
+          "topic": [
+            "Namibia",
+            "coastal fog",
+            "sand sea"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look"
+          ],
+          "narrative": [],
+          "consumption": [
+            "2 minutes"
+          ]
+        },
+        "source": {
+          "creator": [
+            "Joshua Stevens and Kasha Patel"
+          ],
+          "platform": [
+            "NASA Earth Observatory"
+          ],
+          "discovery": [
+            "editorial research"
+          ],
+          "access": [
+            "free",
+            "browser"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-25T23:04:07.928Z",
+          "note": "Checked the NASA report’s fog explanation and decoded the original Landsat image."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://science.nasa.gov/earth/earth-observatory/between-the-ripples-of-the-namib-sand-sea-92695/",
+          "label": "Original publisher’s page"
+        }
+      ]
+    }
+  ]
+}
