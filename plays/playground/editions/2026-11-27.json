@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-27",
+  "date": "2026-11-27",
+  "timezone": "Asia/Shanghai",
+  "title": "The City at Window Height",
+  "intro": "Ride a Market Street cable car, drift along a painted canal, then zoom into a Beijing that still has its walls.",
+  "items": [
+    {
+      "id": "miles-brothers-market-street-1906",
+      "type": "video",
+      "title": "A Front Seat on Market Street, 1906",
+      "summary": "The Miles Brothers put a camera on a San Francisco cable car four days before the earthquake. This archive copy runs about eight minutes.",
+      "comment": "Watch how close the pedestrians come to the tracks.",
+      "language": "en",
+      "url": "https://commons.wikimedia.org/wiki/File:A_Trip_down_market_street_(1906).webm",
+      "keywords": [
+        "cities",
+        "silent film",
+        "San Francisco"
+      ],
+      "preview": {
+        "url": "previews/2026-11-27-street.webp",
+        "kind": "screenshot",
+        "alt": "A view down Market Street with streetcar rails, people crossing and a trolley.",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/A_Trip_down_market_street_(1906).webm/960px--A_Trip_down_market_street_(1906).webm.jpg",
+        "verified_at": "2026-11-26T23:06:13.092Z",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://commons.wikimedia.org/wiki/File:A_Trip_down_market_street_(1906).webm#Licensing",
+          "note": "Miles Brothers, 1906; Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division, cmp003.01142, via Wikimedia Commons. Original film frame resized and converted to WebP."
+        }
+      },
+      "metadata": {
+        "interest": {
+          "domain": [
+            "cities"
+          ],
+          "topic": [
+            "silent film",
+            "San Francisco"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "video"
+          ],
+          "interaction": [
+            "watch"
+          ],
+          "narrative": [],
+          "consumption": []
+        },
+        "source": {
+          "creator": [
+            "Miles Brothers"
+          ],
+          "platform": [
+            "Wikimedia Commons / Library of Congress"
+          ],
+          "discovery": [
+            "Publisher or collection record"
+          ],
+          "access": [
+            "browser",
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-26T23:06:13.092Z",
+          "note": "Work page and exact frame opened; a partial archive video download returned HTTP 206 and FFprobe identified the VP8 stream. Phone playback not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:A_Trip_down_market_street_(1906).webm",
+          "label": "Playable copy and digital record cmp003.01142"
+        },
+        {
+          "url": "https://blogs.loc.gov/now-see-hear/2026/04/a-tale-of-two-films-the-san-francisco-earthquake-1906-before-and-after/",
+          "label": "Library of Congress filming date and public-domain confirmation"
+        }
+      ]
+    },
+    {
+      "id": "canaletto-grand-canal-south-2019-141-2",
+      "type": "article",
+      "title": "Venice From Just Above the Water",
+      "summary": "Canaletto painted this busy bend of the Grand Canal in the 1730s, looking south toward the Rialto Bridge.",
+      "comment": "Follow one boat instead of trying to take in the whole canal.",
+      "language": "en",
+      "url": "https://www.metmuseum.org/art/collection/search/438100",
+      "keywords": [
+        "art",
+        "Venice",
+        "Canaletto"
+      ],
+      "preview": {
+        "url": "previews/2026-11-27-venice.webp",
+        "kind": "source-image",
+        "alt": "Boats cross the Grand Canal with pale buildings and the Rialto Bridge beyond.",
+        "source_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/438100/1328084/main-image",
+        "verified_at": "2026-11-26T23:06:13.092Z",
+        "rights": {
+          "basis": "license",
+          "url": "https://www.metmuseum.org/hubs/open-access",
+          "note": "Canaletto, The Metropolitan Museum of Art, 2019.141.2, Bequest of Mrs. Charles Wrightsman, 2019. Open Access (CC0); resized to WebP."
+        }
+      },
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art"
+          ],
+          "topic": [
+            "Venice",
+            "Canaletto"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": []
+        },
+        "source": {
+          "creator": [
+            "Canaletto"
+          ],
+          "platform": [
+            "The Metropolitan Museum of Art"
+          ],
+          "discovery": [
+            "Publisher or collection record"
+          ],
+          "access": [
+            "browser",
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-26T23:06:13.092Z",
+          "note": "Met object record and its exact public-domain image opened."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/438100",
+          "label": "Object record 2019.141.2 and Public Domain designation"
+        }
+      ]
+    },
+    {
+      "id": "beiping-1930-rumsey-overlay-ct001947",
+      "type": "interactive",
+      "title": "Slide Back to Beijing, 1930",
+      "summary": "An old map of Beiping sits over a modern map. Compare the shape of the old city with the streets you can see today.",
+      "comment": "Find the Forbidden City, then trace the outline of the old walls.",
+      "language": "zh",
+      "url": "https://rumsey.geogarage.com/maps/g3ct001947.html",
+      "keywords": [
+        "maps",
+        "Beijing",
+        "city walls"
+      ],
+      "preview": {
+        "url": "previews/2026-11-27-beijing.webp",
+        "kind": "source-image",
+        "alt": "The full 1930 Beiping map with the walled city and densely labelled streets.",
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Beiping_Shi_zui_xin_xiang_xi_quan_tu._LOC_2006458554.tif/lossy-page1-960px-Beiping_Shi_zui_xin_xiang_xi_quan_tu._LOC_2006458554.tif.jpg",
+        "verified_at": "2026-11-26T23:06:13.092Z",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Beiping_Shi_zui_xin_xiang_xi_quan_tu._LOC_2006458554.tif#Licensing",
+          "note": "Beiping Wen Ya She, 1930. Library of Congress, Geography and Map Division, ct001947; public-domain scan via Wikimedia Commons. The original map, not the modern overlay; resized to WebP."
+        }
+      },
+      "metadata": {
+        "interest": {
+          "domain": [
+            "maps"
+          ],
+          "topic": [
+            "Beijing",
+            "city walls"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "explore"
+          ],
+          "narrative": [],
+          "consumption": []
+        },
+        "source": {
+          "creator": [
+            "Beiping Wen Ya She / David Rumsey Map Collection"
+          ],
+          "platform": [
+            "David Rumsey Map Collection / GeoGarage"
+          ],
+          "discovery": [
+            "Publisher or collection record"
+          ],
+          "access": [
+            "browser",
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-26T23:06:13.092Z",
+          "note": "Overlay page returned HTTP 200; page code references map ct001947 and an opacity control. The exact archive scan was viewed separately; live controls and touch not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://rumsey.geogarage.com/maps/g3ct001947.html",
+          "label": "1930 Beijing overlay entry"
+        },
+        {
+          "url": "https://www.loc.gov/item/2006458554/",
+          "label": "Original Library of Congress map, ct001947"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Beiping_Shi_zui_xin_xiang_xi_quan_tu._LOC_2006458554.tif",
+          "label": "Exact source scan and rights"
+        }
+      ]
+    },
+    {
+      "id": "tony-schwartz-1961-subway-154791",
+      "type": "audio",
+      "title": "A New York Subway Stop in 1961",
+      "summary": "Tony Schwartz recorded trains, turnstiles and riders talking about the subway. The recording later switches to a segment on Abraham Lincoln.",
+      "comment": "Come for the train at 59th Street; you don’t have to stay for Lincoln.",
+      "language": "en",
+      "url": "https://citizen-dj.labs.loc.gov/items/loc-tony-schwartz/154791/",
+      "keywords": [
+        "cities",
+        "New York",
+        "field recording"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "cities"
+          ],
+          "topic": [
+            "New York",
+            "field recording"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [],
+          "consumption": []
+        },
+        "source": {
+          "creator": [
+            "Tony Schwartz"
+          ],
+          "platform": [
+            "Library of Congress Citizen DJ"
+          ],
+          "discovery": [
+            "Publisher or collection record"
+          ],
+          "access": [
+            "browser",
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-26T23:06:13.092Z",
+          "note": "Collection page opened; a partial download from its MP3 link returned HTTP 206 and FFprobe identified the MP3 stream. Phone playback not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://citizen-dj.labs.loc.gov/items/loc-tony-schwartz/154791/",
+          "label": "Collection recording and segment description"
+        }
+      ]
+    },
+    {
+      "id": "sfmta-two-cable-car-bells-2016",
+      "type": "article",
+      "title": "A Cable Car Has Two Bells",
+      "summary": "One bell warns the street. The other lets the conductor signal the operator at the front of the car.",
+      "comment": "A nineteenth-century intercom, in brass.",
+      "language": "en",
+      "url": "https://www.sfmta.com/blog/bells-behind-cable-car-bell-ringing-contest",
+      "keywords": [
+        "transit",
+        "cable cars",
+        "signals"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "transit"
+          ],
+          "topic": [
+            "cable cars",
+            "signals"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": []
+        },
+        "source": {
+          "creator": [
+            "Jeremy Menzies"
+          ],
+          "platform": [
+            "San Francisco Municipal Transportation Agency"
+          ],
+          "discovery": [
+            "Publisher or collection record"
+          ],
+          "access": [
+            "browser",
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-26T23:06:13.092Z",
+          "note": "Publisher’s article opened and the two bell functions were checked in the text."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.sfmta.com/blog/bells-behind-cable-car-bell-ringing-contest",
+          "label": "SFMTA explainer on the street and conductor bells"
+        }
+      ]
+    },
+    {
+      "id": "99pi-first-errand-505",
+      "type": "article",
+      "title": "What Makes a First Errand Possible?",
+      "summary": "A 99% Invisible transcript uses a Japanese TV show about children running errands to ask what makes a neighborhood walkable for kids.",
+      "comment": "Jump to 14:50 in the transcript: the residential street becomes a room everyone shares.",
+      "language": "en",
+      "url": "https://99percentinvisible.org/episode/505-first-errand/transcript/",
+      "keywords": [
+        "cities",
+        "Japan",
+        "walkability"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "cities"
+          ],
+          "topic": [
+            "Japan",
+            "walkability"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": []
+        },
+        "source": {
+          "creator": [
+            "99% Invisible"
+          ],
+          "platform": [
+            "99% Invisible"
+          ],
+          "discovery": [
+            "Publisher or collection record"
+          ],
+          "access": [
+            "browser",
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-26T23:06:13.092Z",
+          "note": "Transcript returned HTTP 200; the 14:50 marker and neighborhood passage were checked."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://99percentinvisible.org/episode/505-first-errand/transcript/",
+          "label": "Episode 505 transcript and time markers"
+        }
+      ]
+    }
+  ]
+}
