@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "id": "playground-2026-11-28",
+  "date": "2026-11-28",
+  "timezone": "Asia/Shanghai",
+  "title": "When the Light Moves",
+  "intro": "Sit in a blue room, listen past a bird’s first notes, then see how many ways the day can end.",
+  "items": [
+    {
+      "id": "anna-ancher-sunlight-in-the-blue-room-1891",
+      "type": "article",
+      "title": "Sunlight in the Blue Room",
+      "summary": "In Anna Ancher’s 1891 painting, her daughter Helga sits in a blue room at Brøndum’s Hotel in Skagen.",
+      "comment": "Look at the patches of light first. Helga can wait a second.",
+      "language": "en",
+      "url": "https://commons.wikimedia.org/wiki/File:Anna_Ancher_-_Sunlight_in_the_blue_room_-_Google_Art_Project.jpg",
+      "keywords": [
+        "art",
+        "interiors",
+        "Denmark"
+      ],
+      "preview": {
+        "url": "previews/2026-11-28-blue-room.webp",
+        "kind": "source-image",
+        "alt": "Bright window shapes fall across a blue wall beside a seated child.",
+        "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Anna_Ancher_-_Sunlight_in_the_blue_room_-_Google_Art_Project.jpg/960px-Anna_Ancher_-_Sunlight_in_the_blue_room_-_Google_Art_Project.jpg",
+        "verified_at": "2026-11-27T23:00:27.107Z",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://commons.wikimedia.org/wiki/File:Anna_Ancher_-_Sunlight_in_the_blue_room_-_Google_Art_Project.jpg#Licensing",
+          "note": "Anna Ancher, 1891; Skagens Museum via Wikimedia Commons. Public-domain work and faithful reproduction; full image resized and converted to WebP."
+        }
+      },
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art"
+          ],
+          "topic": [
+            "interiors",
+            "Denmark"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look"
+          ],
+          "narrative": [],
+          "consumption": []
+        },
+        "source": {
+          "creator": [
+            "Anna Ancher"
+          ],
+          "platform": [
+            "Skagens Museum / Wikimedia Commons"
+          ],
+          "discovery": [
+            "Publisher or collection record"
+          ],
+          "access": [
+            "browser",
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-27T23:00:27.107Z",
+          "note": "The Commons work page and exact preview returned HTTP 200. The museum’s partner listing was readable via a public web lookup, but returned HTTP 429 on a direct check, so the card opens Commons instead."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Anna_Ancher_-_Sunlight_in_the_blue_room_-_Google_Art_Project.jpg",
+          "label": "Open the original work or recording"
+        },
+        {
+          "url": "https://artsandculture.google.com/asset/sunlight-in-the-blue-room/mwE3yo7ZLwPcHA",
+          "label": "Skagens Museum collection details"
+        }
+      ]
+    },
+    {
+      "id": "cornell-wood-thrush-song-550410",
+      "type": "audio",
+      "title": "The Wood Thrush’s Three-Part Song",
+      "summary": "Cornell’s first wood thrush clip lasts about 33 seconds. The flute-like phrase sits between quieter opening notes and a final trill.",
+      "comment": "The famous bit is in the middle. Listen to what comes after.",
+      "language": "en",
+      "url": "https://www.allaboutbirds.org/guide/Wood_Thrush/sounds",
+      "keywords": [
+        "nature",
+        "birdsong",
+        "listening"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "nature"
+          ],
+          "topic": [
+            "birdsong",
+            "listening"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "audio"
+          ],
+          "interaction": [
+            "listen"
+          ],
+          "narrative": [],
+          "consumption": []
+        },
+        "source": {
+          "creator": [
+            "Cornell Lab of Ornithology"
+          ],
+          "platform": [
+            "All About Birds"
+          ],
+          "discovery": [
+            "Publisher or collection record"
+          ],
+          "access": [
+            "browser",
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-27T23:00:27.107Z",
+          "note": "The sounds page returned HTTP 200. Its first song file downloaded and FFprobe confirmed a 33.216-second audio file; in-page and phone playback were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.allaboutbirds.org/guide/Wood_Thrush/sounds",
+          "label": "Open the original work or recording"
+        },
+        {
+          "url": "https://www.allaboutbirds.org/guide/assets/sound/550410.mp3",
+          "label": "Exact publisher-hosted recording"
+        }
+      ]
+    },
+    {
+      "id": "vermeer-little-street-sk-a-2860",
+      "type": "interactive",
+      "title": "The Little Street, Door Open",
+      "summary": "Zoom into Vermeer’s Delft street. Rijksmuseum researchers found that he first painted the house’s door closed.",
+      "comment": "Once you’ve found the doorway, look for the two children at street level.",
+      "language": "en",
+      "url": "https://www.rijksmuseum.nl/en/story/the-little-street-in-high-resolution",
+      "keywords": [
+        "art",
+        "Delft",
+        "hidden revisions"
+      ],
+      "preview": {
+        "url": "previews/2026-11-28-little-street.webp",
+        "kind": "source-image",
+        "alt": "A brick house, an open doorway, and two children near the pavement.",
+        "source_url": "https://iiif.micr.io/wcmnK/full/%5E800%2C/0/default.webp",
+        "verified_at": "2026-11-27T23:00:27.107Z",
+        "rights": {
+          "basis": "public-domain",
+          "url": "https://www.rijksmuseum.nl/en/collection/object/View-of-Houses-in-Delft-Known-as-The-Little-Street--a7dbf937cbd6f7c30f66f8aca4a0207c#Acquisition-and-rights",
+          "note": "Johannes Vermeer; Rijksmuseum, SK-A-2860, Gift of H.W.A. Deterding, London. Public-domain collection image, uncropped."
+        }
+      },
+      "metadata": {
+        "interest": {
+          "domain": [
+            "art"
+          ],
+          "topic": [
+            "Delft",
+            "hidden revisions"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "visual"
+          ],
+          "interaction": [
+            "look"
+          ],
+          "narrative": [],
+          "consumption": []
+        },
+        "source": {
+          "creator": [
+            "Johannes Vermeer"
+          ],
+          "platform": [
+            "Rijksmuseum"
+          ],
+          "discovery": [
+            "Publisher or collection record"
+          ],
+          "access": [
+            "browser",
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-27T23:00:27.107Z",
+          "note": "The high-resolution story page opened and the original artwork image decoded. The zoom gesture and mobile controls were not tested."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://www.rijksmuseum.nl/en/story/the-little-street-in-high-resolution",
+          "label": "Open the original work or recording"
+        },
+        {
+          "url": "https://www.rijksmuseum.nl/en/collection/object/View-of-Houses-in-Delft-Known-as-The-Little-Street--a7dbf937cbd6f7c30f66f8aca4a0207c",
+          "label": "Original artwork SK-A-2860 and public-domain designation"
+        },
+        {
+          "url": "https://www.rijksmuseum.nl/en/press/press-releases/vermeer-first-painted-the-house-in-his-famous-little-street-with-a-closed-door",
+          "label": "Rijksmuseum conservation findings, July 2025"
+        }
+      ]
+    },
+    {
+      "id": "emily-dickinson-there-is-a-certain-slant-of-light",
+      "type": "article",
+      "title": "There’s a Certain Slant of Light",
+      "summary": "Emily Dickinson gives winter afternoon light an unsettling weight in this sixteen-line poem.",
+      "comment": "Read it after the blue room. Same subject, entirely different weather inside.",
+      "language": "en",
+      "url": "https://rpo.library.utoronto.ca/content/theres-certain-slant-light",
+      "keywords": [
+        "literature",
+        "poetry",
+        "winter light"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "literature"
+          ],
+          "topic": [
+            "poetry",
+            "winter light"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": []
+        },
+        "source": {
+          "creator": [
+            "Emily Dickinson"
+          ],
+          "platform": [
+            "University of Toronto Libraries / Representative Poetry Online"
+          ],
+          "discovery": [
+            "Publisher or collection record"
+          ],
+          "access": [
+            "browser",
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-27T23:00:27.107Z",
+          "note": "The archive page returned HTTP 200 and the complete sixteen-line text and source notes were readable."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://rpo.library.utoronto.ca/content/theres-certain-slant-light",
+          "label": "Open the original work or recording"
+        }
+      ]
+    },
+    {
+      "id": "nws-three-kinds-of-twilight",
+      "type": "article",
+      "title": "Three Ways the Day Ends",
+      "summary": "The National Weather Service defines three kinds of dusk: the Sun’s center is six, twelve, or eighteen degrees below the horizon.",
+      "comment": "Sailors got the best name for the middle one.",
+      "language": "en",
+      "url": "https://forecast.weather.gov/glossary.php?word=DUSK",
+      "keywords": [
+        "science",
+        "twilight",
+        "skywatching"
+      ],
+      "metadata": {
+        "interest": {
+          "domain": [
+            "science"
+          ],
+          "topic": [
+            "twilight",
+            "skywatching"
+          ],
+          "angle": []
+        },
+        "format": {
+          "modality": [
+            "text"
+          ],
+          "interaction": [
+            "read"
+          ],
+          "narrative": [],
+          "consumption": []
+        },
+        "source": {
+          "creator": [
+            "National Weather Service"
+          ],
+          "platform": [
+            "NOAA"
+          ],
+          "discovery": [
+            "Publisher or collection record"
+          ],
+          "access": [
+            "browser",
+            "free"
+          ]
+        }
+      },
+      "access": {
+        "mode": "external",
+        "verification": {
+          "status": "verified",
+          "checked_at": "2026-11-27T23:00:27.107Z",
+          "note": "The official glossary opened; the three angle thresholds were cross-checked against the NWS twilight guide."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://forecast.weather.gov/glossary.php?word=DUSK",
+          "label": "Open the original work or recording"
+        },
+        {
+          "url": "https://www.weather.gov/fsd/twilight",
+          "label": "National Weather Service’s full twilight definitions"
+        }
+      ]
+    }
+  ]
+}
